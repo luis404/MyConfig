@@ -10,3 +10,4 @@ cp -rf ~/.ssh ssh
 
 git add -A
 git ci -m "update"
+git push
