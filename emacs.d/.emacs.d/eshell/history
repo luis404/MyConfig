@@ -1,0 +1,372 @@
+git st
+git st
+./gradlew clean test
+./gradlew clean test
+open app/build/test-report/debug/index.html
+./gradlew clean test
+./gradlew clean test
+./gradlew clean test
+open app/build/test-report/debug/index.html
+./gradlew clean test
+open app/build/test-report/debug/index.html
+./gradlew clean test
+open app/build/test-report/debug/index.html
+./gradlew clean test
+./gradlew clean test
+open app/build/test-report/debug/index.html
+./gradlew clean test
+./gradlew clean test
+open app/build/test-report/debug/index.html
+./gradlew clean test
+open app/build/test-report/debug/index.html
+./gradlew clean
+./gradlew :app:assembleDebug
+./gradlew clean test
+cd
+cd lx
+cd sd
+cd sdk
+ls
+find . | grep monkeyr
+adb devices
+cd lx/eyespage/test//monkeyRunner/
+ls
+./monkeyrunner init.py 
+./monkeyrunner init.py 
+./monkeyrunner init.py 
+./monkeyrunner init.py 
+./monkeyrunner init.py 
+./monkeyrunner init.py 
+./monkeyrunner init.py 
+./monkeyrunner init.py open ~/blog/org/post/
+open test-output/*
+./monkeyrunner init.py open 
+./monkeyrunner init.py open 
+rm -rf test-output/*
+./monkeyrunner init.py 
+./monkeyrunner init.py 
+./monkeyrunner init.py 
+./monkeyrunner init.py 
+./monkeyrunner init.py 
+./monkeyrunner init.py 
+open test-output/*
+crontab -
+crontab -l
+cd 
+cd lx/openSource/
+ls
+git st
+cd github/liu
+cd github/luis404_blog/
+ls
+git st
+git lg
+cd ../git
+ls
+cd ..
+ls
+cd ../github/
+ls
+cd ..
+ls
+cd git
+make
+make install
+cd ../github/
+ls
+cd bas*
+ls
+cd Bas*
+ls
+cd c
+ls
+cat .gitignore
+cat .gitignore
+cat .././gitignore
+cat .gitignore
+ls -a
+ls ../
+ls -a ../
+ls -a
+cat ../
+ls -a ../
+cat ../.gitignore
+echo "/c/a*" >> ../.gitignore
+cat ../.gitignore
+echo -e "\n" >> ../.gitignore
+cat ../.gitignore
+./a1
+./a1
+cd ../../
+ls
+cd ../
+ls
+cd ..
+cd eyespage/
+ls
+cd eyespage-launcher/
+ls
+cd 
+cd lx/sdk
+ls
+cd pla*
+cd platform-tools
+ls
+find . | grep systrace
+exit
+(getenv "PATH")
+j
+(setenv "PATH" (getenv "PATH"))
+j
+(+ 3 4)
+ls
+cd 
+ls
+(/ 4 0.5)
+(/ 4 0.1)
+(/ 4 0.3)
+clear
+ls
+j eye
+cd lx
+cd eye
+cd eyespage/
+cd eyespage-launcher/
+ls
+git lg
+j test
+ls
+touch lx
+ls
+git st
+rm lx
+git st
+ls
+| |\ \  
+ls
+cd ~/lx/openSource/android/launcher2/
+ls
+cd src/com/android/launcher2/
+ls
+grep -C5 runOnMainThread
+grep -C5 runOnMainThread *
+grep -C5 runOnMainThread LauncherModel.java 
+grep -C5 "void runOnMainThread" LauncherModel.java 
+grep -C10 "void runOnMainThread" LauncherModel.java 
+open file LauncherModel.java 
+open LauncherModel.java 
+find-file LauncherModel.java 
+find-file LauncherModel.java 
+pwd
+ls
+cd 
+ls
+cd lx/eyespage/eyespage-launcher/
+ls
+git st
+git df
+git st
+git st
+git st
+git add -u; git ci -m "Fix bug: offline install, as it will create launcherActivity twice, *Merge* dialog shows after the second create"
+git push
+magit-status
+magit-status .
+ls
+cd lx/eyespage/
+ls
+cd eyespage-launcher/
+ls
+magit-status
+magit-status .
+magit-status .
+cd 
+cd down
+ls
+cd Downloads/
+ls
+cd apps-android/
+ls
+cd apks/
+history | grep "for i"
+history
+ls
+for i in $(cat apkss); do adb install $i.apk; done
+ls
+cd 
+cd LX/eyespage/eyespage-launcher/
+ls
+cd -
+cd -
+cd ~/LX/eyespage/test/
+cd -
+history | grep "j eye"
+./gradlew :app:assembleDebug
+cd -
+./debug_install.sh 
+cd ../eyespage-launcher/
+ls
+./gradlew :app:assembleDebug
+cd ../test
+./debug_install.sh 
+cd -
+./gradlew :app:assembleDebug
+cd -
+./debug_install.sh 
+cd -;
+./gradlew :app:assembleDebug
+cd -;./debug_install.sh 
+adb shell logcat -v threadtime > log &
+./debug_install.sh 
+./debug_install.sh 
+cd -;./gradlew :app:assembleDebug
+cd -;./debug_install.sh 
+cd -;./gradlew :app:assembleDebug
+cd -;./gradlew :app:assembleDebug
+cd -;./gradlew :app:assembleDebug
+cd -;./debug_install.sh 
+cd -;./gradlew :app:assembleDebug
+cd -;./debug_install.sh 
+CD
+cd 
+cd LX/eyespage/test
+ls
+grep "7542.*LXPV" log
+cd ../eyespage-launcher/
+ack
+ack PageSwitchListener
+ack onPageBeginMoving
+history
+history |  grep gradle
+./gradlew :app:assembleDebug
+cd ../test; ./debug_install.sh
+cd -;  ./gradlew :app:assembleDebug
+cd ../test; ./debug_install.sh
+(- 3162 648)
+cd -;  ./gradlew :app:assembleDebug
+cd ../test; ./debug_install.sh
+cd ..
+cd eyespage-launcher/
+ls
+git st
+magit-status .
+j test
+cd 
+ls
+cd LX/eyespage/eyespage-launcher/
+ls
+cd ../test
+ls
+ps
+ps axu  | grep logcat
+adb shell logcat -v threadtime > log &
+ps
+tail -f log
+./debug_install.sh 
+history | grep "grad"
+cd -;  ./gradlew :app:assembleDebug
+cd -; ./debug_install.sh
+adb 
+cd eye
+cd lx
+cd eyespage/
+ls
+cd eyespage-launcher/
+ls
+ack --java handleFolderKeyEvent
+ack --java handleFolderKeyEvent
+magit-status
+magit-status .
+history  | grep monkey
+history | grep test
+cd ../test
+cd -
+./gradlew :app:assembleDebug
+cd ../test; ./debug_install.sh
+adb shell monkey -p com.eyespage.launcher.app -v 100000
+adb shell monkey -p com.eyespage.launcher.app -v 100000
+cd -;./gradlew :app:assembleDebug
+cd ../test; ./debug_install.sh
+cd ../test; ./debug_install.sh
+cd ../test; ./debug_install.sh
+cd ../test; ./debug_install.sh
+cd ../test; ./debug_install.sh
+cd ../test; ./debug_install.sh
+adb shell monkey -p com.eyespage.launcher.app -v 100000
+adb shell monkey -p com.eyespage.launcher.app -v 100000
+adb reboot
+adb shell monkey -p com.eyespage.launcher.app -v 100000
+adb shell monkey -p com.eyespage.launcher.app -v 1000
+adb shell monkey -p com.eyespage.launcher.app -v 10000
+adb shell monkey -p com.eyespage.launcher.app -v 10000
+adb shell monkey -p com.eyespage.launcher.app -v 10000
+adb shell monkey -p com.eyespage.launcher.app -v 1000
+cd -;./gradlew :app:assembleDebug
+cd ../eyespage-launcher/;./gradlew :app:assembleDebug
+cd ../test; ./debug_install.sh
+cd ../test; ./debug_install.sh
+ack
+cd ../eyespage-launcher/
+ls
+ack --java
+cd -;./gradlew :app:assembleDebug
+cd -;./gradlew :app:assembleDebug
+cd ../test
+ls
+man ls
+man perlfunc
+cd man perlfunc
+cd 
+cd lx
+cd eyespage
+ls
+cd eyespage-launcher/
+ls
+magit-status
+magit-status .
+spage/
+ls
+cd eyespage-launcher/
+magit-status .
+(* 14268.86 12)
+(/ 30 0.7)
+(* 3000 (/ 30 0.7))
+(* 3000 (/ 30 0.7) 12)
+(* 14268.86 15)
+(* 3000 (/ 30 7))
+(* 3000 (/ 30 7.0))
+(* 3500 (/ 30 7.0))
+(* 4000 (/ 30 7.0))
+(* 4000 (/ (- 30 4) 6.0))
+(* 3000 (/ (- 30 4) 6.0))
+(* 3500 (/ (- 30 4) 6.0))
+clear
+history | grep load
+load-file ~/LX/openSource/github/BasicCode/lisp/learning.lisp 
+(hi "x")
+hi "x"
+hi x
+hi 'x'
+hi 1
+hi 1
+git
+cd lx/eyespage/eyespage-launcher/
+magit-status .
+cd ../test
+./debug_install.sh
+./debug_install.sh
+adb reboot
+cd LX/eyespage/eyespage-launcher/
+ls
+magit-status
+magit-status .
+cd 
+cd -
+cd ../test
+ls
+cd meminfo
+find-file install2
+find-file install2
+cd ..
+.././debug_install.sh
+./debug_install.sh
