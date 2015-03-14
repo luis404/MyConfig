@@ -1,0 +1,6 @@
+#!/bin/sh
+
+LXDIR="~/LX/"
+mkdir $LXDIR
+cp .emacs ~/.emacs
+cp -rf emacs ${LXDIR}
