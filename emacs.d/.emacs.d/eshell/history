@@ -370,3 +370,71 @@ find-file install2
 cd ..
 .././debug_install.sh
 ./debug_install.sh
+cd lx/
+ls
+cd opensource
+ls
+cd github
+ls
+cd BasicCode/
+ls
+magit-status .
+ls
+cd 
+ls
+cd Dropbox/
+ls
+mkdir eyespage
+ls
+cd ../lx/eyespage/
+ls
+cd eyespage-launcher/
+du -h
+2.2M	./swipe2dismiss-library
+magit-status lx/eyespage/eyespage-launcher/
+(moves after insertion)
+magit-status lx/eyespage/eyespage-launcher/
+history
+history | grep "j "
+shell
+history | grep "j"
+shell
+j sdk
+shell
+mkdir leetcode
+ls
+rm -r leetcode
+ls
+shell
+cd lx/openSource/github/BasicCode/
+ls
+cd c/leetcode/
+ls
+cd twoSum/
+ls
+find-file Makefile
+cd ..
+find-file Makefile
+ls
+gnus
+cd lx/eyespage/
+ls
+cd eyespage-launcher/
+ls
+git st
+magit-status .
+shell
+magit-status .
+magit-status .
+cd lx/eyespage/eyespage-launcher/
+git co master
+magit-status .
+magit-status .
+cp ~/blog/org/launcher/launcher.org .
+find-file launcher.org
+git config -l --local
+git config -l --global
+ls
+ls
+magit-status .
+shell

@@ -23,10 +23,16 @@
 (load  "~/lx/emacs/eshell_customize.el")
 
 (require 'xcscope)
-
+(setq package-enable-at-startup nil)
+(package-initialize)
 
 ; slime setup
 (setq inferior-lisp-program "/usr/local/bin/sbcl")
 (add-to-list 'load-path "~/.emacs.d/slime-2.12/")
 (require 'slime)
 (slime-setup)
+
+(setq window-numbering-assign-func
+      (lambda () (when (equal (buffer-name) "*Calculator*") 9)))
+
+
