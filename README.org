@@ -1,0 +1,12 @@
+
+This is my Linux/Mac config, used to do
+an auto deploy when move the a new machine.
+
+* bzsh: bash/zsh configs
+* emacs: emacs configs
+* git: git configs
+* vim: vim configs
+ 
+
+
+

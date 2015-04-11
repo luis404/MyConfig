@@ -1,2 +1,0 @@
-# MyConfig
-MacOS/Linux Config
