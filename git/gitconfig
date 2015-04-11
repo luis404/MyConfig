@@ -1,0 +1,9 @@
+[user]
+	email = luisxu404@gmail.com
+	name = luis404
+[push]
+	default = matching
+[alias]
+	ci = commit
+	st = status
+	co = checkout
