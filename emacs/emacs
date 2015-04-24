@@ -1,0 +1,23 @@
+;; install color theme
+(add-to-list 'load-path "/home/luis/lx/lxConfig/emacs/color-theme-6.6.0")
+(require 'color-theme)
+(eval-after-load "color-theme"
+  '(progn
+   ;;;  (color-theme-initialize)))
+     (color-theme-initialize)
+     (color-theme-dark-green)))
+
+;; define magit diff color
+(eval-after-load 'magit
+  '(progn
+     (set-face-foreground 'magit-diff-add "green3")
+     (set-face-foreground 'magit-diff-del "red3")
+     (unless window-system
+       (set-face-background 'magit-item-highlight "black"))))
+
+;; install evil (vim for emacs)
+(require 'package)
+  (push '("marmalade" . "http://marmalade-repo.org/packages/")
+        package-archives )
+  (push '("melpa" . "http://melpa.milkbox.net/packages/")
+        package-archives)
