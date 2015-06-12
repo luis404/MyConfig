@@ -1,0 +1,18 @@
+
+;; ----- smex-history -----
+(
+ lx-reload
+ calendar
+ cd
+ w3
+ wl
+ 5x5
+ ack
+)
+
+;; ----- smex-data -----
+(
+ (lx-reload . 3)
+ (calendar . 2)
+ (org-agenda-year-view . 1)
+)

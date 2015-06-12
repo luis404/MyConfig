@@ -370,3 +370,230 @@ find-file install2
 cd ..
 .././debug_install.sh
 ./debug_install.sh
+cd lx
+cd github/
+ls
+cd myConfig/
+ls
+find-file README.md 
+ls
+mv README.md README.org
+ls
+find-file README.org 
+cd coohua/CooHuaClient/
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+cd coohua/
+cd CooHuaClient/
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+ls
+magit-status .
+cd ..
+ls
+cd CooHuaClient/
+magit-status .
+git st
+cd ..
+git st
+cd CooHuaClient/
+magit-status ~/coohua/CooHuaClient/
+mkdir ../doces
+mkdir ../docs
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+成都
+cd 
+cd lx/bitbucket/
+ls
+cd luisdroid/
+ls
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+成都
+cd 
+cd coohua/CooHuaClient/
+magit-status .
+ls
+ls
+magit-status .
+magit-status .
+magit-status .
+magit-status ~/lx/bitbucket/luisdroid/
+cd coohua/CooHuaClient/
+magit-status .
+magit-status .
+./gradlew iCOTD
+lxrmch
+adb uninstall com.coohuaclient
+shell
+git pull
+magit-status .
+magit-status ~/lx/github/blog/
+magit-status ~/lx/github/blog/
+magit-status .
+magit-status .
+magit-status .
+cd CooHuaClient/
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+git pull
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+(setq foo "bar")
+grep 80002 type_newstat.txt 
+cd 
+cd coohua/CooHuaClient/
+magit-status .
+magit-status .
+cd CooHuaClient/
+magit-status .
+magit-status .
+magit-status .
+cd coohua/CooHuaClient/
+magit-status .
+cd 
+cd lx/bitbucket/
+ls
+cd luisdroid/
+ls
+magit-status .
+cd 
+cd coohua/CooHuaClient/
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+cd CooHuaClient/
+magit-status .
+cd 
+cd lx/github/
+ls
+cd android-floating-action-button/
+ls
+git pull
+cd 
+cd lx/github/
+ls
+git clone https://github.com/yanbober/Android-Blog-Source.git
+cd 
+cd coohua/CooHuaClient/
+magit-status .
+magit-status .
+git pull
+cd 
+cd lx/github/
+ls
+cd imagelist/
+ls
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+ls
+ls
+ls -a
+cd ..
+mkdir to_lijun
+mv imagelist/ to_lijun/
+mv to_lijun/imagelist/app/build/outputs/apk/app-debug.apk to_lijun/
+ls
+zip to_lijun/
+zip to_lijun to_lijun.zip
+ls
+zip to_lijun.zip to_lijun
+ls
+mv to_lijun/imagelist/ .
+ls
+rm -r to_lijun/
+ls
+ll imagelist/
+ls imagelist/
+ls imagelist/imagelist/
+cd 
+cd coohua/CooHuaClient/
+ls
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+magit-status .
+git help fetch
+git help fetch
+magit-status .
+ls
+cd 
+cd Downloads/
+ls
+unzip 资讯打开gif.zip
+ls
+cd 
+cd coohua/CooHuaClient/
+ls
+magit-status .
+cd coohua/CO
+cd coohua/CooHuaClient/
+ls
+magit-status .
+git pull
+magit-status .
+cd 
+cd coohua/CooHuaClient/
+magit-status .

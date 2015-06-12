@@ -1,0 +1,43 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/douhua/.emacs.d/" . "lx/")
+ ("/Users/douhua/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/douhua/"
+ "/Users/douhua/.emacs.d/lx/"
+ "/Users/douhua/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "lx-diary.el"
+ "lx-init.el"
+ "init.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/douhua/" (21882 23137 0 0) "Public/" "Pictures/" "Music/" "Movies/" "lx/" "Library/" "Dropbox/" "Downloads/" "Documents/" "diary~" "diary" "Desktop/" "coohua/" "Applications/" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc.omz-uninstalled-20150403234146" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-徐政超’s MacBook Pro-5.0.5" ".zcompdump" ".w3m/" ".vimrc" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".python27_compiled/" ".oh-my-zsh/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".gradle/" ".gitignore~" ".gitignore" ".gitconfig" ".git-credentials" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".config/" ".CFUserTextEncoding" ".bash_history" ".AndroidStudio1.2/" ".android/" "#.gitignore#" "../" "./")
+
+ ("/Users/douhua/.emacs.d/lx/" (21882 22814 0 0) "xcscope.el" "themes/" "org-jekyll-mode.el" "markdown-mode.el" "lxlab.el~" "lxlab.el" "lx.el~" "lx-init.el~" "lx-init.el" "lx-diary.el~" "lx-diary.el" "init-org.el" "eshell_customize.el~" "eshell_customize.el" "emacs/" "color-theme.el" "../" "./")
+
+ ("/Users/douhua/.emacs.d/" (21882 22817 0 0) "url/" "smex-items" "slime-2.12/" "lx/" "init.el~" "init.el" "ido.last~" "ido.last" "games/" "eshell/" "emacs.d/" "elpa/" "bookmarks" "auto-save-list/" "../" "./")
+
+ ("/Users/douhua/Dropbox/" (21873 94 0 0) "trigger.txt" "orgsync.txt" "org.lisp" "mobile.org~" "mobile.org" "lx/" "Icon
+" "coohua/" "Camera Uploads/" "Apps/" ".DS_Store" ".dropbox.cache/" ".dropbox" "#mobile.org#" "../" "./")
+
+ ("/Users/douhua/Dropbox/lx/" (21882 22181 0 0) "note.org~" "note.org" ".DS_Store" "../" "./")
+
+ ("/Users/" (21838 54722 0 0) "Shared/" "douhua/" ".localized" "../" "./")
+
+ ("/Users/douhua/coohua/" (21871 48209 0 0) "test.org" "test/" "PureCoohua/" "NativeProject/" "docs/" "CooHuaClient/" "coohua.org" ".gitignore" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

@@ -2,7 +2,22 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("org-refile-last-stored"
+(("elisp.info"
+ (filename . "~/Downloads/elisp.info")
+ (front-context-string . "Caveats\n========")
+ (rear-context-string . "troduction\n\n1.1 ")
+ (position . 71637))
+("elisp"
+ (filename . "~/Downloads/elisp.info")
+ (front-context-string . "1.1 Caveats\n====")
+ (rear-context-string . ": Introduction\n\n")
+ (position . 71633))
+("m3"
+ (filename . "~/lx/github/blog/org/post/2015-01-12-Emacs-Learn.org")
+ (front-context-string . ": select the buf")
+ (rear-context-string . "e flags.\n   5. f")
+ (position . 711))
+("org-refile-last-stored"
  (filename . "~/x.org")
  (front-context-string . "** TODO \nTODO \n*")
  (rear-context-string . "ODO \n**** TODO \n")
