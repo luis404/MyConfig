@@ -15,8 +15,8 @@
 (setq view-calendar-holidays-initially nil)   ; 不显示节日列表
 
 ;;Show calendar at start time
-(setq view-diary-entries-initially t)
-(calendar)
+;;(setq view-diary-entries-initially t)
+;;(calendar)
 
 (provide 'lx-diary)
 
