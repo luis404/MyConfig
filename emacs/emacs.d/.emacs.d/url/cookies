@@ -1,0 +1,20 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".google.co.jp"
+  [url-cookie "PREF" "ID=68c97843d956cbc2:FF=0:TM=1420806736:LM=1420806736:S=vs6kVtJDJEz5Tqb_" "08-Jan-2017 12:32:16.00 GMT" "/" ".google.co.jp" nil]
+  [url-cookie "NID" "67=NPA5KTYJOi0W8MR-YrL-fIRNPzXR-J2soxRfOiK2i2k4JcPQ4cb7cuULzmrJY-Zq4YENCrGHqnNx4zLfvc0izQFvr_gSuncqS7bOHDuRm_qOu_imkjJIRd0HxqGt_fv1" "11-Jul-2015 12:32:16.00 GMT" "/" ".google.co.jp" nil]
+  [url-cookie "HttpOnly" nil "11-Jul-2015 12:32:16.00 GMT" "/" ".google.co.jp" nil])
+ (".baidu.com"
+  [url-cookie "BAIDUID" "63E5C609E5DFC11F2F8CD19CB1D80456:FG=1" "31 Dec 37 23:55:55 [GMT]" "/" ".baidu.com" nil]
+  [url-cookie "max-age" "2147483647" "31 Dec 37 23:55:55 [GMT]" "/" ".baidu.com" nil]
+  [url-cookie "BAIDUPSID" "63E5C609E5DFC11F2F8CD19CB1D80456" "31 Dec 37 23:55:55 [GMT]" "/" ".baidu.com" nil]))
+)
+(setq url-cookie-secure-storage
+ 'nil)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:

@@ -1,0 +1,24 @@
+
+;; ----- smex-history -----
+(
+ lx-open-note
+ calc-quit
+ calc-mode
+ calc-kill
+ org-mode
+ text-mode
+ lx-reload
+)
+
+;; ----- smex-data -----
+(
+ (lx-reload . 6)
+ (calendar . 2)
+ (org-agenda-year-view . 1)
+ (lx-open-note . 8)
+ (calc-mode . 2)
+ (text-mode . 2)
+ (org-mode . 1)
+ (calc-kill . 1)
+ (calc-quit . 1)
+)

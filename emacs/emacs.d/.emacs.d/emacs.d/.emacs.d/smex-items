@@ -1,0 +1,16 @@
+
+;; ----- smex-history -----
+(
+ load-file
+ cd
+ wl
+ 5x5
+ ack
+ arp
+ dbx
+)
+
+;; ----- smex-data -----
+(
+ (load-file . 2)
+)
