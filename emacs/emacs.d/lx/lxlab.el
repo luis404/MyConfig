@@ -1,5 +1,6 @@
 ;; Author: luis404(luisxu404@gmail.com)
 
+;;; Below is test functions
 (defun lx-print-list (list)
   (while list
     (print (car list))
@@ -16,6 +17,7 @@
 (defun lx-test-split-string ()
   (interactive)
   (print (split-string (lx-get-line) " ")))
+
 ;;;Below is basic functions
 ;; ============================================
 ;; get the whole line string when the cursor is
@@ -93,12 +95,10 @@
   (setq sum 0)
   (while items
     (setq item (car items))
-    (if (or (position "/" item) (position "|" item)) 
-	;;(print "catch")
+    (if (string-match-p "/" item) 
 	nil
       (setq sum (+ sum (string-to-number item))))
     (setq items (cdr items)))
-  ;;  (insert (concat (number-to-string sum) "|"))))
   (insert (concat (format "%.2f" sum "|"))))
 		  
 ;; =============== Handy Funcs =====================

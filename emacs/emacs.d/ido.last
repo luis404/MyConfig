@@ -12,34 +12,44 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/douhua/.emacs.d/lx/"
- "/Users/douhua/lx/github/blog/org/post/"
  "/Users/douhua/"
  "/Users/douhua/.emacs.d/"
+ "/Users/douhua/lx/github/blog/org/post/"
+ "/Users/douhua/lx/"
+ "/Users/douhua/lx/lxconfig/"
+ "/Users/douhua/.emacs.d/lx/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "lxlab.el"
- "2015-02-13-Android-View.org"
- "lx-diary.el"
  ".emacs"
+ "init.el"
+ ".zshrc"
+ "2015-02-13-Android-View.org"
+ "auto_backup.sh"
+ "lxlab.el"
+ "lx-diary.el"
  "color-theme.el"
  "lx-init.el"
- "init.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/douhua/" (21882 49610 0 0) "Public/" "Pictures/" "Music/" "Movies/" "lx/" "Library/" "Dropbox/" "Downloads/" "Documents/" "diary~" "diary" "Desktop/" "coohua/" "Applications/" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc.omz-uninstalled-20150403234146" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-徐政超’s MacBook Pro-5.0.5" ".zcompdump" ".w3m/" ".vimrc" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".python27_compiled/" ".oh-my-zsh/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".gradle/" ".gitignore~" ".gitignore" ".gitconfig" ".git-credentials" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".config/" ".CFUserTextEncoding" ".bash_history" ".AndroidStudio1.2/" ".android/" "#.gitignore#" "../" "./")
+ ("/Users/douhua/.emacs.d/" (21884 53365 0 0) "url/" "smex-items" "slime-2.12/" "lx/" "init.el~" "init.el" "ido.last~" "ido.last" "games/" "eshell/" "emacs.d/" "elpa/" "bookmarks" "auto-save-list/" "../" "./")
 
- ("/Users/douhua/.emacs.d/lx/" (21882 32142 0 0) "xcscope.el" "themes/" "org-jekyll-mode.el" "markdown-mode.el" "lxlab.el~" "lxlab.el" "lx.el~" "lx-init.el~" "lx-init.el" "lx-diary.el~" "lx-diary.el" "init-org.el" "eshell_customize.el~" "eshell_customize.el" "emacs/" "color-theme.el" "../" "./")
+ ("/Users/douhua/" (21884 53955 0 0) "Public/" "Pictures/" "Music/" "Movies/" "mbox" "lx/" "Library/" "Dropbox/" "Downloads/" "Documents/" "diary~" "diary" "Desktop/" "coohua/" "Applications/" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc.omz-uninstalled-20150403234146" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-徐政超’s MacBook Pro-5.0.5" ".zcompdump" ".w3m/" ".vimrc" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".python27_compiled/" ".oh-my-zsh/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".gradle/" ".gitignore~" ".gitignore" ".gitconfig" ".git-credentials" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".config/" ".CFUserTextEncoding" ".bash_history" ".AndroidStudio1.2/" ".android/" "#.gitignore#" "../" "./")
 
- ("/Users/douhua/.emacs.d/" (21882 32190 0 0) "url/" "smex-items" "slime-2.12/" "lx/" "init.el~" "init.el" "ido.last~" "ido.last" "games/" "eshell/" "emacs.d/" "elpa/" "bookmarks" "auto-save-list/" "../" "./")
+ ("/Users/douhua/Dropbox/lx/" (21884 53968 0 0) "note.org~" "note.org" "emacs-diary" ".DS_Store" ".#note.org" "#note.org#" "../" "./")
+
+ ("/Users/douhua/lx/" (21883 47506 0 0) "lxconfig/" "github/" "bitbucket/" "auto_backup.sh~" "auto_backup.sh" ".#auto_backup.sh" "#auto_backup.sh#" "../" "./")
+
+ ("/Users/douhua/lx/github/blog/org/post/" (21882 37848 0 0) "NO_del.txt" "draft.org" "2015-04-15-Android-Gradle.org" "2015-03-11-Android-坐标系统.org" "2015-03-07-Google-Play-Service.org" "2015-03-01-Android-Performance-Patterns.org" "2015-02-25-Changes-On-Android-5.0.org" "2015-02-13-Android-View.org" "2015-02-12-Good-Post-I-Collect.org" "2015-02-12-Android-Draw.org" "2015-02-06-Improve-Android-Code-With-Lint.org" "2015-02-02-Memory-Optimization.org" "2015-01-31-Use-Emacs-Org-Mode-Write-Github-Post.org" "2015-01-28-Android-Touch-Event.org" "2015-01-26-Lisp-Learning.org" "2015-01-19-Running-Record.org" "2015-01-14-Git-Source-Code-Learn.org" "2015-01-13-Android-Test.org" "2015-01-12-Emacs-Learn.org" "2015-01-10-2015-PLAN.org" ".gitignore" "../" "./")
+
+ ("/Users/douhua/lx/lxconfig/" (21882 24019 0 0) "vim/" "README.org" "git/" "emacs/" "bzsh/" "auto_install.sh~" "auto_install.sh" ".gitignore" ".git/" ".emacs" "../" "./")
+
+ ("/Users/douhua/.emacs.d/lx/" (21883 35960 0 0) "xcscope.el" "themes/" "org-jekyll-mode.el" "markdown-mode.el" "lxlab.el~" "lxlab.el" "lx.el~" "lx-init.el~" "lx-init.el" "lx-diary.el~" "lx-diary.el" "init-org.el" "eshell_customize.el~" "eshell_customize.el" "color-theme.el" "../" "./")
 
  ("/Users/douhua/coohua/CooHuaClient/" (21882 44676 0 0) "src/" "settings.gradle" "res/" "project.properties" "proguard-project.txt" "NativeProject/" "local.properties" "lint.xml" "libs-ex/" "libs/" "gradlew" "gradle/" "debug.keystore" "CooHuaClient.iml" "coohua.keystore" "build.gradle" "build/" "assets/" "app/" "AndroidManifest.xml" ".project" ".idea/" ".gradle/" ".gitignore" ".git/" "../" "./")
-
- ("/Users/douhua/lx/github/blog/org/post/" (21881 24718 0 0) "NO_del.txt" "draft.org" "2015-04-15-Android-Gradle.org" "2015-03-11-Android-坐标系统.org" "2015-03-07-Google-Play-Service.org" "2015-03-01-Android-Performance-Patterns.org" "2015-02-25-Changes-On-Android-5.0.org" "2015-02-13-Android-View.org" "2015-02-12-Good-Post-I-Collect.org" "2015-02-12-Android-Draw.org" "2015-02-06-Improve-Android-Code-With-Lint.org" "2015-02-02-Memory-Optimization.org" "2015-01-31-Use-Emacs-Org-Mode-Write-Github-Post.org" "2015-01-28-Android-Touch-Event.org" "2015-01-26-Lisp-Learning.org" "2015-01-19-Running-Record.org" "2015-01-14-Git-Source-Code-Learn.org" "2015-01-13-Android-Test.org" "2015-01-12-Emacs-Learn.org" "2015-01-10-2015-PLAN.org" ".gitignore" "../" "./")
 
  ("/Users/douhua/lx/github/blog/org/" (21790 46696 0 0) "post/" "../" "./")
 
@@ -47,12 +57,8 @@
 
  ("/Users/douhua/lx/github/" (21880 16445 0 0) "ud825-compute-and-memory/" "to_lijun.zip" "SwipeRefreshListFragment/" "square/" "picasso/" "okhttp/" "MyApplication/" "mobileorg-android/" "JobScheduler/" "imagelist/" "fresco-gif/" "EP/" "drawee/" "CustomNotifications/" "blog/" "BasicCode/" "android-res-collect/" "android-floating-action-button/" "Android-Blog-Source/" ".idea/" "../" "./")
 
- ("/Users/douhua/lx/" (21882 16391 0 0) "lxconfig/" "github/" "bitbucket/" "../" "./")
-
  ("/Users/douhua/Dropbox/" (21882 29183 0 0) "trigger.txt" "orgsync.txt" "org.lisp" "mobile.org~" "mobile.org" "lx/" "Icon
 " "coohua/" "Camera Uploads/" "Apps/" ".DS_Store" ".dropbox.cache/" ".dropbox" "#mobile.org#" "../" "./")
-
- ("/Users/douhua/Dropbox/lx/" (21882 31469 0 0) "note.org~" "note.org" "emacs-diary" ".DS_Store" "../" "./")
 
  ("/Users/" (21838 54722 0 0) "Shared/" "douhua/" ".localized" "../" "./")
 

@@ -1,24 +1,41 @@
 
 ;; ----- smex-history -----
 (
+ lx-open-coohua
  lx-open-note
- calc-quit
- calc-mode
- calc-kill
- org-mode
- text-mode
- lx-reload
+ load-theme
+ package-install
+ package-refresh-contents
+ eshell
+ color-theme-xemacs
 )
 
 ;; ----- smex-data -----
 (
- (lx-reload . 6)
+ (lx-reload . 7)
  (calendar . 2)
  (org-agenda-year-view . 1)
- (lx-open-note . 8)
+ (lx-open-note . 15)
  (calc-mode . 2)
  (text-mode . 2)
  (org-mode . 1)
  (calc-kill . 1)
  (calc-quit . 1)
+ (lx-M . 7)
+ (auto-revert-tail-mode . 1)
+ (package-install . 3)
+ (evil-mode . 1)
+ (color-theme-snow . 1)
+ (color-theme-xp . 1)
+ (color-theme-lethe . 1)
+ (color-theme-lawrence . 1)
+ (color-theme-late-night . 2)
+ (color-theme-salmon-font-lock . 1)
+ (color-theme-retro-orange . 2)
+ (color-theme-hober . 1)
+ (color-theme-xemacs . 1)
+ (load-theme . 2)
+ (eshell . 1)
+ (package-refresh-contents . 1)
+ (lx-open-coohua . 1)
 )
