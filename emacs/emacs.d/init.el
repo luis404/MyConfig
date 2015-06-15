@@ -7,6 +7,8 @@
 (require 'lx-init)
 (require 'init-org)
 
+;;(require 'alert)
+;;(require 'request)
 ;; Markdown related setting
 (autoload 'markdown-mode "markdown-mode"
           "Major mode for editing Markdown files" t)

@@ -1,14 +1,5 @@
 magit-status .
 magit-status .
-cd CooHuaClient/
-magit-status .
-magit-status .
-magit-status .
-magit-status .
-magit-status .
-magit-status .
-magit-status .
-magit-status .
 magit-status .
 git pull
 magit-status .
@@ -126,3 +117,12 @@ paredit
 eshell
 ls
 (print (point))
+ls
+cd lx/github/
+ls
+cd emacs-request/
+ls
+cp request.el ~/.emacs.d/
+tail ~/.emacs.d/request.el 
+ls
+ls

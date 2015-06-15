@@ -12,12 +12,12 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/douhua/.emacs.d/lx/"
  "/Users/douhua/"
  "/Users/douhua/.emacs.d/"
  "/Users/douhua/lx/github/blog/org/post/"
  "/Users/douhua/lx/"
  "/Users/douhua/lx/lxconfig/"
- "/Users/douhua/.emacs.d/lx/"
 )
 
 ;; ----- ido-work-file-list -----
@@ -35,9 +35,13 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/douhua/.emacs.d/" (21884 53365 0 0) "url/" "smex-items" "slime-2.12/" "lx/" "init.el~" "init.el" "ido.last~" "ido.last" "games/" "eshell/" "emacs.d/" "elpa/" "bookmarks" "auto-save-list/" "../" "./")
+ ("/Users/douhua/.emacs.d/lx/" (21885 32762 0 0) "xcscope.el" "themes/" "org-jekyll-mode.el" "markdown-mode.el" "lxlab.el~" "lxlab.el" "lx.el~" "lx-init.el~" "lx-init.el" "lx-diary.el~" "lx-diary.el" "init-org.el" "eshell_customize.el~" "eshell_customize.el" "color-theme.el" "../" "./")
 
- ("/Users/douhua/" (21884 53955 0 0) "Public/" "Pictures/" "Music/" "Movies/" "mbox" "lx/" "Library/" "Dropbox/" "Downloads/" "Documents/" "diary~" "diary" "Desktop/" "coohua/" "Applications/" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc.omz-uninstalled-20150403234146" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-徐政超’s MacBook Pro-5.0.5" ".zcompdump" ".w3m/" ".vimrc" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".python27_compiled/" ".oh-my-zsh/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".gradle/" ".gitignore~" ".gitignore" ".gitconfig" ".git-credentials" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".config/" ".CFUserTextEncoding" ".bash_history" ".AndroidStudio1.2/" ".android/" "#.gitignore#" "../" "./")
+ ("/Users/douhua/.emacs.d/" (21885 32050 0 0) "url/" "smex-items" "slime-2.12/" "request.el" "lx/" "log4e.el" "init.el~" "init.el" "ido.last~" "ido.last" "games/" "eshell/" "emacs.d/" "elpa/" "bookmarks" "auto-save-list/" "alert.el" "../" "./")
+
+ ("/Users/douhua/" (21885 32050 0 0) "Public/" "Pictures/" "Music/" "Movies/" "mbox" "lx/" "Library/" "Dropbox/" "Downloads/" "Documents/" "diary~" "diary" "Desktop/" "coohua/" "Applications/" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc.omz-uninstalled-20150403234146" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-徐政超’s MacBook Pro-5.0.5" ".zcompdump" ".w3m/" ".vimrc" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".python27_compiled/" ".oh-my-zsh/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".gradle/" ".gitignore~" ".gitignore" ".gitconfig" ".git-credentials" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".config/" ".CFUserTextEncoding" ".bash_history" ".AndroidStudio1.2/" ".android/" "#.gitignore#" "../" "./")
+
+ ("/Users/douhua/.emacs.d/elpa/org-gcal-20150411.1511/" (21885 29640 0 0) "org-gcal.el" "org-gcal-pkg.elc" "org-gcal-pkg.el" "org-gcal-autoloads.el~" "org-gcal-autoloads.el" "../" "./")
 
  ("/Users/douhua/Dropbox/lx/" (21884 53968 0 0) "note.org~" "note.org" "emacs-diary" ".DS_Store" ".#note.org" "#note.org#" "../" "./")
 
@@ -46,8 +50,6 @@
  ("/Users/douhua/lx/github/blog/org/post/" (21882 37848 0 0) "NO_del.txt" "draft.org" "2015-04-15-Android-Gradle.org" "2015-03-11-Android-坐标系统.org" "2015-03-07-Google-Play-Service.org" "2015-03-01-Android-Performance-Patterns.org" "2015-02-25-Changes-On-Android-5.0.org" "2015-02-13-Android-View.org" "2015-02-12-Good-Post-I-Collect.org" "2015-02-12-Android-Draw.org" "2015-02-06-Improve-Android-Code-With-Lint.org" "2015-02-02-Memory-Optimization.org" "2015-01-31-Use-Emacs-Org-Mode-Write-Github-Post.org" "2015-01-28-Android-Touch-Event.org" "2015-01-26-Lisp-Learning.org" "2015-01-19-Running-Record.org" "2015-01-14-Git-Source-Code-Learn.org" "2015-01-13-Android-Test.org" "2015-01-12-Emacs-Learn.org" "2015-01-10-2015-PLAN.org" ".gitignore" "../" "./")
 
  ("/Users/douhua/lx/lxconfig/" (21882 24019 0 0) "vim/" "README.org" "git/" "emacs/" "bzsh/" "auto_install.sh~" "auto_install.sh" ".gitignore" ".git/" ".emacs" "../" "./")
-
- ("/Users/douhua/.emacs.d/lx/" (21883 35960 0 0) "xcscope.el" "themes/" "org-jekyll-mode.el" "markdown-mode.el" "lxlab.el~" "lxlab.el" "lx.el~" "lx-init.el~" "lx-init.el" "lx-diary.el~" "lx-diary.el" "init-org.el" "eshell_customize.el~" "eshell_customize.el" "color-theme.el" "../" "./")
 
  ("/Users/douhua/coohua/CooHuaClient/" (21882 44676 0 0) "src/" "settings.gradle" "res/" "project.properties" "proguard-project.txt" "NativeProject/" "local.properties" "lint.xml" "libs-ex/" "libs/" "gradlew" "gradle/" "debug.keystore" "CooHuaClient.iml" "coohua.keystore" "build.gradle" "build/" "assets/" "app/" "AndroidManifest.xml" ".project" ".idea/" ".gradle/" ".gitignore" ".git/" "../" "./")
 

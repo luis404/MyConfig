@@ -40,3 +40,11 @@
 
 (load-theme 'leuven t)
 
+;;(require 'org-gcal)
+;;(setq org-gcal-client-id "618010879659-0fru0mnm4gneothjh3erc6jkjdp40c3q.apps.googleusercontent.com"
+  ;;    org-gcal-client-secret "HogSVK-VJ5q0glPU3pRLT2nc"
+    ;;  org-gcal-file-alist '(("xuzhengchaojob@gmail.com" .  "~/schedule.org")))
+
+;;Enable evil mode
+(require 'evil)
+(evil-mode 1)
