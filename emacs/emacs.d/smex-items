@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- lx-open-note
+ lx-open-coohua
+ eval-buffer
  eshell
+ lx-open-note
  shell
  lxel
- lx-open-coohua
  package-install
- package-refresh-contents
 )
 
 ;; ----- smex-data -----
@@ -35,14 +35,14 @@
  (color-theme-hober . 1)
  (color-theme-xemacs . 1)
  (load-theme . 2)
- (eshell . 2)
+ (eshell . 5)
  (package-refresh-contents . 2)
- (lx-open-coohua . 3)
+ (lx-open-coohua . 4)
  (lxel . 3)
  (lx-magit-ch . 2)
  (irc . 5)
  (lx-open-emacsnote . 1)
  (rcirc-cmd-join . 1)
- (eval-buffer . 1)
+ (eval-buffer . 3)
  (shell . 1)
 )

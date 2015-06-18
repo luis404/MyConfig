@@ -1,128 +1,128 @@
+git st
+git add -u; git ci -m "(Don't Merge!!!) add robolectric test"
+git lg
 magit-status .
-magit-status .
-magit-status .
-git pull
-magit-status .
-magit-status .
-magit-status .
-magit-status .
-magit-status .
-(setq foo "bar")
-grep 80002 type_newstat.txt 
-cd 
-cd coohua/CooHuaClient/
-magit-status .
-magit-status .
-cd CooHuaClient/
-magit-status .
-magit-status .
-magit-status .
-cd coohua/CooHuaClient/
-magit-status .
-cd 
-cd lx/bitbucket/
-ls
-cd luisdroid/
-ls
-magit-status .
-cd 
-cd coohua/CooHuaClient/
-magit-status .
-magit-status .
-magit-status .
-magit-status .
-cd CooHuaClient/
-magit-status .
-cd 
-cd lx/github/
-ls
-cd android-floating-action-button/
-ls
-git pull
-cd 
-cd lx/github/
-ls
-git clone https://github.com/yanbober/Android-Blog-Source.git
-cd 
-cd coohua/CooHuaClient/
-magit-status .
-magit-status .
-git pull
-cd 
-cd lx/github/
-ls
-cd imagelist/
-ls
-magit-status .
-magit-status .
-magit-status .
-magit-status .
-magit-status .
-ls
-ls
-ls -a
+git st
 cd ..
-mkdir to_lijun
-mv imagelist/ to_lijun/
-mv to_lijun/imagelist/app/build/outputs/apk/app-debug.apk to_lijun/
-ls
-zip to_lijun/
-zip to_lijun to_lijun.zip
-ls
-zip to_lijun.zip to_lijun
-ls
-mv to_lijun/imagelist/ .
-ls
-rm -r to_lijun/
-ls
-ll imagelist/
-ls imagelist/
-ls imagelist/imagelist/
-cd 
-cd coohua/CooHuaClient/
+cd lxCh
 ls
 magit-status .
-magit-status .
-magit-status .
-magit-status .
-magit-status .
-magit-status .
-magit-status .
-magit-status .
-git help fetch
-git help fetch
-magit-status .
-ls
-cd 
-cd Downloads/
-ls
-unzip 资讯打开gif.zip
-ls
-cd 
-cd coohua/CooHuaClient/
-ls
-magit-status .
-cd coohua/CO
-cd coohua/CooHuaClient/
-ls
-magit-status .
+./gradlew iD
+./gradlew iD
+(setq 'l (a b c))
+(car '(a b c))
+(cdr (car '(a b c d)))
+(cdr (cdr '(a b c d)))
+(setq l '(a b c))
+(l)
+(print l)
+(add-to-list a l)
+(add-to-list "a" l)
+(add-to-list "a" l)
+(add-to-list l e)
+(add-to-list l "e")
+(delete 'a l)
+(l)
+(print l)
+(remove 'b l)
+(print l)
+(remove 'c l)
+(print l)
+(add-to-list 'l 'e)
+(add-to-list 'l 'f 3)
+(add-to-list 'l 'g 1)
+(add-to-list 'l 'a 1)
+(add-to-list 'l 'a)
+(add-to-list 'l 'b)
+(setq l (a a b b c c c e))
+(setq l '(a a b b c c c e))
+(remove-duplicates 'l)
+(remove-duplicates l)
+(remove-duplicates l)
+(cons 'a 'b)
+(cdr (cons 'a 'b))
+(cdr (cons 'c (cons 'a 'b)))
+((cons 'c (cons 'a 'b)))
+(cons 'c (cons 'a 'b))
+(setq l (cons 'c (cons 'a 'b)))
+(setq l (cons 'c (cons 'a 'b)))ons 'a 'b)))
+(nconc (cons 'c (cons 'a 'b)))
+(nconc (cons 'c (cons 'a 'b)) 'd)
+(setcar l 'lx)
+(print l)
+(setcdr l 'lxx)
+(print l)
+(setcdr l nil)
+(print l)
+(add-to-list (a b c) f)
+(add-to-list '(a b c) f)
+(add-to-list '(a b c) 'f)
+(add-to-list '(a b c) '(f))
+(add-to-list (a b c) '(f))
+(add-to-list '(a b c) (f))
+(add-to-list '(a b c) '(f))
+(add-to-list 'a '(f))
+(add-to-list l '(f))
+(add-to-list l 'f)
+(add-to-list 'l 'f)
+(add-to-list 'l '(f))
+(add-to-list 'l '(f b))
+(last l)
+(last 2 l)
+(last l 2)
+(butlast l 2)
+((lambda (a) (* a a)) 3)
 git pull
 magit-status .
-cd 
-cd coohua/CooHuaClient/
+cd ..
+mv lxCh Delete_After_Merge
+cd Delete_After_Merge/
 magit-status .
-ls
-pw
-paredit
+git st
+git pull
+git lg
+magit-status .
+magit-checkout 
+magit-checkout developing
+find-file app/src/main/java/com/coohuaclient/ui/activity/SharedWebViewActivity.java 
+egrep onProgressChanged
+find . | egrep onProgressChanged
+find app/src/main/java/com/coohuaclient/ | xargs grep onProgressC
+find app/src/main/java/ -type f -name "*.java" -exec grep 'onProgressC' {} \;
+find app/src/main/java/ -C5 -type f -name "*.java" -exec grep 'onProgressC' {} \;
+find app/src/main/java/ -type f -name "*.java" -exec grep -C5 'onProgressC' {} \;
+find app/src/main/java/ -type f -name "*.java" -exec grep -l 'onProgressC' {} \;
+find app/src/main/java/ -type f -name "*.java" -exec grep -L 'onProgressC' {} \;
+find app/src/main/java/ -type f -name "*.java" -exec grep -l 'onProgressC' {} \;
+find app/src/main/java/ -type f -name "*.java" -exec grep -n 'onProgressC' {} \;
+find app/src/main/java/ -type f -name "*.java" -exec grep -ln 'onProgressC' {} \;
+find app/src/main/java/ -type f -name "*.java" -exec grep -l -n 'onProgressC' {} \;
+find app/src/main/java/ -type f -name "*.java" -exec grep -n 'onProgressC' /dev/null {} \;
+find app/src/main/java/ -type f -name "*.java" -exec grep -H 'onProgressC' {} \;
+find app/src/main/java/ -type f -name "*.java" -exec grep -H -C 3'onProgressC' {} \;
+find app/src/main/java/ -type f -name "*.java" -exec grep -H -C 3 'onProgressC' {} \;
+find app/src/main/java/ -type f -name "*.java" -exec grep -H -A 3 'onProgressC' {} \;
+find app/src/main/java/ -type f -name "*.java" -exec grep -H -B 3 'onProgressC' {} \;
+find app/src/main/java/ -type f -name "*.java" -exec grep -H -B 3 'CooChromeC' {} \;
+find app/src/main/java/ -type f -name "*.java" -exec grep -H -B 3 'CoolChromeC' {} \;
+adb 
+which adb
+*adb
+*ls
+getenv-internal
+getenv-internal PATH
+which adb
 eshell
-ls
-(print (point))
-ls
-cd lx/github/
-ls
-cd emacs-request/
-ls
-cp request.el ~/.emacs.d/
-tail ~/.emacs.d/request.el 
-ls
+adb
+setenv-internal PATH
+(setenv-internal PATH (concat ("/Users/douhua/Library/Android/sdk/platform-tools/adb" (getenv-internal PATH))))
+(setenv-internal "PATH" (concat ("/Users/douhua/Library/Android/sdk/platform-tools/adb" (getenv-internal PATH))))
+(setenv-internal "PATH" (concat "/Users/douhua/Library/Android/sdk/platform-tools/adb" (getenv-internal PATH)))
+(setenv-internal PATH (concat "/Users/douhua/Library/Android/sdk/platform-tools/adb" (getenv-internal PATH)))
+(setenv-internal 'PATH (concat "/Users/douhua/Library/Android/sdk/platform-tools/adb" (getenv-internal PATH)))
+(setenv "PATH" (concat "/Users/douhua/Library/Android/sdk/platform-tools/adb" (getenv-internal PATH)))
+(getenv "PATH")
+adb
+adb
+adb
 ls

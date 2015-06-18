@@ -18,7 +18,7 @@
     ("9cccbad97b7a242e15f4f5d99495348e0f9925c19a6d7fd0dc0efc4bbc280b25" "3dafeadb813a33031848dfebfa0928e37e7a3c18efefa10f3e9f48d1993598d3" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" default)))
  '(exec-path
    (quote
-    ("/usr/local/bin" "/usr/bin" "/bin" "/usr/sbin" "/sbin" "/Applications/Emacs.app/Contents/MacOS/bin-x86_64-10_9" "/Applications/Emacs.app/Contents/MacOS/libexec-x86_64-10_9" "/Applications/Emacs.app/Contents/MacOS/libexec" "/Applications/Emacs.app/Contents/MacOS/bin")))
+    ("/usr/local/bin" "/Users/douhua/Library/Android/sdk/platform-tools/adb" "/usr/bin" "/bin" "/usr/sbin" "/sbin" "/Applications/Emacs.app/Contents/MacOS/bin-x86_64-10_9" "/Applications/Emacs.app/Contents/MacOS/libexec-x86_64-10_9" "/Applications/Emacs.app/Contents/MacOS/libexec" "/Applications/Emacs.app/Contents/MacOS/bin")))
  '(magit-diff-options (quote ("--function-context" "--ignore-all-space"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -33,10 +33,8 @@
 
 ;; calendar reminder
 (setq require-final-newline t)
-;;show line number
-(linum-mode)
 
-(set-face-attribute 'default nil :height 150)
+;;(set-face-attribute 'default nil :height 150)
 
 (load-theme 'leuven t)
 
@@ -48,3 +46,6 @@
 ;;Enable evil mode
 (require 'evil)
 (evil-mode 1)
+
+;;show line number
+(linum-mode)
