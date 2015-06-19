@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ toggle-debug-on-error
+ org-export-dispatch
+ org-html-export-as-html
+ edit-picture
+ lx-magit-ch
  lx-open-coohua
- eval-buffer
- eshell
- lx-open-note
- shell
- lxel
- package-install
+ magit-status
 )
 
 ;; ----- smex-data -----
@@ -35,14 +35,21 @@
  (color-theme-hober . 1)
  (color-theme-xemacs . 1)
  (load-theme . 2)
- (eshell . 5)
+ (eshell . 9)
  (package-refresh-contents . 2)
- (lx-open-coohua . 4)
+ (lx-open-coohua . 8)
  (lxel . 3)
- (lx-magit-ch . 2)
+ (lx-magit-ch . 6)
  (irc . 5)
- (lx-open-emacsnote . 1)
+ (lx-open-emacsnote . 2)
  (rcirc-cmd-join . 1)
  (eval-buffer . 3)
  (shell . 1)
+ (column-number-mode . 1)
+ (magit-status . 4)
+ (magit-diff-unstaged . 2)
+ (edit-picture . 8)
+ (org-export-dispatch . 3)
+ (org-html-export-as-html . 2)
+ (toggle-debug-on-error . 1)
 )
