@@ -1,0 +1,1 @@
+(define-package "org2jekyll" "20150515.1407" "Minor mode to publish org-mode post to jekyll without specific yaml" '((dash "2.10.0") (dash-functional "1.2.0") (s "1.9.0") (deferred "0.3.1")) :url "https://github.com/ardumont/org2jekyll" :keywords '("org-mode" "jekyll" "blog" "publish"))

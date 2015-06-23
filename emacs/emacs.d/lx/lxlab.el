@@ -103,5 +103,27 @@
 		  
 ;; =============== Handy Funcs =====================
 
+;; =============== Org Publish =====================
+(setq org-publish-project-alist
+      '(("github-blog"
+	 :base-directory "/Users/douhua/lx/github/blog/org/post/"
+	 :publishing-directory "/Users/douhua/lx/github/blog/_posts/"
+	 ;;:base-directory "/Users/douhua/lx/org/post/"
+	 ;;:publishing-directory "/Users/douhua/lx/org/_posts/"
+	 :prepare-function nil
+	 :completion-function nil
+	 :exclude "*.html"
+	 :recursive nil
+	 :base-extension "org"
+	 :publishing-function org-html-publish-to-html
+	 :body-only t
+	 )))
+
+(defun lx-public-blog nil
+  "Publish my github blog"
+  (interactive)
+  (org-publish))
+;; =============== Org Publish =====================
+
 
 (provide 'lxlab)

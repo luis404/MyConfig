@@ -1,29 +1,29 @@
 
 ;; ----- smex-history -----
 (
- toggle-debug-on-error
- org-export-dispatch
- org-html-export-as-html
- edit-picture
  lx-magit-ch
- lx-open-coohua
- magit-status
+ org-publish
+ load-file
+ lx-public-blog
+ org2jekyll-publish-posts
+ org2jekyll-list-posts
+ org2jekyll-publish
 )
 
 ;; ----- smex-data -----
 (
  (lx-reload . 7)
- (calendar . 2)
+ (calendar . 3)
  (org-agenda-year-view . 1)
- (lx-open-note . 17)
+ (lx-open-note . 24)
  (calc-mode . 2)
  (text-mode . 2)
  (org-mode . 1)
  (calc-kill . 1)
  (calc-quit . 1)
- (lx-M . 7)
+ (lx-M . 8)
  (auto-revert-tail-mode . 1)
- (package-install . 6)
+ (package-install . 8)
  (evil-mode . 2)
  (color-theme-snow . 1)
  (color-theme-xp . 1)
@@ -35,21 +35,29 @@
  (color-theme-hober . 1)
  (color-theme-xemacs . 1)
  (load-theme . 2)
- (eshell . 9)
+ (eshell . 14)
  (package-refresh-contents . 2)
- (lx-open-coohua . 8)
+ (lx-open-coohua . 9)
  (lxel . 3)
- (lx-magit-ch . 6)
+ (lx-magit-ch . 11)
  (irc . 5)
- (lx-open-emacsnote . 2)
+ (lx-open-emacsnote . 3)
  (rcirc-cmd-join . 1)
- (eval-buffer . 3)
- (shell . 1)
+ (eval-buffer . 6)
+ (shell . 2)
  (column-number-mode . 1)
- (magit-status . 4)
+ (magit-status . 7)
  (magit-diff-unstaged . 2)
- (edit-picture . 8)
- (org-export-dispatch . 3)
- (org-html-export-as-html . 2)
+ (edit-picture . 9)
+ (org-export-dispatch . 4)
+ (org-html-export-as-html . 11)
  (toggle-debug-on-error . 1)
+ (org-agenda-month-view . 1)
+ (lx-public-blog . 5)
+ (org-publish . 9)
+ (org2jekyll-publish . 3)
+ (org2jekyll-mode . 1)
+ (org2jekyll-publish-posts . 4)
+ (org2jekyll-list-posts . 1)
+ (load-file . 1)
 )

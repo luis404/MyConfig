@@ -1,17 +1,3 @@
-(nconc (cons 'c (cons 'a 'b)))
-(nconc (cons 'c (cons 'a 'b)) 'd)
-(setcar l 'lx)
-(print l)
-(setcdr l 'lxx)
-(print l)
-(setcdr l nil)
-(print l)
-(add-to-list (a b c) f)
-(add-to-list '(a b c) f)
-(add-to-list '(a b c) 'f)
-(add-to-list '(a b c) '(f))
-(add-to-list (a b c) '(f))
-(add-to-list '(a b c) (f))
 (add-to-list '(a b c) '(f))
 (add-to-list 'a '(f))
 (add-to-list l '(f))
@@ -112,17 +98,31 @@ ls
 (string "abc")
 ('string "abc")
 (string "abc")
-    (defun mapcar* (function &rest args)            "Apply FUNCTION to successive cars of all ARGS.          Return the list of results."            ;; If no list is exhausted,            (if (not (memq nil args))                ;; apply function to CARs.                (cons (apply function (mapcar 'car args))                      (apply 'mapcar* function                             ;; Recurse for rest of elements.                             (mapcar 'cdr args)))))
+(defun mapcar* (function &rest args)            "Apply FUNCTION to successive cars of all ARGS.          Return the list of results."            ;; If no list is exhausted,            (if (not (memq nil args))                ;; apply function to CARs.                (cons (apply function (mapcar 'car args))                      (apply 'mapcar* function                             ;; Recurse for rest of elements.                             (mapcar 'cdr args)))))
 (mapcar* '+ '(1 2 3) '(4 5 6))
 (eval 'a)
 (eval 'ab)
 (eval 'b)
 (eval b)
 (eval (+ 1 1))
- (+ 1 1))
+(+ 1 1))
 wc {"attributes":"","type":"AD","date":1434510800,"actions":[{"action":"im","ids":["9650","2092","8483","9687","4721"]},{"action":"rs","ids":["9650"]}],"coohuaId":85294379}
- {"attributes":"","type":"AD","date":1434510800,"actions":[{"action":"im","ids":["9650","2092","8483","9687","4721"]},{"action":"rs","ids":["9650"]}],"coohuaId":85294379}
+{"attributes":"","type":"AD","date":1434510800,"actions":[{"action":"im","ids":["9650","2092","8483","9687","4721"]},{"action":"rs","ids":["9650"]}],"coohuaId":85294379}
 [{"action":"im","ids":["9648","9639","9638","9647","9637","9175","7103","5400","9651","9646","9643","3131"]},{"action":"rs","ids":["5400"]}],"coohuaId":88492258}
 ps
 ps aux | grep Android
 kill 365
+magit-status .
+cd lx/github/blog/
+magit-status .
+ls
+ls ~/.emacs.d/
+ls ~/.emacs.d/lx
+ls
+make
+ls
+mv ~/.emacs.d/lx/org-jekyll-mode.el ~/.emacs.d/
+make
+make
+ls
+make
