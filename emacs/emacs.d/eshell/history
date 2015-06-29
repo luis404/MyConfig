@@ -1,30 +1,3 @@
-(add-to-list '(a b c) '(f))
-(add-to-list 'a '(f))
-(add-to-list l '(f))
-(add-to-list l 'f)
-(add-to-list 'l 'f)
-(add-to-list 'l '(f))
-(add-to-list 'l '(f b))
-(last l)
-(last 2 l)
-(last l 2)
-(butlast l 2)
-((lambda (a) (* a a)) 3)
-git pull
-magit-status .
-cd ..
-mv lxCh Delete_After_Merge
-cd Delete_After_Merge/
-magit-status .
-git st
-git pull
-git lg
-magit-status .
-magit-checkout 
-magit-checkout developing
-find-file app/src/main/java/com/coohuaclient/ui/activity/SharedWebViewActivity.java 
-egrep onProgressChanged
-find . | egrep onProgressChanged
 find app/src/main/java/com/coohuaclient/ | xargs grep onProgressC
 find app/src/main/java/ -type f -name "*.java" -exec grep 'onProgressC' {} \;
 find app/src/main/java/ -C5 -type f -name "*.java" -exec grep 'onProgressC' {} \;
@@ -126,3 +99,30 @@ make
 make
 ls
 make
+(* 2530.8 2.559)
+(backward-char 4)
+(backward-char 1)
+(backward-char 2)
+cd ../../lx/github/; git clone git clone git://git.savannah.gnu.org/emacs.git
+cd ../../lx/github/; git clone git://git.savannah.gnu.org/emacs.git
+magit
+ls
+cd 
+cd coohua/CooHuaClient/
+ls
+echo "" >> settings.gradle 
+git st
+echo "  " >> build.gradle 
+git st
+cd 
+ls
+magit-status testMagit
+mkdir testMagit
+cd testMagit/
+git init
+touch x
+touch y
+git add x
+magit-status .
+ls
+echo "xxx" >> x
