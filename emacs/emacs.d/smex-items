@@ -1,29 +1,29 @@
 
 ;; ----- smex-history -----
 (
- org-publish
- org-version
- lx-public-blog
- lx-magit-ch
- magit-status
- magit-log
+ lx-open-coohua
+ org-agenda-to-appt
+ appt-delete
+ lx-open-note
+ fancy-diary-display-mode
+ calendar
  eshell
 )
 
 ;; ----- smex-data -----
 (
  (lx-reload . 7)
- (calendar . 3)
+ (calendar . 6)
  (org-agenda-year-view . 1)
- (lx-open-note . 27)
+ (lx-open-note . 33)
  (calc-mode . 2)
  (text-mode . 2)
  (org-mode . 1)
  (calc-kill . 1)
  (calc-quit . 1)
- (lx-M . 8)
+ (lx-M . 9)
  (auto-revert-tail-mode . 1)
- (package-install . 8)
+ (package-install . 9)
  (evil-mode . 2)
  (color-theme-snow . 1)
  (color-theme-xp . 1)
@@ -35,11 +35,11 @@
  (color-theme-hober . 1)
  (color-theme-xemacs . 1)
  (load-theme . 2)
- (eshell . 20)
- (package-refresh-contents . 2)
- (lx-open-coohua . 14)
+ (eshell . 21)
+ (package-refresh-contents . 3)
+ (lx-open-coohua . 31)
  (lxel . 3)
- (lx-magit-ch . 45)
+ (lx-magit-ch . 51)
  (irc . 5)
  (lx-open-emacsnote . 3)
  (rcirc-cmd-join . 1)
@@ -52,7 +52,7 @@
  (org-export-dispatch . 4)
  (org-html-export-as-html . 11)
  (toggle-debug-on-error . 1)
- (org-agenda-month-view . 1)
+ (org-agenda-month-view . 2)
  (lx-public-blog . 6)
  (org-publish . 12)
  (org2jekyll-publish . 3)
@@ -67,4 +67,11 @@
  (magit-version . 1)
  (magit-log . 3)
  (org-version . 1)
+ (appt-add . 10)
+ (org-agenda-to-appt . 34)
+ (appt-delete . 22)
+ (org-agenda . 1)
+ (appt-activate . 6)
+ (org-agenda-diary-entry . 7)
+ (fancy-diary-display-mode . 1)
 )

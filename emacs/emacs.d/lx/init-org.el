@@ -14,5 +14,6 @@
 (setq org-agenda-files (list "~/Dropbox/lx/note.org"
                              "~/Dropbox/coohua/coohua.org"))
 
-
+(appt-activate 1)
+(org-agenda-to-appt)
 (provide 'init-org)

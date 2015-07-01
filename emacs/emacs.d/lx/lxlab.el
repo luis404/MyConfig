@@ -58,6 +58,7 @@
 ;; open coohua code with magit
 (defun lx-magit-ch ()
   (interactive)
+  (org-agenda-to-appt)
   (magit-status "~/coohua/Coohuaclient"))
 
 ;; reload emacs file after change
@@ -81,6 +82,7 @@
 
 (defun lx-open-coohua ()
   (interactive)
+  (org-agenda-to-appt)
   (find-file "~/coohua/coohua.org"))
 
 (defun lxel ()
