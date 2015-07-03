@@ -2,12 +2,12 @@
 ;; ----- smex-history -----
 (
  lx-open-coohua
- org-agenda-to-appt
+ lx-magit-ch
  appt-delete
  lx-open-note
- fancy-diary-display-mode
- calendar
  eshell
+ shell
+ org-agenda-to-appt
 )
 
 ;; ----- smex-data -----
@@ -15,7 +15,7 @@
  (lx-reload . 7)
  (calendar . 6)
  (org-agenda-year-view . 1)
- (lx-open-note . 33)
+ (lx-open-note . 38)
  (calc-mode . 2)
  (text-mode . 2)
  (org-mode . 1)
@@ -35,16 +35,16 @@
  (color-theme-hober . 1)
  (color-theme-xemacs . 1)
  (load-theme . 2)
- (eshell . 21)
+ (eshell . 22)
  (package-refresh-contents . 3)
- (lx-open-coohua . 31)
+ (lx-open-coohua . 38)
  (lxel . 3)
- (lx-magit-ch . 51)
+ (lx-magit-ch . 56)
  (irc . 5)
  (lx-open-emacsnote . 3)
  (rcirc-cmd-join . 1)
  (eval-buffer . 6)
- (shell . 2)
+ (shell . 3)
  (column-number-mode . 1)
  (magit-status . 10)
  (magit-diff-unstaged . 5)
@@ -69,7 +69,7 @@
  (org-version . 1)
  (appt-add . 10)
  (org-agenda-to-appt . 34)
- (appt-delete . 22)
+ (appt-delete . 27)
  (org-agenda . 1)
  (appt-activate . 6)
  (org-agenda-diary-entry . 7)

@@ -1,16 +1,3 @@
-find app/src/main/java/com/coohuaclient/ | xargs grep onProgressC
-find app/src/main/java/ -type f -name "*.java" -exec grep 'onProgressC' {} \;
-find app/src/main/java/ -C5 -type f -name "*.java" -exec grep 'onProgressC' {} \;
-find app/src/main/java/ -type f -name "*.java" -exec grep -C5 'onProgressC' {} \;
-find app/src/main/java/ -type f -name "*.java" -exec grep -l 'onProgressC' {} \;
-find app/src/main/java/ -type f -name "*.java" -exec grep -L 'onProgressC' {} \;
-find app/src/main/java/ -type f -name "*.java" -exec grep -l 'onProgressC' {} \;
-find app/src/main/java/ -type f -name "*.java" -exec grep -n 'onProgressC' {} \;
-find app/src/main/java/ -type f -name "*.java" -exec grep -ln 'onProgressC' {} \;
-find app/src/main/java/ -type f -name "*.java" -exec grep -l -n 'onProgressC' {} \;
-find app/src/main/java/ -type f -name "*.java" -exec grep -n 'onProgressC' /dev/null {} \;
-find app/src/main/java/ -type f -name "*.java" -exec grep -H 'onProgressC' {} \;
-find app/src/main/java/ -type f -name "*.java" -exec grep -H -C 3'onProgressC' {} \;
 find app/src/main/java/ -type f -name "*.java" -exec grep -H -C 3 'onProgressC' {} \;
 find app/src/main/java/ -type f -name "*.java" -exec grep -H -A 3 'onProgressC' {} \;
 find app/src/main/java/ -type f -name "*.java" -exec grep -H -B 3 'onProgressC' {} \;
@@ -126,3 +113,16 @@ git add x
 magit-status .
 ls
 echo "xxx" >> x
+cd CooHuaClient/
+./gradlew iCOD
+ls
+cd 
+cd dow
+cd Downloads/
+ls
+mv *.dmg dmg
+ls
+rm -rf baidu/
+ls
+ls
+clear

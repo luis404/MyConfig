@@ -74,6 +74,7 @@
 ;; open some files
 (defun lx-open-note ()
   (interactive)
+  (org-agenda-to-appt)
     (find-file "~/Dropbox/lx/note.org"))
 
 (defun lx-open-emacsnote ()
