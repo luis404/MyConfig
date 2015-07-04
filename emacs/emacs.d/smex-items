@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ eval-buffer
  lx-open-coohua
+ eshell
  lx-magit-ch
  appt-delete
  lx-open-note
- eshell
  shell
- org-agenda-to-appt
 )
 
 ;; ----- smex-data -----
@@ -35,15 +35,15 @@
  (color-theme-hober . 1)
  (color-theme-xemacs . 1)
  (load-theme . 2)
- (eshell . 22)
+ (eshell . 23)
  (package-refresh-contents . 3)
- (lx-open-coohua . 38)
+ (lx-open-coohua . 39)
  (lxel . 3)
  (lx-magit-ch . 56)
  (irc . 5)
  (lx-open-emacsnote . 3)
  (rcirc-cmd-join . 1)
- (eval-buffer . 6)
+ (eval-buffer . 33)
  (shell . 3)
  (column-number-mode . 1)
  (magit-status . 10)

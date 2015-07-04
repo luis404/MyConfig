@@ -1,10 +1,3 @@
-find app/src/main/java/ -type f -name "*.java" -exec grep -H -C 3 'onProgressC' {} \;
-find app/src/main/java/ -type f -name "*.java" -exec grep -H -A 3 'onProgressC' {} \;
-find app/src/main/java/ -type f -name "*.java" -exec grep -H -B 3 'onProgressC' {} \;
-find app/src/main/java/ -type f -name "*.java" -exec grep -H -B 3 'CooChromeC' {} \;
-find app/src/main/java/ -type f -name "*.java" -exec grep -H -B 3 'CoolChromeC' {} \;
-adb 
-which adb
 *adb
 *ls
 getenv-internal
@@ -126,3 +119,10 @@ rm -rf baidu/
 ls
 ls
 clear
+ps
+ps axu | grep Android
+ps aux
+ps aux | grep Studio
+(setq test (propertize "foobar" 'face 'font-lock-keyword-face))
+(setq test (propertize "foobar" 'face 'italic))
+(propertize "foobar" 'face 'italic)
