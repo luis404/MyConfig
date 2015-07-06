@@ -27,15 +27,15 @@
  ("/Users/douhua/lx/github/" . "mobileorg-android/")
  ("/Users/douhua/lx/" . "github/")
  ("/Users/douhua/.emacs.d/" . "lx/")
- ("/Users/douhua/" . "Dropbox/")
+ ("/Users/douhua/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/douhua/.emacs.d/lx/"
+ "/Users/douhua/.emacs.d/"
  "/Users/douhua/Dropbox/lx/"
  "/Users/douhua/"
- "/Users/douhua/.emacs.d/"
- "/Users/douhua/.emacs.d/lx/"
  "/Users/douhua/lx/github/mobileorg-android/MobileOrg/"
  "/Users/douhua/lx/github/mobileorg-android/"
  "/Users/douhua/lx/github/blog/org/post/"
@@ -63,12 +63,12 @@
 
 ;; ----- ido-work-file-list -----
 (
- "emacs-diary"
- ".emacs"
+ "lx-diary.el"
  "init.el"
  "lx-init.el"
+ "emacs-diary"
  "note.org"
- "lx-diary.el"
+ ".emacs"
  "build.gradle"
  "lxlab.el"
  "lx-helm.el"
@@ -77,21 +77,28 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/douhua/Dropbox/lx/" (21910 38699 0 0) "note.org~" "note.org" "emacs-diary~" "emacs-diary" ".DS_Store" "../" "./")
+ ("/Users/douhua/.emacs.d/" (21912 52615 0 0) "url/" "smex-items" "slime-2.12/" "request.el" "org-publish.el" "org-jekyll-mode.el" "lx/" "log4e.el~" "log4e.el" "init.el~" "init.el" "ido.last~" "ido.last" "games/" "eshell/" "emacs.d/" "elpa/" "bookmarks" "auto-save-list/" "alert.el" "../" "./")
 
- ("/Users/douhua/" (21910 38530 0 0) "VirtualBox VMs/" "testMagit/" "Public/" "Pictures/" "Music/" "Movies/" "mbox" "lx/" "Library/" "genymotion-log.zip" "Dropbox/" "Downloads/" "Documents/" "diary~" "diary" "Desktop/" "coohua/" "Applications/" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc.omz-uninstalled-20150403234146" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-徐政超’s MacBook Pro-5.0.5" ".zcompdump" ".w3m/" ".vimrc" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".python27_compiled/" ".org-timestamps/" ".oh-my-zsh/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".gradle/" ".gitignore~" ".gitignore" ".gitconfig" ".git-credentials" ".Genymobile/" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".config/" ".CFUserTextEncoding" ".bash_history" ".AndroidStudio1.2/" ".android/" "#adfasd#" "#.gitignore#" "#.emacs#" "../" "./")
+ ("/Users/douhua/Dropbox/lx/" (21912 52648 0 0) "note.org~" "note.org" "emacs-diary~" "emacs-diary" ".DS_Store" "../" "./")
+
+ ("/Users/douhua/Dropbox/" (21911 23251 0 0) "Photos/" "lx/" "Icon
+" "coohua/" "Camera Uploads/" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
+
+ ("/Users/douhua/lx/github/" (21911 8342 0 0) "ud825-compute-and-memory/" "SwipeRefreshListFragment/" "StaggeredGridView1/" "StaggeredGridView/" "square/" "picasso/" "okhttp/" "MyApplication/" "mobileorg-android/" "MaterialDesignLearning/" "JobScheduler/" "imagelist/" "fresco-gif/" "EP/" "EmacsGoogleCalendarSync/" "emacs-request/" "drawee/" "CustomNotifications/" "blog/" "BasicCode/" "android-topeka/" "android-res-collect/" "android-floating-action-button/" "Android-Blog-Source/" ".idea/" "../" "./")
+
+ ("/Users/douhua/Downloads/" (21911 8111 0 0) "原生商城150703.docx" "原生商城150703(1).docx" "shop.apk" "layout/" "iTerm.app/" "dropbox-android-sdk-1.6.3.zip" "dropbox-android-sdk-1.6.3/" "dmg/" "CM/" "CD_USB3_GLAN-V1.2/" "bg_net_error.png" "bg_net_error(1).png" "20150409-DroidconMTL-AFewOkLibraries-ForExport.pdf" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/douhua/" (21911 39977 0 0) "VirtualBox VMs/" "testMagit/" "testDropboxApp.txt" "Public/" "Pictures/" "Music/" "Movies/" "mbox" "lx/" "Library/" "genymotion-log.zip" "Dropbox/" "Downloads/" "Documents/" "diary~" "diary" "Desktop/" "coohua/" "Applications/" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc.omz-uninstalled-20150403234146" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-徐政超’s MacBook Pro-5.0.5" ".zcompdump" ".w3m/" ".vimrc" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".python27_compiled/" ".org-timestamps/" ".oh-my-zsh/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".gradle/" ".gitignore~" ".gitignore" ".gitconfig" ".git-credentials" ".Genymobile/" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".config/" ".CFUserTextEncoding" ".bash_history" ".AndroidStudio1.2/" ".android/" "#adfasd#" "#.gitignore#" "#.emacs#" "../" "./")
+
+ ("/Users/douhua/lx/github/EmacsGoogleCalendarSync/" (21911 40039 0 0) "settings.gradle" "local.properties" "import-summary.txt" "gradlew.bat" "gradlew" "gradle/" "EmacsGoogleCalendarSync.iml" "build.gradle" "build/" "app/" ".idea/" ".gradle/" ".gitignore" ".git/" "../" "./")
 
  ("/Applications/Emacs.app/Contents/Resources/lisp/calendar/" (21910 38677 0 0) "todo-mode.elc" "todo-mode.el.gz" "timeclock.elc" "timeclock.el.gz" "time-date.elc" "time-date.el.gz" "solar.elc" "solar.el.gz" "parse-time.elc" "parse-time.el.gz" "lunar.elc" "lunar.el.gz" "icalendar.elc" "icalendar.el.gz" "holidays.elc" "holidays.el.gz" "hol-loaddefs.el" "diary-loaddefs.el" "diary-lib.elc" "diary-lib.el.gz" "calendar.elc" "calendar.el.gz" "cal-x.elc" "cal-x.el.gz" "cal-tex.elc" "cal-tex.el.gz" "cal-persia.elc" "cal-persia.el.gz" "cal-move.elc" "cal-move.el.gz" "cal-menu.elc" "cal-menu.el.gz" "cal-mayan.elc" "cal-mayan.el.gz" "cal-loaddefs.el" "cal-julian.elc" "cal-julian.el.gz" "cal-iso.elc" "cal-iso.el.gz" "cal-islam.elc" "cal-islam.el.gz" "cal-html.elc" "cal-html.el.gz" "cal-hebrew.elc" "cal-hebrew.el.gz" "cal-french.elc" "cal-french.el.gz" "cal-dst.elc" "cal-dst.el.gz" "cal-coptic.elc" "cal-coptic.el.gz" "cal-china.elc" "cal-china.el.gz" "cal-bahai.elc" "cal-bahai.el.gz" "appt.el.gz~" "appt.el.gz" "../" "./")
-
- ("/Users/douhua/.emacs.d/" (21910 35259 0 0) "url/" "smex-items" "slime-2.12/" "request.el" "org-publish.el" "org-jekyll-mode.el" "lx/" "log4e.el~" "log4e.el" "init.el~" "init.el" "ido.last~" "ido.last" "games/" "eshell/" "emacs.d/" "elpa/" "bookmarks" "auto-save-list/" "alert.el" "../" "./")
 
  ("/Users/douhua/.emacs.d/lx/" (21910 24842 0 0) "xcscope.el" "themes/" "markdown-mode.el" "lxlab.el~" "lxlab.el" "lx.el~" "lx-init.el~" "lx-init.el" "lx-helm.el" "lx-diary.el~" "lx-diary.el" "init-org.el~" "init-org.el" "eshell_customize.el~" "eshell_customize.el" "color-theme.el" "../" "./")
 
  ("/Users/douhua/.emacs.d/elpa/helm-20150701.117/" (21909 4167 0 0) "helm.elc" "helm.el" "helm-utils.elc" "helm-utils.el" "helm-tags.elc" "helm-tags.el" "helm-sys.elc" "helm-sys.el" "helm-source.elc" "helm-source.el" "helm-semantic.elc" "helm-semantic.el" "helm-ring.elc" "helm-ring.el" "helm-regexp.elc" "helm-regexp.el" "helm-plugin.elc" "helm-plugin.el" "helm-pkg.el" "helm-org.elc" "helm-org.el" "helm-net.elc" "helm-net.el" "helm-mode.elc" "helm-mode.el" "helm-misc.elc" "helm-misc.el" "helm-match-plugin.elc" "helm-match-plugin.el" "helm-man.elc" "helm-man.el" "helm-locate.elc" "helm-locate.el" "helm-info.elc" "helm-info.el" "helm-imenu.elc" "helm-imenu.el" "helm-id-utils.elc" "helm-id-utils.el" "helm-help.elc" "helm-help.el" "helm-grep.elc" "helm-grep.el" "helm-font.elc" "helm-font.el" "helm-files.elc" "helm-files.el" "helm-external.elc" "helm-external.el" "helm-eval.elc" "helm-eval.el" "helm-eshell.elc" "helm-eshell.el" "helm-elscreen.elc" "helm-elscreen.el" "helm-elisp.elc" "helm-elisp.el" "helm-elisp-package.elc" "helm-elisp-package.el" "helm-easymenu.elc" "helm-easymenu.el" "helm-dabbrev.elc" "helm-dabbrev.el" "helm-config.elc" "helm-config.el" "helm-command.elc" "helm-command.el" "helm-color.elc" "helm-color.el" "helm-buffers.elc" "helm-buffers.el" "helm-bookmark.elc" "helm-bookmark.el" "helm-autoloads.el~" "helm-autoloads.el" "helm-apt.elc" "helm-apt.el" "helm-aliases.elc" "helm-aliases.el" "helm-adaptive.elc" "helm-adaptive.el" "emacs-helm.sh" "../" "./")
 
  ("/Users/douhua/coohua/CooHuaClient/" (21910 15887 0 0) "settings.gradle" "NativeProject/" "local.properties" "gradlew.bat" "gradlew" "gradle/" "CooHuaClient.iml" "build.gradle" "build/" "app/" ".idea/" ".gradle/" ".gitignore" ".git/" "../" "./")
-
- ("/Users/douhua/Downloads/" (21910 20604 0 0) "原生商城150703.docx" "原生商城150703(1).docx" "shop.apk" "layout/" "iTerm.app/" "dmg/" "CM/" "CD_USB3_GLAN-V1.2/" "bg_net_error.png" "bg_net_error(1).png" "20150409-DroidconMTL-AFewOkLibraries-ForExport.pdf" ".localized" ".DS_Store" "../" "./")
 
  ("/Users/douhua/lx/github/mobileorg-android/" (21910 18253 0 0) "src-img/" "settings.gradle" "README.md" "project.properties" "mobileorg-android.iml" "MobileOrg/" "local.properties" "LICENSE.txt" "libraries/" "HACKING.md" "gradlew.bat" "gradlew" "gradle/" "build.gradle" "build/" ".idea/" ".gradle/" ".gitignore" ".git/" "../" "./")
 
@@ -100,8 +107,6 @@
  ("/Users/douhua/lx/github/mobileorg-android/libraries/locale/" (21910 17554 0 0) "src/" "res/" "Read Me.txt" "project.properties" "proguard.cfg" "License.txt" "build.xml" "build.gradle" "AndroidManifest.xml" ".gitignore" "../" "./")
 
  ("/Users/douhua/lx/github/mobileorg-android/libraries/" (21910 17180 0 0) "locale/" "../" "./")
-
- ("/Users/douhua/lx/github/" (21910 17159 0 0) "ud825-compute-and-memory/" "SwipeRefreshListFragment/" "StaggeredGridView1/" "StaggeredGridView/" "square/" "picasso/" "okhttp/" "MyApplication/" "mobileorg-android/" "MaterialDesignLearning/" "JobScheduler/" "imagelist/" "fresco-gif/" "EP/" "emacs-request/" "drawee/" "CustomNotifications/" "blog/" "BasicCode/" "android-topeka/" "android-res-collect/" "android-floating-action-button/" "Android-Blog-Source/" ".idea/" "../" "./")
 
  ("/Users/douhua/coohua/" (21910 2149 0 0) "test/" "PureCoohua/" "NativeProject/" "docs/" "Delete_After_Merge/" "CooHuaClient/" "coohua.org" ".idea/" ".gitignore" ".DS_Store" "../" "./")
 
@@ -120,9 +125,6 @@
  ("/Users/douhua/coohua/Coohuaclient/" (21908 39929 0 0) "settings.gradle" "NativeProject/" "local.properties" "gradlew.bat" "gradlew" "gradle/" "CooHuaClient.iml" "build.gradle" "build/" "app/" ".idea/" ".gradle/" ".gitignore" ".git/" "../" "./")
 
  ("/Users/douhua/Dropbox/coohua/" (21906 33936 0 0) "广告展示需求.ppt" "上下划图片选择和展示.pptx" "tools.doc" "RPC框架使用讨论.pptx" "coohua.org~" "coohua.org" "arch.org~" "APP设计MRD.docx" "Android常用分析工具.ppt" "ali.org~" "ali.org" ".DS_Store" "../" "./")
-
- ("/Users/douhua/Dropbox/" (21905 61898 0 0) "lx/" "Icon
-" "coohua/" "Camera Uploads/" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
 
  ("/Users/douhua/coohua/Delete_After_Merge/app/src/main/res/values/" (21906 16593 0 0) "vpi__defaults.xml" "vpi__attrs.xml" "umeng_fb_strings.xml" "styles.xml" "style.xml" "strings.xml" "ids.xml" "dimens.xml" "colors.xml" "attrs.xml" "arrays.xml" "../" "./")
 
