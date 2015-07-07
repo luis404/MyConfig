@@ -27,14 +27,15 @@
  ("/Users/douhua/lx/github/" . "mobileorg-android/")
  ("/Users/douhua/lx/" . "github/")
  ("/Users/douhua/.emacs.d/" . "lx/")
- ("/Users/douhua/" . ".emacs.d/")
+ ("/Users/douhua/" . "Dropbox/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/douhua/lx/github/EmacsGoogleCalendarSync/"
+ "/Users/douhua/Dropbox/lx/"
  "/Users/douhua/.emacs.d/lx/"
  "/Users/douhua/.emacs.d/"
- "/Users/douhua/Dropbox/lx/"
  "/Users/douhua/"
  "/Users/douhua/lx/github/mobileorg-android/MobileOrg/"
  "/Users/douhua/lx/github/mobileorg-android/"
@@ -63,34 +64,34 @@
 
 ;; ----- ido-work-file-list -----
 (
+ ".gitignore"
+ "README.org"
+ "emacs-diary"
  "lx-diary.el"
  "init.el"
  "lx-init.el"
- "emacs-diary"
  "note.org"
  ".emacs"
  "build.gradle"
  "lxlab.el"
- "lx-helm.el"
- "2015-01-12-Emacs-Learn.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/douhua/.emacs.d/" (21912 52615 0 0) "url/" "smex-items" "slime-2.12/" "request.el" "org-publish.el" "org-jekyll-mode.el" "lx/" "log4e.el~" "log4e.el" "init.el~" "init.el" "ido.last~" "ido.last" "games/" "eshell/" "emacs.d/" "elpa/" "bookmarks" "auto-save-list/" "alert.el" "../" "./")
+ ("/Users/douhua/lx/github/EmacsGoogleCalendarSync/" (21912 64381 0 0) "settings.gradle" "README.org~" "README.org" "local.properties" "import-summary.txt" "gradlew.bat" "gradlew" "gradle/" "build.gradle" "build/" "app/" ".idea/" ".gradle/" ".gitignore" ".git/" ".#README.org" "../" "./")
 
- ("/Users/douhua/Dropbox/lx/" (21912 52648 0 0) "note.org~" "note.org" "emacs-diary~" "emacs-diary" ".DS_Store" "../" "./")
+ ("/Users/douhua/lx/github/" (21912 63877 0 0) "ud825-compute-and-memory/" "SwipeRefreshListFragment/" "StaggeredGridView1/" "StaggeredGridView/" "square/" "picasso/" "okhttp/" "MyApplication/" "mobileorg-android/" "MaterialDesignLearning/" "JobScheduler/" "imagelist/" "fresco-gif/" "EP/" "EmacsGoogleCalendarSync/" "emacs-request/" "drawee/" "CustomNotifications/" "blog/" "BasicCode/" "android-topeka/" "android-res-collect/" "android-floating-action-button/" "Android-Blog-Source/" ".idea/" "../" "./")
+
+ ("/Users/douhua/Downloads/" (21912 58372 0 0) "原生商城150703.docx" "原生商城150703(1).docx" "shop.apk" "NeteaseMusic_1.2.1_332.dmg" "layout/" "iTerm.app/" "dropbox-android-sdk-1.6.3.zip" "dropbox-android-sdk-1.6.3/" "dmg/" "CM/" "CD_USB3_GLAN-V1.2/" "bg_net_error.png" "bg_net_error(1).png" "20150409-DroidconMTL-AFewOkLibraries-ForExport.pdf" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/douhua/" (21912 64167 0 0) "VirtualBox VMs/" "testMagit/" "testDropboxApp.txt" "Public/" "Pictures/" "Music/" "Movies/" "mbox" "lx/" "Library/" "genymotion-log.zip" "Dropbox/" "Downloads/" "Documents/" "diary~" "diary" "Desktop/" "coohua/" "Applications/" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc.omz-uninstalled-20150403234146" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-徐政超’s MacBook Pro-5.0.5" ".zcompdump" ".w3m/" ".vimrc" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".python27_compiled/" ".org-timestamps/" ".oh-my-zsh/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".gradle/" ".gitignore~" ".gitignore" ".gitconfig" ".git-credentials" ".Genymobile/" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".config/" ".CFUserTextEncoding" ".bash_history" ".AndroidStudio1.2/" ".android/" "#adfasd#" "#.gitignore#" "#.emacs#" "../" "./")
+
+ ("/Users/douhua/.emacs.d/" (21912 52692 0 0) "url/" "smex-items" "slime-2.12/" "request.el" "org-publish.el" "org-jekyll-mode.el" "lx/" "log4e.el~" "log4e.el" "init.el~" "init.el" "ido.last~" "ido.last" "games/" "eshell/" "emacs.d/" "elpa/" "bookmarks" "auto-save-list/" "alert.el" "../" "./")
+
+ ("/Users/douhua/Dropbox/lx/" (21912 52844 0 0) "note.org~" "note.org" "emacs-diary~" "emacs-diary" ".DS_Store" "../" "./")
 
  ("/Users/douhua/Dropbox/" (21911 23251 0 0) "Photos/" "lx/" "Icon
 " "coohua/" "Camera Uploads/" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
-
- ("/Users/douhua/lx/github/" (21911 8342 0 0) "ud825-compute-and-memory/" "SwipeRefreshListFragment/" "StaggeredGridView1/" "StaggeredGridView/" "square/" "picasso/" "okhttp/" "MyApplication/" "mobileorg-android/" "MaterialDesignLearning/" "JobScheduler/" "imagelist/" "fresco-gif/" "EP/" "EmacsGoogleCalendarSync/" "emacs-request/" "drawee/" "CustomNotifications/" "blog/" "BasicCode/" "android-topeka/" "android-res-collect/" "android-floating-action-button/" "Android-Blog-Source/" ".idea/" "../" "./")
-
- ("/Users/douhua/Downloads/" (21911 8111 0 0) "原生商城150703.docx" "原生商城150703(1).docx" "shop.apk" "layout/" "iTerm.app/" "dropbox-android-sdk-1.6.3.zip" "dropbox-android-sdk-1.6.3/" "dmg/" "CM/" "CD_USB3_GLAN-V1.2/" "bg_net_error.png" "bg_net_error(1).png" "20150409-DroidconMTL-AFewOkLibraries-ForExport.pdf" ".localized" ".DS_Store" "../" "./")
-
- ("/Users/douhua/" (21911 39977 0 0) "VirtualBox VMs/" "testMagit/" "testDropboxApp.txt" "Public/" "Pictures/" "Music/" "Movies/" "mbox" "lx/" "Library/" "genymotion-log.zip" "Dropbox/" "Downloads/" "Documents/" "diary~" "diary" "Desktop/" "coohua/" "Applications/" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc.omz-uninstalled-20150403234146" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-徐政超’s MacBook Pro-5.0.5" ".zcompdump" ".w3m/" ".vimrc" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".python27_compiled/" ".org-timestamps/" ".oh-my-zsh/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".gradle/" ".gitignore~" ".gitignore" ".gitconfig" ".git-credentials" ".Genymobile/" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".config/" ".CFUserTextEncoding" ".bash_history" ".AndroidStudio1.2/" ".android/" "#adfasd#" "#.gitignore#" "#.emacs#" "../" "./")
-
- ("/Users/douhua/lx/github/EmacsGoogleCalendarSync/" (21911 40039 0 0) "settings.gradle" "local.properties" "import-summary.txt" "gradlew.bat" "gradlew" "gradle/" "EmacsGoogleCalendarSync.iml" "build.gradle" "build/" "app/" ".idea/" ".gradle/" ".gitignore" ".git/" "../" "./")
 
  ("/Applications/Emacs.app/Contents/Resources/lisp/calendar/" (21910 38677 0 0) "todo-mode.elc" "todo-mode.el.gz" "timeclock.elc" "timeclock.el.gz" "time-date.elc" "time-date.el.gz" "solar.elc" "solar.el.gz" "parse-time.elc" "parse-time.el.gz" "lunar.elc" "lunar.el.gz" "icalendar.elc" "icalendar.el.gz" "holidays.elc" "holidays.el.gz" "hol-loaddefs.el" "diary-loaddefs.el" "diary-lib.elc" "diary-lib.el.gz" "calendar.elc" "calendar.el.gz" "cal-x.elc" "cal-x.el.gz" "cal-tex.elc" "cal-tex.el.gz" "cal-persia.elc" "cal-persia.el.gz" "cal-move.elc" "cal-move.el.gz" "cal-menu.elc" "cal-menu.el.gz" "cal-mayan.elc" "cal-mayan.el.gz" "cal-loaddefs.el" "cal-julian.elc" "cal-julian.el.gz" "cal-iso.elc" "cal-iso.el.gz" "cal-islam.elc" "cal-islam.el.gz" "cal-html.elc" "cal-html.el.gz" "cal-hebrew.elc" "cal-hebrew.el.gz" "cal-french.elc" "cal-french.el.gz" "cal-dst.elc" "cal-dst.el.gz" "cal-coptic.elc" "cal-coptic.el.gz" "cal-china.elc" "cal-china.el.gz" "cal-bahai.elc" "cal-bahai.el.gz" "appt.el.gz~" "appt.el.gz" "../" "./")
 
