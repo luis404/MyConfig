@@ -11,7 +11,8 @@
 
 
 ;; org mode config
-(setq org-agenda-files (list "~/Dropbox/lx"
+(setq org-agenda-files (list "~/Dropbox/lx/note.org"
+                             "~/Dropbox/coohua/coohua.org"
                              "~/Dropbox/coohua/coohua.org"))
 
 (appt-activate 1)

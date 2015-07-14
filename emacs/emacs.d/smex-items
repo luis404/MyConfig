@@ -1,20 +1,20 @@
 
 ;; ----- smex-history -----
 (
- eshell
- lx-magit-ch
- magit-status
- lx-open-note
+ org-agenda-year-view
  lx-open-coohua
- calendar
- appt-add
+ ielm
+ lx-open-emacsnote
+ linum-mode
+ eval-buffer
+ eval-region
 )
 
 ;; ----- smex-data -----
 (
  (lx-reload . 7)
- (calendar . 8)
- (org-agenda-year-view . 1)
+ (calendar . 9)
+ (org-agenda-year-view . 2)
  (lx-open-note . 40)
  (calc-mode . 2)
  (text-mode . 2)
@@ -35,18 +35,18 @@
  (color-theme-hober . 1)
  (color-theme-xemacs . 1)
  (load-theme . 2)
- (eshell . 31)
+ (eshell . 32)
  (package-refresh-contents . 3)
- (lx-open-coohua . 41)
+ (lx-open-coohua . 44)
  (lxel . 3)
- (lx-magit-ch . 64)
+ (lx-magit-ch . 70)
  (irc . 5)
- (lx-open-emacsnote . 3)
+ (lx-open-emacsnote . 4)
  (rcirc-cmd-join . 1)
- (eval-buffer . 33)
+ (eval-buffer . 37)
  (shell . 3)
  (column-number-mode . 1)
- (magit-status . 13)
+ (magit-status . 14)
  (magit-diff-unstaged . 5)
  (edit-picture . 9)
  (org-export-dispatch . 4)
@@ -62,7 +62,7 @@
  (load-file . 1)
  (magit-diff . 1)
  (emacs-version . 1)
- (linum-mode . 2)
+ (linum-mode . 4)
  (magit-tag . 1)
  (magit-version . 1)
  (magit-log . 3)
@@ -74,4 +74,8 @@
  (appt-activate . 6)
  (org-agenda-diary-entry . 7)
  (fancy-diary-display-mode . 1)
+ (org-html-export-to-html . 2)
+ (calendar-goto-date . 1)
+ (eval-region . 2)
+ (ielm . 2)
 )

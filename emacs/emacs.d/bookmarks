@@ -2,7 +2,49 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("elisp.info"
+(("elispDelq"
+ (front-context-string . "Note that `(delq")
+ (rear-context-string . "> (a b (4))\n\n   ")
+ (position . 281651)
+ (filename . "/Applications/Emacs.app/Contents/Resources/info/elisp")
+ (info-node . "Sets And Lists")
+ (handler . Info-bookmark-jump))
+("elispBuildList"
+ (front-context-string . "          (make-")
+ (rear-context-string . "pigs pigs pigs)\n")
+ (position . 256270)
+ (filename . "/Applications/Emacs.app/Contents/Resources/info/elisp")
+ (info-node . "Building Lists")
+ (handler . Info-bookmark-jump))
+("elispPredicates"
+ (front-context-string . "\nThe following p")
+ (rear-context-string . "===============\n")
+ (position . 247214)
+ (filename . "/Applications/Emacs.app/Contents/Resources/info/elisp")
+ (info-node . "List-related Predicates")
+ (handler . Info-bookmark-jump))
+("elispFmtStr"
+ (front-context-string . ".7 Formatting St")
+ (rear-context-string . "nd Characters\n\n4")
+ (position . 226327)
+ (filename . "/Applications/Emacs.app/Contents/Resources/info/elisp")
+ (info-node . "Formatting Strings")
+ (handler . Info-bookmark-jump))
+("elispStr"
+ (front-context-string . "4 Strings and Ch")
+ (rear-context-string . "bers,  Up: Top\n\n")
+ (position . 200640)
+ (filename . "/Applications/Emacs.app/Contents/Resources/info/elisp")
+ (info-node . "Strings and Characters")
+ (handler . Info-bookmark-jump))
+("elispIntro"
+ (front-context-string . "duction::       ")
+ (rear-context-string . "* Menu:\n\n* Intro")
+ (position . 2014)
+ (filename . "/Applications/Emacs.app/Contents/Resources/info/elisp")
+ (info-node . "Top")
+ (handler . Info-bookmark-jump))
+("elisp.info"
  (filename . "~/Downloads/elisp.info")
  (front-context-string . "Caveats\n========")
  (rear-context-string . "troduction\n\n1.1 ")
