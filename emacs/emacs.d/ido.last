@@ -34,7 +34,7 @@
  ("/Users/douhua/coohua/" . "Delete_After_Merge/")
  ("/Users/douhua/lx/github/blog/org/" . "post/")
  ("/Users/douhua/lx/github/blog/" . "org/")
- ("/Users/douhua/lx/github/" . "9794/")
+ ("/Users/douhua/lx/github/" . "blog/")
  ("/Users/douhua/lx/" . "github/")
  ("/Users/douhua/.emacs.d/" . "lx/")
  ("/Users/douhua/" . "Dropbox/")
@@ -42,17 +42,18 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/douhua/lx/github/blog/org/post/"
  "/Users/douhua/Dropbox/lx/"
+ "/Users/douhua/testelisp/"
  "/Users/douhua/.emacs.d/lx/"
- "/Users/douhua/"
  "/Users/douhua/.emacs.d/"
+ "/Users/douhua/"
  "/Users/douhua/lx/github/9794/app/src/main/java/com/coohuaclient/ui/fragment/login/"
  "/Users/douhua/lx/github/9794/app/src/main/java/com/coohuaclient/ui/activity/"
  "/Users/douhua/coohua/"
  "/Users/douhua/lx/github/EmacsGoogleCalendarSync/"
  "/Users/douhua/lx/github/mobileorg-android/MobileOrg/"
  "/Users/douhua/lx/github/mobileorg-android/"
- "/Users/douhua/lx/github/blog/org/post/"
  "/Users/douhua/Downloads/"
  "/Users/douhua/.emacs.d/elpa/leuven-theme-20150612.512/"
  "/Users/douhua/lx/github/blog/"
@@ -76,44 +77,54 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "2015-07-15-Jake-Wharton.org"
+ "emacs-diary"
+ "buf"
+ "init-org.el"
+ "init.el"
+ "lx-diary.el"
+ "lx-init.el"
  "taiwan.org"
  "lx-lab-no-load.el"
  ".emacs"
- "lx-init.el"
- "init.el"
- "LoginFragment.java"
- "LoginActivity.java"
- "SplashActivity.java"
- "impose.html"
- "impose.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/douhua/lx/" (21924 55556 0 0) "org/" "lxconfig/" "github/" "ebooks/" "commonlisp/" "bitbucket/" "auto_backup.sh~" "auto_backup.sh" "../" "./")
+
+ ("/Users/douhua/coohua/CooHuaClient/" (21924 64375 0 0) "settings.gradle" "NativeProject/" "local.properties" "gradlew.bat" "gradlew" "gradle/" "CooHuaClient.iml" "build.gradle" "build/" "app/" "0005-cpa.patch" "0004-bug.patch" "0003-Memory-Leak.patch" "0002-fresco-0.5.3.patch" "0001-url.patch" "0001-android-5.0.patch" ".idea/" ".gradle/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/douhua/lx/github/" (21925 36668 0 0) "ud825-compute-and-memory/" "SwipeRefreshListFragment/" "StaggeredGridView1/" "StaggeredGridView/" "MyApplication/" "mobileorg-android/" "MaterialDesignLearning/" "JobScheduler/" "JakeWharton/" "imagelist/" "fresco-gif/" "EP/" "EmacsGoogleCalendarSync/" "emacs-request/" "drawee/" "CustomNotifications/" "blog/" "BasicCode/" "android-topeka/" "android-res-collect/" "android-floating-action-button/" "Android-Blog-Source/" "9794/" ".idea/" "../" "./")
+
+ ("/Users/douhua/Downloads/" (21924 57435 0 0) "默认产品图.jpg" "速度与激情7.简繁字幕.zip" "活动列表v2标注.jpg" "活动列表v2.2.jpg" "原生商城150713.docx" "原生商城150709.docx" "原生商城150706.docx" "原生商城150706(1).docx" "原生商城150703.docx" "原生商城150703(1).docx" "shun.apk" "ShopV3接口说明v1.1.7 (1).docx" "shop4间距标注.jpg" "shop4字号标注.jpg" "om_code.js" "NeteaseMusic_1.2.1_332.dmg" "layout/" "katongxiaodongwu_15.png" "iTerm.app/" "Furious.7.2015.720p.WEBRip.KORSUB.XviD.MP3-RARBG.tmp" "Fast.and.Furious.7.2015.1080p.WEBRip.KORSUB.x264.AAC2.0-RARBG.cht.srt" "Fast.and.Furious.7.2015.1080p.WEBRip.KORSUB.x264.AAC2.0-RARBG.chs.srt" "Fast And Furious 7 2015.srt" "Fast And Furious 7 2015.rar" "dropbox-android-sdk-1.6.3.zip" "dropbox-android-sdk-1.6.3/" "dmg/" "DictUnifier.app/" "DictUnifier-2.1.zip" "coin.png" "CM/" "choujiang.png" "CD_USB3_GLAN-V1.2/" "cat_tied.png" "cat_ghost.png" "cat_cage.png" "bg_net_error.png" "bg_net_error(1).png" "6941db9b4e7e2f95da92d34feda23ecb.png" "461851c8d2cc51c4c6771d993911549c.gif" "20150409-DroidconMTL-AFewOkLibraries-ForExport.pdf" ".localized" ".DS_Store" "%A6%CF%C8㩾%A9%AF%C3%D5-%B0   %A9%AF%C3%D5%C1%FE˦%A6%FD%A6+ 1080P 720P +¦%D4ȡ+%A6 3d%C1%FE˦%A4-%C8%CF %A6+-%AA-%A6Щ+Τ-%C8%CF %C1%FE˦%A6%AB%A6+i%AF%C1-%A6%FD%A6+!.lnk" "../" "./")
+
+ ("/Users/douhua/lx/github/blog/org/post/" (21924 56802 0 0) "NO_del.txt" "draft.org" "2015-07-02-StaggeredGridView-Source-Code.org~" "2015-07-02-StaggeredGridView-Source-Code.org" "2015-06-27-Magit-Usage.org" "2015-06-21-Android-Topeka-源码.org" "2015-04-15-Android-Gradle.org" "2015-03-07-Google-Play-Service.org" "2015-03-01-Android-Performance-Patterns.org" "2015-02-13-Android-View.org" "2015-02-12-Good-Post-I-Collect.org" "2015-02-06-Improve-Android-Code-With-Lint.org" "2015-02-02-Memory-Optimization.org" "2015-01-31-Use-Emacs-Org-Mode-Write-Github-Post.org" "2015-01-26-Lisp-Learning.org" "2015-01-19-Running-Record.org" "2015-01-14-Git-Source-Code-Learn.org" "2015-01-13-Android-Test.org" "2015-01-12-Emacs-Learn.org" "2015-01-10-2015-PLAN.org" ".gitignore" "../" "./")
+
+ ("/Users/douhua/lx/github/9794/app/src/main/java/com/coohuaclient/ui/activity/" (21924 17783 0 0) "WebViewActivity.java" "UserAgreeMentActivity.java" "UmengPushActivity.java" "UMengFeedbackActivity.java" "SystemServiceSettingActivity.java" "SplashActivity2.java" "SplashActivity.java" "ShortcutSettingsActivity.java" "SharedWebViewActivity.java" "SettingActivity.java" "SetReceiveAddressActivity.java" "SendFeedBackActivity.java" "RegisterActivity.java" "ProductDetailActivity.java" "OrderActivity.java" "NotificationActivity.java" "NewUserGuideActivity.java" "MyCreditActivity.java" "MyAccountActivity.java" "LoginActivity.java" "LockScreenNewActivity.java" "LockScreenGuideActivity2.java" "LockScreenGuideActivity.java" "InviteFriendDetailActivity.java" "InviteFriendActivity.java" "HomeWebViewActivity.java" "HomeActivity.java" "GuideActivity.java" "FaqActivity.java" "FakeDialogActivity.java" "DownloadWebViewActivity2.java" "DownloadManagerActivity.java" "DefaultAddressActivity.java" "CommonWebViewActivity.java" "Cat.java" "BaseFragmentActivity.java" "BaseActivity.java" "ActivityBoardActivity.java" "AboutCoohuaActivity.java" "../" "./")
+
+ ("/Users/douhua/lx/github/9794/app/src/main/java/com/coohuaclient/ui/fragment/login/" (21924 17783 0 0) "LoginTask.java" "LoginFragment.java" "ChangePasswordFragment.java" "../" "./")
+
+ ("/Users/douhua/" (21925 36669 0 0) "VirtualBox VMs/" "testMagit/" "testelisp/" "testDropboxApp.txt" "test.lisp" "quicklisp/" "Public/" "Pictures/" "Music/" "Movies/" "mbox" "lx/" "Library/" "genymotion-log.zip" "Dropbox/" "Downloads/" "Documents/" "diary~" "diary" "Desktop/" "coohua/" "Applications/" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc.omz-uninstalled-20150403234146" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-徐政超’s MacBook Pro-5.0.5" ".zcompdump" ".w3m/" ".vimrc" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".sbclrc" ".python27_compiled/" ".org-timestamps/" ".oh-my-zsh/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".gradle/" ".gitignore~" ".gitignore" ".gitconfig" ".git-credentials" ".Genymobile/" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_history" ".AndroidStudio1.2/" ".android/" "#adfasd#" "#.gitignore#" "#.emacs#" "../" "./")
+
+ ("/Users/douhua/.emacs.d/" (21923 13190 0 0) "url/" "smex-items" "slime-2.12/" "request.el" "org-publish.el" "org-jekyll-mode.el" "lx/" "log4e.el~" "log4e.el" "init.el~" "init.el" "ido.last~" "ido.last" "games/" "eshell/" "emacs.d/" "elpa/" "bookmarks" "auto-save-list/" "alert.el" ".#init.el" "#init.el#" "../" "./")
+
+ ("/Users/douhua/.emacs.d/lx/" (21923 13244 0 0) "xcscope.el" "themes/" "markdown-mode.el" "lxlab.el~" "lxlab.el" "lx.el~" "lx-init.el~" "lx-init.el" "lx-helm.el" "lx-diary.el~" "lx-diary.el" "init-org.el~" "init-org.el" "eshell_customize.el~" "eshell_customize.el" "color-theme.el" "#init-org.el#" "../" "./")
+
+ ("/Users/douhua/testelisp/" (21924 57582 0 0) "lxxxx" "lxlxx~" "lxlxx" "emacs~" "emacs" "buf" "../" "./")
+
+ ("/Users/douhua/Dropbox/lx/" (21924 30804 0 0) "taiwan.org~" "taiwan.org" "note.org~" "note.org" "emacs-diary~" "emacs-diary" ".DS_Store" ".#taiwan.org" "#taiwan.org#" "../" "./")
+
+ ("/Users/douhua/LX/github/blog/org/post/" (21924 19029 0 0) "NO_del.txt" "draft.org" "2015-07-02-StaggeredGridView-Source-Code.org~" "2015-07-02-StaggeredGridView-Source-Code.org" "2015-06-27-Magit-Usage.org" "2015-06-21-Android-Topeka-源码.org" "2015-04-15-Android-Gradle.org" "2015-03-07-Google-Play-Service.org" "2015-03-01-Android-Performance-Patterns.org" "2015-02-13-Android-View.org" "2015-02-12-Good-Post-I-Collect.org" "2015-02-06-Improve-Android-Code-With-Lint.org" "2015-02-02-Memory-Optimization.org" "2015-01-31-Use-Emacs-Org-Mode-Write-Github-Post.org" "2015-01-26-Lisp-Learning.org" "2015-01-19-Running-Record.org" "2015-01-14-Git-Source-Code-Learn.org" "2015-01-13-Android-Test.org" "2015-01-12-Emacs-Learn.org" "2015-01-10-2015-PLAN.org" ".gitignore" ".#2015-01-12-Emacs-Learn.org" "#2015-01-12-Emacs-Learn.org#" "../" "./")
+
  ("/Users/douhua/Dropbox/" (21921 55774 0 0) "Photos/" "lx/" "Icon
 " "coohua/" "Camera Uploads/" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
-
- ("/Users/douhua/" (21923 12296 0 0) "VirtualBox VMs/" "testMagit/" "testelisp/" "testDropboxApp.txt" "Public/" "Pictures/" "Music/" "Movies/" "mbox" "lx/" "Library/" "genymotion-log.zip" "Dropbox/" "Downloads/" "Documents/" "diary~" "diary" "Desktop/" "coohua/" "Applications/" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc.omz-uninstalled-20150403234146" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-徐政超’s MacBook Pro-5.0.5" ".zcompdump" ".w3m/" ".vimrc" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".python27_compiled/" ".org-timestamps/" ".oh-my-zsh/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".gradle/" ".gitignore~" ".gitignore" ".gitconfig" ".git-credentials" ".Genymobile/" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".config/" ".CFUserTextEncoding" ".bash_history" ".AndroidStudio1.2/" ".android/" "#adfasd#" "#.gitignore#" "#.emacs#" "../" "./")
-
- ("/Users/douhua/.emacs.d/" (21921 56761 0 0) "url/" "smex-items" "slime-2.12/" "request.el" "org-publish.el" "org-jekyll-mode.el" "lx/" "log4e.el~" "log4e.el" "init.el~" "init.el" "ido.last~" "ido.last" "games/" "eshell/" "emacs.d/" "elpa/" "bookmarks" "auto-save-list/" "alert.el" "../" "./")
-
- ("/Users/douhua/LX/github/blog/org/post/" (21909 3280 0 0) "NO_del.txt" "draft.org" "2015-07-02-StaggeredGridView-Source-Code.org~" "2015-07-02-StaggeredGridView-Source-Code.org" "2015-06-27-Magit-Usage.org" "2015-06-21-Android-Topeka-源码.org" "2015-04-15-Android-Gradle.org" "2015-03-07-Google-Play-Service.org" "2015-03-01-Android-Performance-Patterns.org" "2015-02-13-Android-View.org" "2015-02-12-Good-Post-I-Collect.org" "2015-02-06-Improve-Android-Code-With-Lint.org" "2015-02-02-Memory-Optimization.org" "2015-01-31-Use-Emacs-Org-Mode-Write-Github-Post.org" "2015-01-26-Lisp-Learning.org" "2015-01-19-Running-Record.org" "2015-01-14-Git-Source-Code-Learn.org" "2015-01-13-Android-Test.org" "2015-01-12-Emacs-Learn.org" "2015-01-10-2015-PLAN.org" ".gitignore" "../" "./")
-
- ("/Users/douhua/Dropbox/lx/" (21921 9843 0 0) "taiwan.org~" "taiwan.org" "note.org~" "note.org" "emacs-diary~" "emacs-diary" ".DS_Store" "../" "./")
-
- ("/Users/douhua/coohua/CooHuaClient/" (21919 28252 0 0) "settings.gradle" "NativeProject/" "local.properties" "gradlew.bat" "gradlew" "gradle/" "CooHuaClient.iml" "build.gradle" "build/" "app/" "0005-cpa.patch" "0004-bug.patch" "0003-Memory-Leak.patch" "0002-fresco-0.5.3.patch" "0001-url.patch" "0001-android-5.0.patch" ".idea/" ".gradle/" ".gitignore" ".git/" "../" "./")
 
  ("/Users/douhua/lx/github/MyApplication/" (21919 9107 0 0) "settings.gradle" "MyApplication.iml" "local.properties" "gradlew.bat" "gradlew" "gradle.properties" "gradle/" "build.gradle" "build/" "app/" ".idea/" ".gradle/" ".gitignore" "../" "./")
 
  ("/Users/douhua/lx/github/MyApplication/app/" (21919 9107 0 0) "src/" "proguard-rules.pro" "libs/" "build.gradle" "build/" "app.iml" ".gitignore" "../" "./")
 
- ("/Users/douhua/Downloads/" (21920 53341 0 0) "默认产品图.jpg" "速度与激情7.简繁字幕.zip" "活动列表v2标注.jpg" "活动列表v2.2.jpg" "原生商城150709.docx" "原生商城150706.docx" "原生商城150706(1).docx" "原生商城150703.docx" "原生商城150703(1).docx" "shun.apk" "ShopV3接口说明v1.1.7 (1).docx" "om_code.js" "NeteaseMusic_1.2.1_332.dmg" "layout/" "katongxiaodongwu_15.png" "iTerm.app/" "Furious.7.2015.720p.WEBRip.KORSUB.XviD.MP3-RARBG.tmp" "Fast.and.Furious.7.2015.1080p.WEBRip.KORSUB.x264.AAC2.0-RARBG.cht.srt" "Fast.and.Furious.7.2015.1080p.WEBRip.KORSUB.x264.AAC2.0-RARBG.chs.srt" "Fast And Furious 7 2015.srt" "Fast And Furious 7 2015.rar" "dropbox-android-sdk-1.6.3.zip" "dropbox-android-sdk-1.6.3/" "dmg/" "DictUnifier.app/" "DictUnifier-2.1.zip" "coin.png" "CM/" "choujiang.png" "CD_USB3_GLAN-V1.2/" "cat_tied.png" "cat_ghost.png" "cat_cage.png" "bg_net_error.png" "bg_net_error(1).png" "6941db9b4e7e2f95da92d34feda23ecb.png" "461851c8d2cc51c4c6771d993911549c.gif" "20150409-DroidconMTL-AFewOkLibraries-ForExport.pdf" ".localized" ".DS_Store" "%A6%CF%C8㩾%A9%AF%C3%D5-%B0   %A9%AF%C3%D5%C1%FE˦%A6%FD%A6+ 1080P 720P +¦%D4ȡ+%A6 3d%C1%FE˦%A4-%C8%CF %A6+-%AA-%A6Щ+Τ-%C8%CF %C1%FE˦%A6%AB%A6+i%AF%C1-%A6%FD%A6+!.lnk" "../" "./")
-
  ("/Users/douhua/coohua/" (21919 38829 0 0) "副本TeatCase(1.9.4.5)111 --评审后.xls" "x.diff" "test/" "TeatCase-迭代5（原生商城）.xls" "siteflow-账号及其代码添加方法.xls" "PureCoohua/" "NativeProject/" "impose.org" "impose.html~" "impose.html" "docs/" "Delete_After_Merge/" "CooHuaClient/" "coohua.org" "coohua.html" ".idea/" ".gitignore" ".DS_Store" "#impose.html#" "../" "./")
-
- ("/Users/douhua/lx/github/9794/app/src/main/java/com/coohuaclient/ui/activity/" (21919 2526 0 0) "WebViewActivity.java" "UserAgreeMentActivity.java" "UmengPushActivity.java" "UMengFeedbackActivity.java" "SystemServiceSettingActivity.java" "SplashActivity2.java" "SplashActivity.java" "ShortcutSettingsActivity.java" "SharedWebViewActivity.java" "SettingActivity.java" "SetReceiveAddressActivity.java" "SendFeedBackActivity.java" "RegisterActivity.java" "ProductDetailActivity.java" "OrderActivity.java" "NotificationActivity.java" "NewUserGuideActivity.java" "MyCreditActivity.java" "MyAccountActivity.java" "LoginActivity.java" "LockScreenNewActivity.java" "LockScreenGuideActivity2.java" "LockScreenGuideActivity.java" "InviteFriendDetailActivity.java" "InviteFriendActivity.java" "HomeWebViewActivity.java" "HomeActivity.java" "GuideActivity.java" "FaqActivity.java" "FakeDialogActivity.java" "DownloadWebViewActivity2.java" "DownloadManagerActivity.java" "DefaultAddressActivity.java" "CommonWebViewActivity.java" "Cat.java" "BaseFragmentActivity.java" "BaseActivity.java" "ActivityBoardActivity.java" "AboutCoohuaActivity.java" "../" "./")
-
- ("/Users/douhua/lx/github/9794/app/src/main/java/com/coohuaclient/ui/fragment/login/" (21919 2526 0 0) "LoginTask.java" "LoginFragment.java" "ChangePasswordFragment.java" "../" "./")
 
  ("/Users/douhua/lx/github/9794/app/src/main/java/com/coohuaclient/ui/fragment/" (21919 1638 0 0) "shop/" "register/" "MoreMenuFragment.java" "MainFragment.java" "login/" "FeedBackFragment.java" "credit/" "BaseFragment.java" "account/" "../" "./")
 
@@ -137,13 +148,9 @@
 
  ("/Users/douhua/coohua/CooHuaClient/app/" (21917 61504 0 0) "src/" "proguard-project.txt" "lint.xml" "libs/" "debug.keystore" "coohua.keystore" "build.gradle" "build/" "app.iml" "../" "./")
 
- ("/Users/douhua/lx/github/" (21913 45065 0 0) "ud825-compute-and-memory/" "SwipeRefreshListFragment/" "StaggeredGridView1/" "StaggeredGridView/" "square/" "picasso/" "okhttp/" "MyApplication/" "mobileorg-android/" "MaterialDesignLearning/" "JobScheduler/" "imagelist/" "fresco-gif/" "EP/" "EmacsGoogleCalendarSync/" "emacs-request/" "drawee/" "CustomNotifications/" "blog/" "BasicCode/" "android-topeka/" "android-res-collect/" "android-floating-action-button/" "Android-Blog-Source/" "9794/" ".idea/" "../" "./")
-
  ("/Users/douhua/lx/github/EmacsGoogleCalendarSync/" (21912 64422 0 0) "settings.gradle" "README.org~" "README.org" "local.properties" "import-summary.txt" "gradlew.bat" "gradlew" "gradle/" "build.gradle" "build/" "app/" ".idea/" ".gradle/" ".gitignore" ".git/" "../" "./")
 
  ("/Applications/Emacs.app/Contents/Resources/lisp/calendar/" (21910 38677 0 0) "todo-mode.elc" "todo-mode.el.gz" "timeclock.elc" "timeclock.el.gz" "time-date.elc" "time-date.el.gz" "solar.elc" "solar.el.gz" "parse-time.elc" "parse-time.el.gz" "lunar.elc" "lunar.el.gz" "icalendar.elc" "icalendar.el.gz" "holidays.elc" "holidays.el.gz" "hol-loaddefs.el" "diary-loaddefs.el" "diary-lib.elc" "diary-lib.el.gz" "calendar.elc" "calendar.el.gz" "cal-x.elc" "cal-x.el.gz" "cal-tex.elc" "cal-tex.el.gz" "cal-persia.elc" "cal-persia.el.gz" "cal-move.elc" "cal-move.el.gz" "cal-menu.elc" "cal-menu.el.gz" "cal-mayan.elc" "cal-mayan.el.gz" "cal-loaddefs.el" "cal-julian.elc" "cal-julian.el.gz" "cal-iso.elc" "cal-iso.el.gz" "cal-islam.elc" "cal-islam.el.gz" "cal-html.elc" "cal-html.el.gz" "cal-hebrew.elc" "cal-hebrew.el.gz" "cal-french.elc" "cal-french.el.gz" "cal-dst.elc" "cal-dst.el.gz" "cal-coptic.elc" "cal-coptic.el.gz" "cal-china.elc" "cal-china.el.gz" "cal-bahai.elc" "cal-bahai.el.gz" "appt.el.gz~" "appt.el.gz" "../" "./")
-
- ("/Users/douhua/.emacs.d/lx/" (21910 24842 0 0) "xcscope.el" "themes/" "markdown-mode.el" "lxlab.el~" "lxlab.el" "lx.el~" "lx-init.el~" "lx-init.el" "lx-helm.el" "lx-diary.el~" "lx-diary.el" "init-org.el~" "init-org.el" "eshell_customize.el~" "eshell_customize.el" "color-theme.el" "../" "./")
 
  ("/Users/douhua/.emacs.d/elpa/helm-20150701.117/" (21909 4167 0 0) "helm.elc" "helm.el" "helm-utils.elc" "helm-utils.el" "helm-tags.elc" "helm-tags.el" "helm-sys.elc" "helm-sys.el" "helm-source.elc" "helm-source.el" "helm-semantic.elc" "helm-semantic.el" "helm-ring.elc" "helm-ring.el" "helm-regexp.elc" "helm-regexp.el" "helm-plugin.elc" "helm-plugin.el" "helm-pkg.el" "helm-org.elc" "helm-org.el" "helm-net.elc" "helm-net.el" "helm-mode.elc" "helm-mode.el" "helm-misc.elc" "helm-misc.el" "helm-match-plugin.elc" "helm-match-plugin.el" "helm-man.elc" "helm-man.el" "helm-locate.elc" "helm-locate.el" "helm-info.elc" "helm-info.el" "helm-imenu.elc" "helm-imenu.el" "helm-id-utils.elc" "helm-id-utils.el" "helm-help.elc" "helm-help.el" "helm-grep.elc" "helm-grep.el" "helm-font.elc" "helm-font.el" "helm-files.elc" "helm-files.el" "helm-external.elc" "helm-external.el" "helm-eval.elc" "helm-eval.el" "helm-eshell.elc" "helm-eshell.el" "helm-elscreen.elc" "helm-elscreen.el" "helm-elisp.elc" "helm-elisp.el" "helm-elisp-package.elc" "helm-elisp-package.el" "helm-easymenu.elc" "helm-easymenu.el" "helm-dabbrev.elc" "helm-dabbrev.el" "helm-config.elc" "helm-config.el" "helm-command.elc" "helm-command.el" "helm-color.elc" "helm-color.el" "helm-buffers.elc" "helm-buffers.el" "helm-bookmark.elc" "helm-bookmark.el" "helm-autoloads.el~" "helm-autoloads.el" "helm-apt.elc" "helm-apt.el" "helm-aliases.elc" "helm-aliases.el" "helm-adaptive.elc" "helm-adaptive.el" "emacs-helm.sh" "../" "./")
 
@@ -158,10 +165,6 @@
  ("/Users/douhua/.emacs.d/elpa/leuven-theme-20150612.512/" (21908 47622 0 0) "leuven-theme.el~" "leuven-theme.el" "leuven-theme-pkg.elc" "leuven-theme-pkg.el" "leuven-theme-autoloads.el~" "leuven-theme-autoloads.el" "../" "./")
 
  ("/Applications/Emacs.app/Contents/Resources/info/" (21573 44775 0 0) "woman.info.gz" "wisent.info.gz" "widget.info.gz" "viper.info.gz" "vip.info.gz" "url.info.gz" "tramp.info.gz" "todo-mode.info.gz" "srecode.info.gz" "speedbar.info.gz" "smtpmail.info.gz" "sieve.info.gz" "ses.info.gz" "semantic.info.gz" "sc.info.gz" "sasl.info.gz" "remember.info.gz" "reftex.info.gz" "rcirc.info.gz" "pgg.info.gz" "pcl-cvs.info.gz" "org.info.gz" "octave-mode.info.gz" "nxml-mode.info.gz" "newsticker.info.gz" "mh-e.info.gz" "message.info.gz" "mairix-el.info.gz" "info.info.gz" "ido.info.gz" "idlwave.info.gz" "htmlfontify.info.gz" "gnus.info.gz" "forms.info.gz" "flymake.info.gz" "eww.info.gz" "eudc.info.gz" "eshell.info.gz" "ert.info.gz" "erc.info.gz" "epa.info.gz" "emacs.info.gz" "emacs-mime.info.gz" "emacs-gnutls.info.gz" "elisp.info.gz" "eintr.info.gz" "eieio.info.gz" "efaq.info.gz" "edt.info.gz" "ediff.info.gz" "ede.info.gz" "ebrowse.info.gz" "dired-x.info.gz" "dir" "dbus.info.gz" "cl.info.gz" "ccmode.info.gz" "calc.info.gz" "bovine.info.gz" "autotype.info.gz" "auth.info.gz" "ada-mode.info.gz" "../" "./")
-
- ("/Users/douhua/lx/github/blog/org/post/" (21909 3280 0 0) "NO_del.txt" "draft.org" "2015-07-02-StaggeredGridView-Source-Code.org~" "2015-07-02-StaggeredGridView-Source-Code.org" "2015-06-27-Magit-Usage.org" "2015-06-21-Android-Topeka-源码.org" "2015-04-15-Android-Gradle.org" "2015-03-07-Google-Play-Service.org" "2015-03-01-Android-Performance-Patterns.org" "2015-02-13-Android-View.org" "2015-02-12-Good-Post-I-Collect.org" "2015-02-06-Improve-Android-Code-With-Lint.org" "2015-02-02-Memory-Optimization.org" "2015-01-31-Use-Emacs-Org-Mode-Write-Github-Post.org" "2015-01-26-Lisp-Learning.org" "2015-01-19-Running-Record.org" "2015-01-14-Git-Source-Code-Learn.org" "2015-01-13-Android-Test.org" "2015-01-12-Emacs-Learn.org" "2015-01-10-2015-PLAN.org" ".gitignore" "../" "./")
-
- ("/Users/douhua/lx/" (21908 44096 0 0) "org/" "lxconfig/" "github/" "ebooks/" "bitbucket/" "auto_backup.sh~" "auto_backup.sh" "../" "./")
 
  ("/Users/douhua/.emacs.d/elpa/" (21895 64445 0 0) "zenburn-theme-20150609.2347/" "xml-rpc-20150529.832/" "wanderlust-20150301.247/" "w3m-readme.txt" "w3m-20150601.1727/" "w3-4.0.49/" "undo-tree-20140509.522/" "solarized-theme-20150424.53/" "smex-20141210.1422/" "semi-20150203.1543/" "s-20140910.334/" "request-deferred-20130526.1015/" "request-20140316.417/" "paredit-20150217.713/" "org2jekyll-20150515.1407/" "org2blog-20150509.2301/" "org-gcal-20150411.1511/" "org-20150608/" "metaweblog-20141130.605/" "magit-20141228.1413/" "log4e-20150105.505/" "leuven-theme-20150612.512/" "ido-ubiquitous-20150528.2322/" "ido-completing-read+-20150528.2322/" "goto-chg-20131228.1459/" "gntp-20141024.1950/" "git-rebase-mode-20140928.1547/" "git-commit-mode-20141014.1634/" "flim-20141216.1521/" "evil-20150511.146/" "elisp-slime-nav-20141224.854/" "deferred-20150309.2052/" "dash-functional-20150311.2358/" "dash-20150611.922/" "archives/" "apel-20141024.1642/" "android-mode-readme.txt" "android-mode-20150106.544/" "ample-theme-20150515.1056/" "alert-20150402.1246/" "ack-readme.txt" "ack-1.3/" "../" "./")
 

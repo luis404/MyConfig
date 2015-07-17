@@ -2,7 +2,14 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("elispDelq"
+(("elispBuf"
+ (front-context-string . " -- Function: se")
+ (rear-context-string . "s\n     tested.\n\n")
+ (position . 1589930)
+ (filename . "/Applications/Emacs.app/Contents/Resources/info/elisp")
+ (info-node . "Buffer Modification")
+ (handler . Info-bookmark-jump))
+("elispDelq"
  (front-context-string . "Note that `(delq")
  (rear-context-string . "> (a b (4))\n\n   ")
  (position . 281651)
