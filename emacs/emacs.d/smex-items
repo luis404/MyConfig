@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- lx-open-coohua
- eshell
- man
- lx-open-emacsnote
  lx-magit-ch
+ lx-open-coohua
  term
  shell
+ lx-open-note
+ lx-open-emacsnote
+ eshell
 )
 
 ;; ----- smex-data -----
@@ -15,7 +15,7 @@
  (lx-reload . 7)
  (calendar . 9)
  (org-agenda-year-view . 4)
- (lx-open-note . 40)
+ (lx-open-note . 41)
  (calc-mode . 2)
  (text-mode . 2)
  (org-mode . 1)
@@ -35,16 +35,16 @@
  (color-theme-hober . 1)
  (color-theme-xemacs . 1)
  (load-theme . 2)
- (eshell . 36)
+ (eshell . 37)
  (package-refresh-contents . 3)
- (lx-open-coohua . 47)
+ (lx-open-coohua . 49)
  (lxel . 3)
- (lx-magit-ch . 86)
+ (lx-magit-ch . 87)
  (irc . 5)
- (lx-open-emacsnote . 6)
+ (lx-open-emacsnote . 7)
  (rcirc-cmd-join . 1)
  (eval-buffer . 38)
- (shell . 7)
+ (shell . 8)
  (column-number-mode . 1)
  (magit-status . 14)
  (magit-diff-unstaged . 5)
@@ -78,6 +78,6 @@
  (calendar-goto-date . 1)
  (eval-region . 2)
  (ielm . 6)
- (term . 1)
+ (term . 2)
  (man . 1)
 )

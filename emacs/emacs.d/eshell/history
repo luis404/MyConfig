@@ -1,6 +1,4 @@
 (string "abc")
-('string "abc")
-(string "abc")
 (defun mapcar* (function &rest args)            "Apply FUNCTION to successive cars of all ARGS.          Return the list of results."            ;; If no list is exhausted,            (if (not (memq nil args))                ;; apply function to CARs.                (cons (apply function (mapcar 'car args))                      (apply 'mapcar* function                             ;; Recurse for rest of elements.                             (mapcar 'cdr args)))))
 (mapcar* '+ '(1 2 3) '(4 5 6))
 (eval 'a)
@@ -126,3 +124,5 @@ ls
 man git
 git help merge
 2. 2. 2. 2. 2. 2. 2. 
+(/ 8000 5781.27)
+(/ 7000 3949.18) 
