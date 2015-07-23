@@ -42,13 +42,13 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/douhua/"
  "/Users/douhua/Dropbox/lx/"
  "/Users/douhua/.emacs.d/lx/"
  "/Users/douhua/lx/github/"
  "/Users/douhua/lx/github/blog/org/post/"
  "/Users/douhua/testelisp/"
  "/Users/douhua/.emacs.d/"
- "/Users/douhua/"
  "/Users/douhua/lx/github/9794/app/src/main/java/com/coohuaclient/ui/fragment/login/"
  "/Users/douhua/lx/github/9794/app/src/main/java/com/coohuaclient/ui/activity/"
  "/Users/douhua/coohua/"
@@ -77,6 +77,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ ".emacs"
  "taiwan.org"
  "init-org.el"
  "2015-07-15-Jake-Wharton.org"
@@ -86,16 +87,15 @@
  "lx-diary.el"
  "lx-init.el"
  "lx-lab-no-load.el"
- ".emacs"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/douhua/" (21932 28737 0 0) "VirtualBox VMs/" "testMagit/" "testelisp/" "testDropboxApp.txt" "test.lisp" "test/" "quicklisp/" "Public/" "Pictures/" "Music/" "Movies/" "mbox" "lx/" "Library/" "genymotion-log.zip" "Dropbox/" "Downloads/" "Documents/" "diary~" "diary" "Desktop/" "coohua/" "Applications/" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc.omz-uninstalled-20150403234146" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-徐政超’s MacBook Pro-5.0.5" ".zcompdump" ".w3m/" ".vimrc" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".sbclrc" ".python27_compiled/" ".org-timestamps/" ".oh-my-zsh/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".gradle/" ".gitignore~" ".gitignore" ".gitconfig" ".git-credentials" ".Genymobile/" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_history" ".AndroidStudio1.2/" ".android/" "#adfasd#" "#.gitignore#" "#.emacs#" "../" "./")
+ ("/Users/douhua/" (21935 6404 0 0) "VirtualBox VMs/" "testMagit/" "testelisp/" "testDropboxApp.txt" "test.lisp" "test/" "quicklisp/" "Public/" "Pictures/" "Music/" "Movies/" "mbox" "lx/" "Library/" "genymotion-log.zip" "Dropbox/" "Downloads/" "Documents/" "diary~" "diary" "Desktop/" "coohua/" "Applications/" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc.omz-uninstalled-20150403234146" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-徐政超’s MacBook Pro-5.0.5" ".zcompdump" ".w3m/" ".vimrc" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".sbclrc" ".python27_compiled/" ".org-timestamps/" ".oh-my-zsh/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".gradle/" ".gitignore~" ".gitignore" ".gitconfig" ".git-credentials" ".Genymobile/" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_history" ".AndroidStudio1.2/" ".android/" "#adfasd#" "#.gitignore#" "../" "./")
+
+ ("/Users/douhua/Dropbox/lx/" (21933 59603 0 0) "taiwan.org~" "taiwan.org" "note.org~" "note.org" "emacs-diary~" "emacs-diary" ".DS_Store" "../" "./")
 
  ("/Users/douhua/.emacs.d/" (21928 25309 0 0) "url/" "smex-items" "slime-2.12/" "request.el" "org-publish.el" "org-jekyll-mode.el" "lx/" "log4e.el~" "log4e.el" "init.el~" "init.el" "ido.last~" "ido.last" "games/" "eshell/" "emacs.d/" "elpa/" "bookmarks" "auto-save-list/" "alert.el" "../" "./")
-
- ("/Users/douhua/Dropbox/lx/" (21932 28703 0 0) "taiwan.org~" "taiwan.org" "note.org~" "note.org" "emacs-diary~" "emacs-diary" ".DS_Store" "../" "./")
 
  ("/Users/douhua/Dropbox/" (21928 39088 0 0) "Photos/" "lx/" "Icon
 " "coohua/" "Camera Uploads/" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")

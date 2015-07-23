@@ -1,21 +1,21 @@
 
 ;; ----- smex-history -----
 (
- lx-magit-ch
- lx-open-coohua
- term
- shell
- lx-open-note
- lx-open-emacsnote
  eshell
+ shell
+ eval-buffer
+ exec-path-from-shell-initialize
+ package-install
+ magit-diff-unstaged
+ lx-magit-ch
 )
 
 ;; ----- smex-data -----
 (
  (lx-reload . 7)
- (calendar . 9)
+ (calendar . 10)
  (org-agenda-year-view . 4)
- (lx-open-note . 41)
+ (lx-open-note . 42)
  (calc-mode . 2)
  (text-mode . 2)
  (org-mode . 1)
@@ -23,7 +23,7 @@
  (calc-quit . 1)
  (lx-M . 9)
  (auto-revert-tail-mode . 1)
- (package-install . 9)
+ (package-install . 10)
  (evil-mode . 2)
  (color-theme-snow . 1)
  (color-theme-xp . 1)
@@ -35,19 +35,19 @@
  (color-theme-hober . 1)
  (color-theme-xemacs . 1)
  (load-theme . 2)
- (eshell . 37)
+ (eshell . 48)
  (package-refresh-contents . 3)
  (lx-open-coohua . 49)
  (lxel . 3)
- (lx-magit-ch . 87)
+ (lx-magit-ch . 90)
  (irc . 5)
  (lx-open-emacsnote . 7)
  (rcirc-cmd-join . 1)
- (eval-buffer . 38)
- (shell . 8)
+ (eval-buffer . 39)
+ (shell . 11)
  (column-number-mode . 1)
  (magit-status . 14)
- (magit-diff-unstaged . 5)
+ (magit-diff-unstaged . 7)
  (edit-picture . 9)
  (org-export-dispatch . 4)
  (org-html-export-as-html . 11)
@@ -78,6 +78,7 @@
  (calendar-goto-date . 1)
  (eval-region . 2)
  (ielm . 6)
- (term . 2)
+ (term . 5)
  (man . 1)
+ (exec-path-from-shell-initialize . 2)
 )

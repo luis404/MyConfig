@@ -1,39 +1,3 @@
-(string "abc")
-(defun mapcar* (function &rest args)            "Apply FUNCTION to successive cars of all ARGS.          Return the list of results."            ;; If no list is exhausted,            (if (not (memq nil args))                ;; apply function to CARs.                (cons (apply function (mapcar 'car args))                      (apply 'mapcar* function                             ;; Recurse for rest of elements.                             (mapcar 'cdr args)))))
-(mapcar* '+ '(1 2 3) '(4 5 6))
-(eval 'a)
-(eval 'ab)
-(eval 'b)
-(eval b)
-(eval (+ 1 1))
-(+ 1 1))
-wc {"attributes":"","type":"AD","date":1434510800,"actions":[{"action":"im","ids":["9650","2092","8483","9687","4721"]},{"action":"rs","ids":["9650"]}],"coohuaId":85294379}
-{"attributes":"","type":"AD","date":1434510800,"actions":[{"action":"im","ids":["9650","2092","8483","9687","4721"]},{"action":"rs","ids":["9650"]}],"coohuaId":85294379}
-[{"action":"im","ids":["9648","9639","9638","9647","9637","9175","7103","5400","9651","9646","9643","3131"]},{"action":"rs","ids":["5400"]}],"coohuaId":88492258}
-ps
-ps aux | grep Android
-kill 365
-magit-status .
-cd lx/github/blog/
-magit-status .
-ls
-ls ~/.emacs.d/
-ls ~/.emacs.d/lx
-ls
-make
-ls
-mv ~/.emacs.d/lx/org-jekyll-mode.el ~/.emacs.d/
-make
-make
-ls
-make
-(* 2530.8 2.559)
-(backward-char 4)
-(backward-char 1)
-(backward-char 2)
-cd ../../lx/github/; git clone git clone git://git.savannah.gnu.org/emacs.git
-cd ../../lx/github/; git clone git://git.savannah.gnu.org/emacs.git
-magit
 ls
 cd 
 cd coohua/CooHuaClient/
@@ -126,3 +90,39 @@ git help merge
 2. 2. 2. 2. 2. 2. 2. 
 (/ 8000 5781.27)
 (/ 7000 3949.18) 
+ack
+lxack
+lxack
+ack-guess-project-root 
+ack WebViewService
+ls
+ack
+man ack
+ack "xlx" 
+ack --java "xlx" 
+ls
+ack
+ack-grep
+/usr/local/bin/ack
+ack-grep
+exit
+ack-grep
+exit
+ack-grep
+ack-grep
+exit
+ack-grep
+ack-grep
+ack-grep
+env-info
+env
+ack-grep
+env
+ack-grep
+ack-grep
+ack-grep 
+env
+ack-grep
+ack-grep
+exit
+ack-grep
