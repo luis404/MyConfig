@@ -42,8 +42,8 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/douhua/"
  "/Users/douhua/Dropbox/lx/"
+ "/Users/douhua/"
  "/Users/douhua/.emacs.d/lx/"
  "/Users/douhua/lx/github/"
  "/Users/douhua/lx/github/blog/org/post/"
@@ -77,8 +77,8 @@
 
 ;; ----- ido-work-file-list -----
 (
- ".emacs"
  "taiwan.org"
+ ".emacs"
  "init-org.el"
  "2015-07-15-Jake-Wharton.org"
  "emacs-diary"
@@ -91,14 +91,16 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/douhua/" (21935 6404 0 0) "VirtualBox VMs/" "testMagit/" "testelisp/" "testDropboxApp.txt" "test.lisp" "test/" "quicklisp/" "Public/" "Pictures/" "Music/" "Movies/" "mbox" "lx/" "Library/" "genymotion-log.zip" "Dropbox/" "Downloads/" "Documents/" "diary~" "diary" "Desktop/" "coohua/" "Applications/" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc.omz-uninstalled-20150403234146" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-徐政超’s MacBook Pro-5.0.5" ".zcompdump" ".w3m/" ".vimrc" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".sbclrc" ".python27_compiled/" ".org-timestamps/" ".oh-my-zsh/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".gradle/" ".gitignore~" ".gitignore" ".gitconfig" ".git-credentials" ".Genymobile/" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_history" ".AndroidStudio1.2/" ".android/" "#adfasd#" "#.gitignore#" "../" "./")
+ ("/Users/douhua/Dropbox/" (21933 46863 0 0) "嘉华旅游-入台证资料包.zip" "Photos/" "lx/" "Icon
+" "coohua/" "Camera Uploads/" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
+
+ ("/Users/douhua/" (21936 48778 0 0) "VirtualBox VMs/" "testMagit/" "testelisp/" "testDropboxApp.txt" "test.lisp" "test/" "quicklisp/" "Public/" "Pictures/" "Music/" "Movies/" "mbox" "lx/" "Library/" "genymotion-log.zip" "Dropbox/" "Downloads/" "Documents/" "diary~" "diary" "Desktop/" "coohua/" "Applications/" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc.omz-uninstalled-20150403234146" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-徐政超’s MacBook Pro-5.0.5" ".zcompdump" ".w3m/" ".vimrc" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".sbclrc" ".python27_compiled/" ".org-timestamps/" ".oh-my-zsh/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".gradle/" ".gitignore~" ".gitignore" ".gitconfig" ".git-credentials" ".Genymobile/" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_history" ".AndroidStudio1.2/" ".android/" "#adfasd#" "#.gitignore#" "../" "./")
+
+ ("/Users/douhua/coohua/" (21936 19722 0 0) "副本TeatCase(1.9.4.5)111 --评审后.xls" "x.diff" "test/" "TeatCase-迭代5（原生商城）.xls" "siteflow-账号及其代码添加方法.xls" "PureCoohua/" "NativeProject/" "impose.org" "impose.html~" "impose.html" "docs/" "Delete_After_Merge/" "CooHuaClient/" "coohua.org" "coohua.html" ".idea/" ".gitignore" ".DS_Store" "#impose.html#" "../" "./")
 
  ("/Users/douhua/Dropbox/lx/" (21933 59603 0 0) "taiwan.org~" "taiwan.org" "note.org~" "note.org" "emacs-diary~" "emacs-diary" ".DS_Store" "../" "./")
 
  ("/Users/douhua/.emacs.d/" (21928 25309 0 0) "url/" "smex-items" "slime-2.12/" "request.el" "org-publish.el" "org-jekyll-mode.el" "lx/" "log4e.el~" "log4e.el" "init.el~" "init.el" "ido.last~" "ido.last" "games/" "eshell/" "emacs.d/" "elpa/" "bookmarks" "auto-save-list/" "alert.el" "../" "./")
-
- ("/Users/douhua/Dropbox/" (21928 39088 0 0) "Photos/" "lx/" "Icon
-" "coohua/" "Camera Uploads/" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
 
  ("/Users/douhua/lx/github/" (21930 10809 0 0) "ud825-compute-and-memory/" "MyApplication/" "moreMoney/" "JakeWharton/" "imagelist/" "EP/" "EmacsGoogleCalendarSync/" "emacs-request/" "CustomNotifications/" "blog/" "BasicCode/" "android-topeka/" "Android-Blog-Source/" "9794/" ".idea/" "../" "./")
 
@@ -123,8 +125,6 @@
  ("/Users/douhua/lx/github/MyApplication/" (21919 9107 0 0) "settings.gradle" "MyApplication.iml" "local.properties" "gradlew.bat" "gradlew" "gradle.properties" "gradle/" "build.gradle" "build/" "app/" ".idea/" ".gradle/" ".gitignore" "../" "./")
 
  ("/Users/douhua/lx/github/MyApplication/app/" (21919 9107 0 0) "src/" "proguard-rules.pro" "libs/" "build.gradle" "build/" "app.iml" ".gitignore" "../" "./")
-
- ("/Users/douhua/coohua/" (21919 38829 0 0) "副本TeatCase(1.9.4.5)111 --评审后.xls" "x.diff" "test/" "TeatCase-迭代5（原生商城）.xls" "siteflow-账号及其代码添加方法.xls" "PureCoohua/" "NativeProject/" "impose.org" "impose.html~" "impose.html" "docs/" "Delete_After_Merge/" "CooHuaClient/" "coohua.org" "coohua.html" ".idea/" ".gitignore" ".DS_Store" "#impose.html#" "../" "./")
 
  ("/Users/douhua/lx/github/9794/app/src/main/java/com/coohuaclient/ui/fragment/" (21919 1638 0 0) "shop/" "register/" "MoreMenuFragment.java" "MainFragment.java" "login/" "FeedBackFragment.java" "credit/" "BaseFragment.java" "account/" "../" "./")
 

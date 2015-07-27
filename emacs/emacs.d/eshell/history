@@ -1,30 +1,4 @@
 ls
-cd 
-cd coohua/CooHuaClient/
-ls
-echo "" >> settings.gradle 
-git st
-echo "  " >> build.gradle 
-git st
-cd 
-ls
-magit-status testMagit
-mkdir testMagit
-cd testMagit/
-git init
-touch x
-touch y
-git add x
-magit-status .
-ls
-echo "xxx" >> x
-cd CooHuaClient/
-./gradlew iCOD
-ls
-cd 
-cd dow
-cd Downloads/
-ls
 mv *.dmg dmg
 ls
 rm -rf baidu/
@@ -126,3 +100,29 @@ ack-grep
 ack-grep
 exit
 ack-grep
+ack-grep
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+ls
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat

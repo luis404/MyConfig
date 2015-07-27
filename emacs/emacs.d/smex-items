@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ lx-open-note
+ lx-open-coohua
+ lx-magit-ch
  eshell
  shell
  eval-buffer
  exec-path-from-shell-initialize
- package-install
- magit-diff-unstaged
- lx-magit-ch
 )
 
 ;; ----- smex-data -----
@@ -15,7 +15,7 @@
  (lx-reload . 7)
  (calendar . 10)
  (org-agenda-year-view . 4)
- (lx-open-note . 42)
+ (lx-open-note . 43)
  (calc-mode . 2)
  (text-mode . 2)
  (org-mode . 1)
@@ -35,11 +35,11 @@
  (color-theme-hober . 1)
  (color-theme-xemacs . 1)
  (load-theme . 2)
- (eshell . 48)
+ (eshell . 50)
  (package-refresh-contents . 3)
- (lx-open-coohua . 49)
+ (lx-open-coohua . 51)
  (lxel . 3)
- (lx-magit-ch . 90)
+ (lx-magit-ch . 92)
  (irc . 5)
  (lx-open-emacsnote . 7)
  (rcirc-cmd-join . 1)
