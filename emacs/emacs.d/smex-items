@@ -1,21 +1,21 @@
 
 ;; ----- smex-history -----
 (
- lx-open-note
  lx-open-coohua
- lx-magit-ch
+ lx-open-note
+ magit-status
+ org-publish
+ eww
  eshell
- shell
- eval-buffer
- exec-path-from-shell-initialize
+ calendar
 )
 
 ;; ----- smex-data -----
 (
  (lx-reload . 7)
- (calendar . 10)
+ (calendar . 12)
  (org-agenda-year-view . 4)
- (lx-open-note . 43)
+ (lx-open-note . 51)
  (calc-mode . 2)
  (text-mode . 2)
  (org-mode . 1)
@@ -35,18 +35,18 @@
  (color-theme-hober . 1)
  (color-theme-xemacs . 1)
  (load-theme . 2)
- (eshell . 50)
+ (eshell . 52)
  (package-refresh-contents . 3)
- (lx-open-coohua . 51)
+ (lx-open-coohua . 56)
  (lxel . 3)
- (lx-magit-ch . 92)
+ (lx-magit-ch . 97)
  (irc . 5)
  (lx-open-emacsnote . 7)
  (rcirc-cmd-join . 1)
  (eval-buffer . 39)
  (shell . 11)
  (column-number-mode . 1)
- (magit-status . 14)
+ (magit-status . 17)
  (magit-diff-unstaged . 7)
  (edit-picture . 9)
  (org-export-dispatch . 4)
@@ -54,7 +54,7 @@
  (toggle-debug-on-error . 1)
  (org-agenda-month-view . 2)
  (lx-public-blog . 6)
- (org-publish . 12)
+ (org-publish . 15)
  (org2jekyll-publish . 3)
  (org2jekyll-mode . 1)
  (org2jekyll-publish-posts . 4)
@@ -81,4 +81,5 @@
  (term . 5)
  (man . 1)
  (exec-path-from-shell-initialize . 2)
+ (eww . 4)
 )

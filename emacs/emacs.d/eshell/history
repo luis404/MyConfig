@@ -1,9 +1,3 @@
-ls
-mv *.dmg dmg
-ls
-rm -rf baidu/
-ls
-ls
 clear
 ps
 ps axu | grep Android
@@ -126,3 +120,9 @@ adb shell cat /sdcard/Coohua/coohua_stat
 adb shell cat /sdcard/Coohua/coohua_stat
 adb shell cat /sdcard/Coohua/coohua_stat
 adb shell cat /sdcard/Coohua/coohua_stat
+(/ 1041.06 852.56)
+(/ 1100 697.87)
+(/ 100 (- 1.89 1.57))
+(+ 697.87 (/ 100 (- 1.89 1.57)))
+(/ 1300 1048.47)
+(/ 1144 852.56)
