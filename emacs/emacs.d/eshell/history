@@ -1,25 +1,3 @@
-clear
-ps
-ps axu | grep Android
-ps aux
-ps aux | grep Studio
-(setq test (propertize "foobar" 'face 'font-lock-keyword-face))
-(setq test (propertize "foobar" 'face 'italic))
-(propertize "foobar" 'face 'italic)
-cd 
-cd lx/github/EmacsGoogleCalendarSync/
-git init
-cp ~/coohua/CooHuaClient/.gitignore .
-ls
-git sts
-magit-status .
-keytool -exportcert -alias androiddebugkey -keystore ~/.android/debug.keystore -list -v
-keytool -exportcert -alias androiddebugkey -keystore ~/.android/debug.keystore -list -v
-keytool -exportcert -alias androiddebugkey -keystore ~/.android/debug.keystore -list -v
-(/ 10000 5275)
-(/ 10000 5275.0)
-(* 1.4 5275.0)
-SHA1: 09:1B:61:32:D5:59:78:5B:B1:F9:F9:7A:5F:A8:96:BC:43:C6:B0:9C
 cd 
 cd coohua/CooHuaClient/
 ./gradlew iCD
@@ -126,3 +104,25 @@ adb shell cat /sdcard/Coohua/coohua_stat
 (+ 697.87 (/ 100 (- 1.89 1.57)))
 (/ 1300 1048.47)
 (/ 1144 852.56)
+man tar
+/cd 
+cd 
+cd lx/github/lu
+cd lx/github
+ls
+cd blog
+ls
+magit-status
+magit-status .
+cd 
+cd .emacs.d/
+ls
+ls emacs.d/
+ls auto-save-list/
+find .
+cd elpa/
+ls
+cd magit-20141228.1413/
+ls
+git-version
+git version
