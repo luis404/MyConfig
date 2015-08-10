@@ -33,22 +33,23 @@
  ("/Users/douhua/coohua/Delete_After_Merge/" . "app/")
  ("/Users/douhua/coohua/" . "Delete_After_Merge/")
  ("/Users/douhua/lx/github/blog/org/" . "post/")
- ("/Users/douhua/lx/github/blog/" . "_posts/")
+ ("/Users/douhua/lx/github/blog/" . "assets/")
  ("/Users/douhua/lx/github/" . "blog/")
  ("/Users/douhua/lx/" . "github/")
  ("/Users/douhua/.emacs.d/" . "lx/")
- ("/Users/douhua/" . "Dropbox/")
+ ("/Users/douhua/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/douhua/lx/github/blog/"
+ "/Users/douhua/lx/github/blog/assets/css/"
+ "/Users/douhua/"
+ "/Users/douhua/lx/github/blog/org/post/"
  "/Users/douhua/lx/github/blog/_posts/"
  "/Users/douhua/lx/github/blog/org/"
- "/Users/douhua/lx/github/blog/org/post/"
- "/Users/douhua/lx/github/blog/"
  "/Users/douhua/lx/github/blog/_site/"
  "/Users/douhua/Dropbox/lx/"
- "/Users/douhua/"
  "/Users/douhua/.emacs.d/lx/"
  "/Users/douhua/lx/github/"
  "/Users/douhua/testelisp/"
@@ -62,7 +63,6 @@
  "/Users/douhua/Downloads/"
  "/Users/douhua/.emacs.d/elpa/leuven-theme-20150612.512/"
  "/Users/douhua/lx/org/post/"
- "/Users/douhua/lx/github/blog/assets/css/"
  "/Users/douhua/coohua/Delete_After_Merge/app/src/main/java/com/coohuaclient/common/browser/"
  "/Users/douhua/lx/github/MyApplication/app/"
  "/Users/douhua/lx/github/MyApplication/"
@@ -79,29 +79,33 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "style.css"
+ ".emacs"
+ "2015-06-27-Magit-Usage.org"
  "2015-07-30-Okio-Source-Code-Learn.org"
  "2015-01-31-Use-Emacs-Org-Mode-Write-Github-Post.org"
  "2015-01-12-Emacs-Learn.org"
  "emacs-diary"
  "taiwan.org"
- ".emacs"
  "init-org.el"
  "2015-07-15-Jake-Wharton.org"
- "buf"
- "init.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/douhua/lx/github/blog/_posts/" (21950 20508 0 0) "2015-07-30-Okio-Source-Code-Learn.html~" "2015-07-30-Okio-Source-Code-Learn.html" "2015-07-02-StaggeredGridView-Source-Code.html" "2015-06-27-Magit-Usage.html" "2015-06-21-Android-Topeka-源码.html~" "2015-06-21-Android-Topeka-源码.html" "2015-04-15-Android-Gradle.html~" "2015-04-15-Android-Gradle.html" "2015-03-07-Google-Play-Service.html~" "2015-03-07-Google-Play-Service.html" "2015-03-01-Android-Performance-Patterns.html~" "2015-03-01-Android-Performance-Patterns.html" "2015-02-13-Android-View.html" "2015-02-12-Good-Post-I-Collect.html~" "2015-02-12-Good-Post-I-Collect.html" "2015-02-06-Improve-Android-Code-With-Lint.html" "2015-02-02-Memory-Optimization.html" "2015-01-31-Use-Emacs-Org-Mode-Write-Github-Post.html" "2015-01-26-Lisp-Learning.html~" "2015-01-26-Lisp-Learning.html" "2015-01-19-Running-Record.html" "2015-01-14-Git-Source-Code-Learn.html~" "2015-01-14-Git-Source-Code-Learn.html" "2015-01-13-Android-Test.html~" "2015-01-13-Android-Test.html" "2015-01-12-Emacs-Learn.html" "2014-12-19-Android-Studio-Gradle-Tips.md" "2014-12-14-Android-Studio-Tips.md" "2014-12-11-Copy-File-From-Uri.md" "2014-12-09-GrimView-Show-Images.md" "2014-02-02-printk-学习.md" "2014-01-29-使用-org-mode-管理工作生活.md" "2013-12-28-Android-logwrapper.md" "2013-12-21-一个有趣的bug.md" "2013-11-30-从read()函数看kernel的cache机制.md" "2013-11-30-2013年读过的实体书.md" "2013-11-29-git-p4-代码分析.md" "2013-11-28-使用git管理perforce.md" "2013-11-21-What-do-I-learn-from-the-project.md" "2013-11-05-五台山.md" "2013-11-01-Vim-and-the-plugins.md" "2013-10-31-Welcome-ack-to-my-toolbox.md" "2013-10-30-第二次北京马拉松.md" "2013-09-01-git-代码学习-git-clone.md" "2013-08-03-自动生成github文章名.md" "2013-07-31-the-python-challenge-攻略-(9-16).md" "2013-07-17-Android-logger.md" "2013-07-13-Android-liblog.md" "2013-07-10-Android-logcat.md" "2013-06-18-dirname-改变原字符串.md" "2013-06-16-the-python-challenge-攻略-(1-8).md" "2013-06-16-my-vimrc.md" "2013-06-16-how-to-use-git.md" "2013-06-16-how-i-learn-python.md" "2013-06-16-feof()需要多读一次.md" "../" "./")
+ ("/Users/douhua/lx/github/blog/org/post/" (21956 8300 0 0) "NO_del.txt" "draft.org" "2015-07-30-Okio-Source-Code-Learn.org" "2015-06-27-Magit-Usage.org" "2015-06-21-Android-Topeka-源码.org" "2015-04-15-Android-Gradle.org" "2015-03-07-Google-Play-Service.org" "2015-03-01-Android-Performance-Patterns.org" "2015-02-13-Android-View.org" "2015-02-12-Good-Post-I-Collect.org" "2015-02-06-Improve-Android-Code-With-Lint.org" "2015-02-02-Memory-Optimization.org" "2015-01-31-Use-Emacs-Org-Mode-Write-Github-Post.org" "2015-01-26-Lisp-Learning.org" "2015-01-19-Running-Record.org" "2015-01-14-Git-Source-Code-Learn.org" "2015-01-13-Android-Test.org" "2015-01-12-Emacs-Learn.org" "2015-01-10-2015-PLAN.org" ".gitignore" "../" "./")
 
- ("/Users/douhua/" (21955 1706 0 0) "VirtualBox VMs/" "testMagit/" "testelisp/" "testDropboxApp.txt" "test.lisp" "test/" "quicklisp/" "Public/" "Pictures/" "Music/" "Movies/" "mbox" "lx/" "Library/" "genymotion-log.zip" "Dropbox/" "Downloads/" "Documents/" "diary~" "diary" "Desktop/" "coohua/" "Applications/" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc.omz-uninstalled-20150403234146" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-徐政超’s MacBook Pro-5.0.5" ".zcompdump" ".w3m/" ".vimrc" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".sh_history" ".sbclrc" ".python27_compiled/" ".org-timestamps/" ".oh-my-zsh/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".IdeaIC14/" ".gradle/" ".gitignore~" ".gitignore" ".gitconfig" ".git-credentials" ".Genymobile/" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_history" ".AndroidStudio1.3/" ".AndroidStudio1.2/" ".android/" "#adfasd#" "#.gitignore#" "../" "./")
+ ("/Users/douhua/" (21956 7386 0 0) "VirtualBox VMs/" "testMagit/" "testelisp/" "testDropboxApp.txt" "test.lisp" "test/" "quicklisp/" "Public/" "Pictures/" "Music/" "Movies/" "mbox" "lx/" "Library/" "genymotion-log.zip" "Dropbox/" "Downloads/" "Documents/" "diary~" "diary" "Desktop/" "coohua/" "Applications/" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc.omz-uninstalled-20150403234146" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-徐政超’s MacBook Pro-5.0.5" ".zcompdump" ".w3m/" ".vimrc" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".sh_history" ".sbclrc" ".python27_compiled/" ".org-timestamps/" ".oh-my-zsh/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".IdeaIC14/" ".gradle/" ".gitignore~" ".gitignore" ".gitconfig" ".git-credentials" ".Genymobile/" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_history" ".AndroidStudio1.3/" ".AndroidStudio1.2/" ".android/" "#adfasd#" "#.gitignore#" "../" "./")
+
+ ("/Users/douhua/.emacs.d/" (21956 5763 0 0) "url/" "smex-items" "slime-2.12/" "request.el" "org-publish.el" "org-jekyll-mode.el" "lx/" "log4e.el~" "log4e.el" "init.el~" "init.el" "ido.last~" "ido.last" "games/" "eshell/" "emacs.d/" "elpa/" "bookmarks" "auto-save-list/" "alert.el" "../" "./")
+
+ ("/Users/douhua/coohua/Coohuaclient/" (21953 32089 0 0) "settings.gradle" "NativeProject/" "local.properties" "gradlew.bat" "gradlew" "gradle/" "CooHuaClient.iml" "build.gradle" "build/" "app/" ".idea/" ".gradle/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/douhua/lx/github/blog/_posts/" (21950 20508 0 0) "2015-07-30-Okio-Source-Code-Learn.html~" "2015-07-30-Okio-Source-Code-Learn.html" "2015-07-02-StaggeredGridView-Source-Code.html" "2015-06-27-Magit-Usage.html" "2015-06-21-Android-Topeka-源码.html~" "2015-06-21-Android-Topeka-源码.html" "2015-04-15-Android-Gradle.html~" "2015-04-15-Android-Gradle.html" "2015-03-07-Google-Play-Service.html~" "2015-03-07-Google-Play-Service.html" "2015-03-01-Android-Performance-Patterns.html~" "2015-03-01-Android-Performance-Patterns.html" "2015-02-13-Android-View.html" "2015-02-12-Good-Post-I-Collect.html~" "2015-02-12-Good-Post-I-Collect.html" "2015-02-06-Improve-Android-Code-With-Lint.html" "2015-02-02-Memory-Optimization.html" "2015-01-31-Use-Emacs-Org-Mode-Write-Github-Post.html" "2015-01-26-Lisp-Learning.html~" "2015-01-26-Lisp-Learning.html" "2015-01-19-Running-Record.html" "2015-01-14-Git-Source-Code-Learn.html~" "2015-01-14-Git-Source-Code-Learn.html" "2015-01-13-Android-Test.html~" "2015-01-13-Android-Test.html" "2015-01-12-Emacs-Learn.html" "2014-12-19-Android-Studio-Gradle-Tips.md" "2014-12-14-Android-Studio-Tips.md" "2014-12-11-Copy-File-From-Uri.md" "2014-12-09-GrimView-Show-Images.md" "2014-02-02-printk-学习.md" "2014-01-29-使用-org-mode-管理工作生活.md" "2013-12-28-Android-logwrapper.md" "2013-12-21-一个有趣的bug.md" "2013-11-30-从read()函数看kernel的cache机制.md" "2013-11-30-2013年读过的实体书.md" "2013-11-29-git-p4-代码分析.md" "2013-11-28-使用git管理perforce.md" "2013-11-21-What-do-I-learn-from-the-project.md" "2013-11-05-五台山.md" "2013-11-01-Vim-and-the-plugins.md" "2013-10-31-Welcome-ack-to-my-toolbox.md" "2013-10-30-第二次北京马拉松.md" "2013-09-01-git-代码学习-git-clone.md" "2013-08-03-自动生成github文章名.md" "2013-07-31-the-python-challenge-攻略-(9-16).md" "2013-07-17-Android-logger.md" "2013-07-13-Android-liblog.md" "2013-07-10-Android-logcat.md" "2013-06-18-dirname-改变原字符串.md" "2013-06-16-the-python-challenge-攻略-(1-8).md" "2013-06-16-my-vimrc.md" "2013-06-16-how-to-use-git.md" "2013-06-16-how-i-learn-python.md" "2013-06-16-feof()需要多读一次.md" "../" "./")
 
  ("/Users/douhua/Dropbox/lx/" (21955 4137 0 0) "taiwan.org~" "taiwan.org" "note.org~" "note.org" "emacs-diary~" "emacs-diary" ".DS_Store" "../" "./")
 
  ("/Users/douhua/lx/github/blog/_site/" (21946 18850 0 0) "tags.html" "static/" "README" "publish-config.el" "page9/" "page8/" "page7/" "page6/" "page5/" "page4/" "page3/" "page2/" "page11/" "page10/" "org-jekyll-mode.el" "org/" "Makefile" "LICENSE" "index.html" "feed.xml" "categories.html" "auto_ci.sh" "assets/" "archive.html" "about.html~" "about.html" "404.html" "2015-04/" "2015-03/" "2015-02/" "2015-01/" "2014-12/" "2014-02/" "2014-01/" "2013-12/" "2013-11/" "2013-10/" "2013-09/" "2013-08/" "2013-07/" "2013-06/" "../" "./")
-
- ("/Users/douhua/lx/github/blog/org/post/" (21946 18922 0 0) "NO_del.txt" "draft.org" "2015-07-30-Okio-Source-Code-Learn.org" "2015-07-02-StaggeredGridView-Source-Code.org" "2015-06-27-Magit-Usage.org" "2015-06-21-Android-Topeka-源码.org" "2015-04-15-Android-Gradle.org" "2015-03-07-Google-Play-Service.org" "2015-03-01-Android-Performance-Patterns.org" "2015-02-13-Android-View.org" "2015-02-12-Good-Post-I-Collect.org" "2015-02-06-Improve-Android-Code-With-Lint.org" "2015-02-02-Memory-Optimization.org" "2015-01-31-Use-Emacs-Org-Mode-Write-Github-Post.org" "2015-01-26-Lisp-Learning.org" "2015-01-19-Running-Record.org" "2015-01-14-Git-Source-Code-Learn.org" "2015-01-13-Android-Test.org" "2015-01-12-Emacs-Learn.org" "2015-01-10-2015-PLAN.org" ".gitignore" "../" "./")
 
  ("/Users/douhua/lx/github/blog/" (21946 18912 0 0) "tags.html" "static/" "README.md" "publish-config.el" "org-jekyll-mode.el" "org/" "Makefile" "LICENSE" "index.html" "home.html" "feed.xml" "categories.html" "auto_ci.sh" "assets/" "about.html" "_site/" "_posts/" "_layouts/" "_includes/" "_config.yml" "404.html" ".gitignore" ".git/" "../" "./")
 
@@ -110,8 +114,6 @@
  ("/Users/douhua/Downloads/" (21946 4480 0 0) "默认产品图.jpg" "随行亲属表格（必须手写后扫描）.doc" "附表2 收入证明模板（需要签字盖章后扫描）.doc" "速度与激情7.简繁字幕.zip" "活动列表v2标注.jpg" "活动列表v2.2.jpg" "原生商城150713.docx" "原生商城150709.docx" "原生商城150706.docx" "原生商城150706(1).docx" "原生商城150703.docx" "原生商城150703(1).docx" "修改.jpg" "亲属关系证明模板.doc" "亲属关系证明模板(1).doc" "「查看使用情况」权限.docx" "「查看使用情况」权限(1).docx" "zhuan_-bbs_1.6.0.3.apk" "yubaoming.xls" "yaoqingv2.jpg" "update_kindle_5.4.3.2.bin" "taiwan/" "siteflow-账号及其代码添加方法.xls" "shun.apk" "ShopV3接口说明v1.1.7 (1).docx" "shop4间距标注.jpg" "shop4字号标注.jpg" "shangpin_coohua.apk" "rom/" "PBSetup70.exe" "pack.zip" "om_code.js" "NeteaseMusic_1.2.1_332.dmg" "layout/" "KT and KP(xTouch_2014-09-11.36206.rtm).zip" "KT and KP(xTouch_2014-09-11.36206.rtm)/" "katongxiaodongwu_15.png" "iTerm.app/" "IMG_7377.JPG" "HTRemovalTool.apk" "hammerhead-lrx22c-factory-0f9eda1b (1).tgz" "git-cheatsheet-DE-white.pdf" "Furious.7.2015.720p.WEBRip.KORSUB.XviD.MP3-RARBG.tmp" "Fast.and.Furious.7.2015.1080p.WEBRip.KORSUB.x264.AAC2.0-RARBG.cht.srt" "Fast.and.Furious.7.2015.1080p.WEBRip.KORSUB.x264.AAC2.0-RARBG.chs.srt" "Fast And Furious 7 2015.srt" "Fast And Furious 7 2015.rar" "dropbox-android-sdk-1.6.3.zip" "dropbox-android-sdk-1.6.3/" "dmg/" "DictUnifier.app/" "DictUnifier-2.1.zip" "CooHuaClient-coohua-1.9.4.8.apk" "CooHuaClient-coohua-1.9.4.8 (1).apk" "coin.png" "CM/" "choujiang.png" "CD_USB3_GLAN-V1.2/" "cat_tied.png" "cat_ghost.png" "cat_cage.png" "bg_net_error.png" "bg_net_error(1).png" "6941db9b4e7e2f95da92d34feda23ecb.png" "461851c8d2cc51c4c6771d993911549c.gif" "2寸照片（王春晓）.jpg" "20150409-DroidconMTL-AFewOkLibraries-ForExport.pdf" ".localized" ".DS_Store" "%A6%CF%C8㩾%A9%AF%C3%D5-%B0   %A9%AF%C3%D5%C1%FE˦%A6%FD%A6+ 1080P 720P +¦%D4ȡ+%A6 3d%C1%FE˦%A4-%C8%CF %A6+-%AA-%A6Щ+Τ-%C8%CF %C1%FE˦%A6%AB%A6+i%AF%C1-%A6%FD%A6+!.lnk" "../" "./")
 
  ("/Users/douhua/lx/github/EmacsGoogleCalendarSync/" (21931 3802 0 0) "settings.gradle" "README.org~" "README.org" "local.properties" "import-summary.txt" "gradlew.bat" "gradlew" "gradle/" "EmacsGoogleCalendarSync.iml" "build.gradle" "build/" "app/" ".idea/" ".gradle/" ".gitignore" ".git/" "../" "./")
-
- ("/Users/douhua/.emacs.d/" (21939 2500 0 0) "url/" "smex-items" "slime-2.12/" "request.el" "org-publish.el" "org-jekyll-mode.el" "lx/" "log4e.el~" "log4e.el" "init.el~" "init.el" "ido.last~" "ido.last" "games/" "eshell/" "emacs.d/" "elpa/" "bookmarks" "auto-save-list/" "alert.el" "../" "./")
 
  ("/Users/douhua/Dropbox/" (21933 46863 0 0) "嘉华旅游-入台证资料包.zip" "Photos/" "lx/" "Icon
 " "coohua/" "Camera Uploads/" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
@@ -175,8 +177,6 @@
  ("/Applications/Emacs.app/Contents/Resources/info/" (21573 44775 0 0) "woman.info.gz" "wisent.info.gz" "widget.info.gz" "viper.info.gz" "vip.info.gz" "url.info.gz" "tramp.info.gz" "todo-mode.info.gz" "srecode.info.gz" "speedbar.info.gz" "smtpmail.info.gz" "sieve.info.gz" "ses.info.gz" "semantic.info.gz" "sc.info.gz" "sasl.info.gz" "remember.info.gz" "reftex.info.gz" "rcirc.info.gz" "pgg.info.gz" "pcl-cvs.info.gz" "org.info.gz" "octave-mode.info.gz" "nxml-mode.info.gz" "newsticker.info.gz" "mh-e.info.gz" "message.info.gz" "mairix-el.info.gz" "info.info.gz" "ido.info.gz" "idlwave.info.gz" "htmlfontify.info.gz" "gnus.info.gz" "forms.info.gz" "flymake.info.gz" "eww.info.gz" "eudc.info.gz" "eshell.info.gz" "ert.info.gz" "erc.info.gz" "epa.info.gz" "emacs.info.gz" "emacs-mime.info.gz" "emacs-gnutls.info.gz" "elisp.info.gz" "eintr.info.gz" "eieio.info.gz" "efaq.info.gz" "edt.info.gz" "ediff.info.gz" "ede.info.gz" "ebrowse.info.gz" "dired-x.info.gz" "dir" "dbus.info.gz" "cl.info.gz" "ccmode.info.gz" "calc.info.gz" "bovine.info.gz" "autotype.info.gz" "auth.info.gz" "ada-mode.info.gz" "../" "./")
 
  ("/Users/douhua/.emacs.d/elpa/" (21895 64445 0 0) "zenburn-theme-20150609.2347/" "xml-rpc-20150529.832/" "wanderlust-20150301.247/" "w3m-readme.txt" "w3m-20150601.1727/" "w3-4.0.49/" "undo-tree-20140509.522/" "solarized-theme-20150424.53/" "smex-20141210.1422/" "semi-20150203.1543/" "s-20140910.334/" "request-deferred-20130526.1015/" "request-20140316.417/" "paredit-20150217.713/" "org2jekyll-20150515.1407/" "org2blog-20150509.2301/" "org-gcal-20150411.1511/" "org-20150608/" "metaweblog-20141130.605/" "magit-20141228.1413/" "log4e-20150105.505/" "leuven-theme-20150612.512/" "ido-ubiquitous-20150528.2322/" "ido-completing-read+-20150528.2322/" "goto-chg-20131228.1459/" "gntp-20141024.1950/" "git-rebase-mode-20140928.1547/" "git-commit-mode-20141014.1634/" "flim-20141216.1521/" "evil-20150511.146/" "elisp-slime-nav-20141224.854/" "deferred-20150309.2052/" "dash-functional-20150311.2358/" "dash-20150611.922/" "archives/" "apel-20141024.1642/" "android-mode-readme.txt" "android-mode-20150106.544/" "ample-theme-20150515.1056/" "alert-20150402.1246/" "ack-readme.txt" "ack-1.3/" "../" "./")
-
- ("/Users/douhua/coohua/Coohuaclient/" (21908 39929 0 0) "settings.gradle" "NativeProject/" "local.properties" "gradlew.bat" "gradlew" "gradle/" "CooHuaClient.iml" "build.gradle" "build/" "app/" ".idea/" ".gradle/" ".gitignore" ".git/" "../" "./")
 
  ("/Users/douhua/Dropbox/coohua/" (21906 33936 0 0) "广告展示需求.ppt" "上下划图片选择和展示.pptx" "tools.doc" "RPC框架使用讨论.pptx" "coohua.org~" "coohua.org" "arch.org~" "APP设计MRD.docx" "Android常用分析工具.ppt" "ali.org~" "ali.org" ".DS_Store" "../" "./")
 

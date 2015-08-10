@@ -1,21 +1,21 @@
 
 ;; ----- smex-history -----
 (
- magit-status
- lx-magit-ch
- magit-version
- package-list-packages
- package-install
- package-refresh-contents
  eshell
+ calendar
+ lx-open-coohua
+ lx-open-note
+ magit-status
+ org-publish
+ list-packages
 )
 
 ;; ----- smex-data -----
 (
  (lx-reload . 7)
- (calendar . 14)
+ (calendar . 15)
  (org-agenda-year-view . 4)
- (lx-open-note . 55)
+ (lx-open-note . 56)
  (calc-mode . 2)
  (text-mode . 2)
  (org-mode . 1)
@@ -35,18 +35,18 @@
  (color-theme-hober . 1)
  (color-theme-xemacs . 1)
  (load-theme . 2)
- (eshell . 55)
+ (eshell . 57)
  (package-refresh-contents . 5)
- (lx-open-coohua . 61)
+ (lx-open-coohua . 63)
  (lxel . 3)
- (lx-magit-ch . 106)
+ (lx-magit-ch . 109)
  (irc . 5)
  (lx-open-emacsnote . 7)
  (rcirc-cmd-join . 1)
- (eval-buffer . 39)
+ (eval-buffer . 40)
  (shell . 13)
  (column-number-mode . 1)
- (magit-status . 19)
+ (magit-status . 23)
  (magit-diff-unstaged . 8)
  (edit-picture . 9)
  (org-export-dispatch . 4)
@@ -54,7 +54,7 @@
  (toggle-debug-on-error . 1)
  (org-agenda-month-view . 2)
  (lx-public-blog . 6)
- (org-publish . 15)
+ (org-publish . 16)
  (org2jekyll-publish . 3)
  (org2jekyll-mode . 1)
  (org2jekyll-publish-posts . 4)
@@ -83,5 +83,6 @@
  (exec-path-from-shell-initialize . 2)
  (eww . 4)
  (magit-git-command . 1)
- (package-list-packages . 1)
+ (package-list-packages . 2)
+ (list-packages . 5)
 )

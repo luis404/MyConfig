@@ -1,11 +1,3 @@
-cd 
-cd coohua/CooHuaClient/
-./gradlew iCD
-./gradlew iCOTD
-./gradlew iCOTD
-./gradlew iCOTD
-./gradlew iCOTD
-ifconfig
 git config
 ifconfig
 ifconfig
@@ -126,3 +118,11 @@ cd magit-20141228.1413/
 ls
 git-version
 git version
+ls
+cd 
+cd -
+cd .emacs.d/
+ls
+cd elpa/
+ls
+adb shell cat /sdcard/coohua/coohua_stat
