@@ -13,4 +13,5 @@
 ;;Calendar
 (require 'lx-diary)
 
+(setq gtags-suggested-key-mapping t)
 (provide 'lx-init)

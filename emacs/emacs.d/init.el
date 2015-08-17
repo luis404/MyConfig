@@ -1,5 +1,7 @@
 ;;Author: luis404(luisxu404@gmail.com)
 ;; Add subdirectory to load-path and init modules and this directory
+
+(add-to-list 'load-path "~/.emacs.d/download/")
 (add-to-list
  'load-path
  (expand-file-name "lx" user-emacs-directory))
@@ -67,4 +69,18 @@
 ;;(helm-mode 1)"
 ;;=============== HELM ==================
 
+;; ============== emacs cool calendar ===============
+(require 'calfw)
+(require 'calfw-cal)
+(require 'calfw-org)
+
+(defun my-open-calendar ()
+  (interactive)
+  (cfw:open-calendar-buffer
+   :contents-sources
+   (list
+    (cfw:org-create-source "Red")  ; orgmode source
+    (cfw:cal-create-source "Orange") ; diary source
+   ))) 
+;; ============== emacs cool calendar ===============
 
