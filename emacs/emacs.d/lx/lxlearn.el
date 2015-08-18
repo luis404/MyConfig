@@ -1,5 +1,17 @@
 
 ;; =============== Learn =====================
+
+(defun lx-interactive (a)
+  "test interactive"
+  (interactive "p")
+  (message "result is %d" (lxsquare a)))
+
+(defun lx-interactive2 (a b)
+  "test interactive"
+  (interactive "p\ncZap to char")
+  (message "result is %d" (lxsquare a)))
+
+
 ;; -------------- MATH ----------------
 (defun lxabs (x)
   (cond ((> x 0) x)
@@ -50,20 +62,8 @@
   (+ x 1))
 (defun funcall-test (lxfun x)
   (funcall lxfun x))
-;; -------------- MATH ----------------
 
-
-(defun lx-interactive (a)
-  "test interactive"
-  (interactive "p")
-  (message "result is %d" (lxsquare a)))
-
-(defun lx-interactive2 (a b)
-  "test interactive"
-  (interactive "p\ncZap to char")
-  (message "result is %d" (lxsquare a)))
-
-
+;; -------------- END ----------------
 ;; ------------------ BUFFER --------------
 (defun lx-begin-of-buffer ()
   (interactive)
@@ -93,5 +93,5 @@
 	  (when (= (window-point window) point)
             (set-window-point window (point))))))))
 
-;; ------------------ BUFFER --------------
+;; ------------------ END --------------
 ;; =============== Learn =====================

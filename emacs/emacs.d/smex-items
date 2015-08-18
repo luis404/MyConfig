@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- eval-buffer
- cfw:open-calendar-buffer
- imenu
- package-install
- linum-mode
+ lx-open-note
  eshell
- magit-status
+ lx-open-coohua
+ lx-magit-ch
+ eval-buffer
+ org-agenda-to-appt
+ appt-delete
 )
 
 ;; ----- smex-data -----
@@ -15,7 +15,7 @@
  (lx-reload . 7)
  (calendar . 15)
  (org-agenda-year-view . 4)
- (lx-open-note . 61)
+ (lx-open-note . 63)
  (calc-mode . 2)
  (text-mode . 2)
  (org-mode . 2)
@@ -35,15 +35,15 @@
  (color-theme-hober . 1)
  (color-theme-xemacs . 1)
  (load-theme . 2)
- (eshell . 65)
+ (eshell . 67)
  (package-refresh-contents . 5)
- (lx-open-coohua . 74)
+ (lx-open-coohua . 76)
  (lxel . 3)
- (lx-magit-ch . 121)
+ (lx-magit-ch . 123)
  (irc . 6)
  (lx-open-emacsnote . 7)
  (rcirc-cmd-join . 1)
- (eval-buffer . 105)
+ (eval-buffer . 123)
  (shell . 15)
  (column-number-mode . 1)
  (magit-status . 24)
@@ -77,7 +77,7 @@
  (org-html-export-to-html . 6)
  (calendar-goto-date . 1)
  (eval-region . 2)
- (ielm . 11)
+ (ielm . 15)
  (term . 5)
  (man . 1)
  (exec-path-from-shell-initialize . 2)
@@ -90,5 +90,17 @@
  (list-charset-chars . 2)
  (imenu . 1)
  (gtags-mode . 4)
- (cfw:open-calendar-buffer . 1)
+ (cfw:open-calendar-buffer . 3)
+ (my-open-calendar . 2)
+ (byte-compile-file . 1)
+ (emacs-lisp-mode . 2)
+ (lx-interactive . 10)
+ (lx-interactive2 . 18)
+ (count-lines-region . 1)
+ (count-words . 1)
+ (lx-begin-of-buffer . 1)
+ (lx-push-mark-test . 8)
+ (eval-current-buffer . 2)
+ (append-to-buffer . 6)
+ (cfw:open-org-calendar . 1)
 )

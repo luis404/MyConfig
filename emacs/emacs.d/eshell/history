@@ -1,5 +1,4 @@
 lxabs -10
-lxabs -10
 lxabs2 -10
 lxabs2 0
 lxabs2 9
@@ -126,3 +125,4 @@ ls
 unzip emacs-calfw-master.zip 
 mv emacs-calfw-master/* ~/.emacs.d/download/
 ls
+lxsqrt2

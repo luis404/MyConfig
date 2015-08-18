@@ -42,9 +42,9 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/douhua/.emacs.d/lx/"
  "/Users/douhua/.emacs.d/"
  "/Users/douhua/"
- "/Users/douhua/.emacs.d/lx/"
  "/Users/douhua/.emacs.d/elpa/magit-20150806.1658/"
  "/Users/douhua/Downloads/"
  "/Users/douhua/.emacs.d/elpa/evil-20150511.146/"
@@ -81,23 +81,27 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "lxlearn.el"
+ "lxlab.el"
  "init.el"
  ".emacs"
  "lx-init.el"
  "color-theme.el"
  "magit-core.el"
- "lxlearn.el"
  "audit_setting_info.csv"
- "lxlab.el"
  "evil-commands.el"
  "style.css"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/douhua/.emacs.d/" (21966 65155 0 0) "url/" "smex-items" "slime-2.12/" "lx/" "init.el~" "init.el" "ido.last~" "ido.last" "games/" "eshell/" "elpa/" "download/" "bookmarks" "auto-save-list/" "../" "./")
+ ("/Users/douhua/.emacs.d/lx/" (21969 45361 0 0) "xcscope.el" "themes/" "markdown-mode.el" "lxlearn.el~" "lxlearn.el" "lxlab.el~" "lxlab.el" "lx.el~" "lx-init.el~" "lx-init.elc" "lx-init.el" "lx-helm.el" "lx-diary.el~" "lx-diary.el" "init-org.el~" "init-org.el" "eshell_customize.el~" "eshell_customize.el" "color-theme.el" "#init-org.el#" "../" "./")
 
- ("/Users/douhua/Dropbox/lx/" (21966 64589 0 0) "taiwan.org~" "taiwan.org" "note.org~" "note.org" "emacs-diary~" "emacs-diary" ".DS_Store" "../" "./")
+ ("/Users/douhua/.emacs.d/" (21969 45363 0 0) "url/" "smex-items" "slime-2.12/" "lx/" "init.el~" "init.el" "ido.last~" "ido.last" "games/" "eshell/" "elpa/" "download/" "bookmarks" "auto-save-list/" "../" "./")
+
+ ("/Users/douhua/" (21969 34467 0 0) "VirtualBox VMs/" "testMagit/" "testelisp/" "testDropboxApp.txt" "test.lisp" "test/" "quicklisp/" "Public/" "Pictures/" "Music/" "Movies/" "mbox" "lx/" "Library/" "genymotion-log.zip" "Dropbox/" "Downloads/" "Documents/" "diary~" "diary" "Desktop/" "coohua/" "Applications/" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc.omz-uninstalled-20150403234146" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-徐政超’s MacBook Pro-5.0.5" ".zcompdump" ".w3m/" ".vimrc" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".sh_history" ".sbclrc" ".python27_compiled/" ".org-timestamps/" ".oh-my-zsh/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".IdeaIC14/" ".gradle/" ".gitignore~" ".gitignore" ".gitconfig" ".git-credentials" ".Genymobile/" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_history" ".AndroidStudio1.3/" ".AndroidStudio1.2/" ".android/" "#adfasd#" "#.gitignore#" "../" "./")
+
+ ("/Users/douhua/Dropbox/lx/" (21966 65223 0 0) "taiwan.org~" "taiwan.org" "note.org~" "note.org" "emacs-diary~" "emacs-diary" ".DS_Store" ".#emacs-diary" "../" "./")
 
  ("/Users/douhua/lx/github/blog/_posts/" (21964 26523 0 0) "2015-08-13-Org-Mode-Notes.html~" "2015-08-13-Org-Mode-Notes.html" "2015-07-30-Okio-Source-Code-Learn.html~" "2015-07-30-Okio-Source-Code-Learn.html" "2015-06-27-Magit-Usage.html~" "2015-06-27-Magit-Notes.html" "2015-06-21-Android-Topeka-源码.html" "2015-04-15-Android-Gradle.html" "2015-03-07-Google-Play-Service.html" "2015-03-01-Android-Performance-Patterns.html" "2015-02-13-Android-View.html" "2015-02-12-Good-Post-I-Collect.html" "2015-02-06-Improve-Android-Code-With-Lint.html" "2015-02-02-Memory-Optimization.html" "2015-01-31-Use-Emacs-Org-Mode-Write-Github-Post.html" "2015-01-26-Lisp-Learning.html" "2015-01-19-Running-Record.html" "2015-01-14-Git-Source-Code-Learn.html" "2015-01-13-Android-Test.html" "2015-01-12-Emacs-Learn.html~" "2015-01-12-Emacs-Learn.html" "2014-12-19-Android-Studio-Gradle-Tips.md" "2014-12-14-Android-Studio-Tips.md" "2014-12-11-Copy-File-From-Uri.md" "2014-12-09-GrimView-Show-Images.md" "2014-02-02-printk-学习.md" "2014-01-29-使用-org-mode-管理工作生活.md" "2013-12-28-Android-logwrapper.md" "2013-12-21-一个有趣的bug.md" "2013-11-30-从read()函数看kernel的cache机制.md" "2013-11-30-2013年读过的实体书.md" "2013-11-29-git-p4-代码分析.md" "2013-11-28-使用git管理perforce.md" "2013-11-21-What-do-I-learn-from-the-project.md" "2013-11-05-五台山.md" "2013-11-01-Vim-and-the-plugins.md" "2013-10-31-Welcome-ack-to-my-toolbox.md" "2013-10-30-第二次北京马拉松.md" "2013-09-01-git-代码学习-git-clone.md" "2013-08-03-自动生成github文章名.md" "2013-07-31-the-python-challenge-攻略-(9-16).md" "2013-07-17-Android-logger.md" "2013-07-13-Android-liblog.md" "2013-07-10-Android-logcat.md" "2013-06-18-dirname-改变原字符串.md" "2013-06-16-the-python-challenge-攻略-(1-8).md" "2013-06-16-my-vimrc.md" "2013-06-16-how-to-use-git.md" "2013-06-16-how-i-learn-python.md" "2013-06-16-feof()需要多读一次.md" "../" "./")
 
@@ -105,11 +109,7 @@
 
  ("/Users/douhua/.emacs.d/elpa/magit-20150806.1658/" (21966 3590 0 0) "magit.info" "magit.elc" "magit.el" "magit-wip.elc" "magit-wip.el" "magit-utils.elc" "magit-utils.el" "magit-stash.elc" "magit-stash.el" "magit-sequence.elc" "magit-sequence.el" "magit-section.elc" "magit-section.el" "magit-remote.elc" "magit-remote.el" "magit-process.elc" "magit-process.el" "magit-pkg.el" "magit-mode.elc" "magit-mode.el" "magit-log.elc" "magit-log.el" "magit-git.elc" "magit-git.el" "magit-extras.elc" "magit-extras.el" "magit-ediff.elc" "magit-ediff.el" "magit-diff.elc" "magit-diff.el" "magit-core.elc" "magit-core.el" "magit-commit.elc" "magit-commit.el" "magit-blame.elc" "magit-blame.el" "magit-bisect.elc" "magit-bisect.el" "magit-autoloads.el~" "magit-autoloads.el" "magit-apply.elc" "magit-apply.el" "GTAGS" "GRTAGS" "GPATH" "git-rebase.elc" "git-rebase.el" "dir" "COPYING" "AUTHORS.md" "../" "./")
 
- ("/Users/douhua/.emacs.d/lx/" (21966 63969 0 0) "xcscope.el" "themes/" "markdown-mode.el" "lxlearn.el~" "lxlearn.el" "lxlab.el~" "lxlab.el" "lx.el~" "lx-init.el~" "lx-init.el" "lx-helm.el" "lx-diary.el~" "lx-diary.el" "init-org.el~" "init-org.el" "eshell_customize.el~" "eshell_customize.el" "color-theme.el" "#init-org.el#" "../" "./")
-
  ("/Users/douhua/Downloads/" (21966 64135 0 0) "默认产品图.jpg" "随行亲属表格（必须手写后扫描）.doc" "附表2 收入证明模板（需要签字盖章后扫描）.doc" "速度与激情7.简繁字幕.zip" "活动列表v2标注.jpg" "活动列表v2.2.jpg" "原生商城150713.docx" "原生商城150709.docx" "原生商城150706.docx" "原生商城150706(1).docx" "原生商城150703.docx" "原生商城150703(1).docx" "修改.jpg" "亲属关系证明模板.doc" "亲属关系证明模板(1).doc" "「查看使用情况」权限.docx" "「查看使用情况」权限(1).docx" "zhuan_-bbs_1.6.0.3.apk" "yubaoming.xls" "yaoqingv2.jpg" "v2.swf" "update_kindle_5.4.3.2.bin" "texte-leaflet-.docx" "taiwan/" "siteflow-账号及其代码添加方法.xls" "sicp.mobi" "shun.apk" "ShopV3接口说明v1.1.7 (1).docx" "shop4间距标注.jpg" "shop4字号标注.jpg" "shangpin_coohua.apk" "rom/" "PBSetup70.exe" "pack.zip" "om_code.js" "NeteaseMusic_1.2.1_332.dmg" "layout/" "KT and KP(xTouch_2014-09-11.36206.rtm).zip" "KT and KP(xTouch_2014-09-11.36206.rtm)/" "katongxiaodongwu_15.png" "iTerm.app/" "IMG_7377.JPG" "HTRemovalTool.apk" "hammerhead-lrx22c-factory-0f9eda1b (1).tgz" "Green.mobileconfig" "git-cheatsheet-DE-white.pdf" "Furious.7.2015.720p.WEBRip.KORSUB.XviD.MP3-RARBG.tmp" "Fast.and.Furious.7.2015.1080p.WEBRip.KORSUB.x264.AAC2.0-RARBG.cht.srt" "Fast.and.Furious.7.2015.1080p.WEBRip.KORSUB.x264.AAC2.0-RARBG.chs.srt" "Fast And Furious 7 2015.srt" "Fast And Furious 7 2015.rar" "emacs-calfw-master.zip" "emacs-calfw-master/" "dropbox-android-sdk-1.6.3.zip" "dropbox-android-sdk-1.6.3/" "dmg/" "DictUnifier.app/" "DictUnifier-2.1.zip" "CooHuaClient.apk" "CooHuaClient-coohua-1.9.4.8.apk" "CooHuaClient-coohua-1.9.4.8 (1).apk" "coin.png" "CM/" "choujiang.png" "CD_USB3_GLAN-V1.2/" "cat_tied.png" "cat_ghost.png" "cat_cage.png" "bg_net_error.png" "bg_net_error(1).png" "audit_setting_info.csv" "6941db9b4e7e2f95da92d34feda23ecb.png" "5.0.jpg" "461851c8d2cc51c4c6771d993911549c.gif" "2寸照片（王春晓）.jpg" "2f19418.jpg" "20150409-DroidconMTL-AFewOkLibraries-ForExport.pdf" ".localized" ".DS_Store" "%A6%CF%C8㩾%A9%AF%C3%D5-%B0   %A9%AF%C3%D5%C1%FE˦%A6%FD%A6+ 1080P 720P +¦%D4ȡ+%A6 3d%C1%FE˦%A4-%C8%CF %A6+-%AA-%A6Щ+Τ-%C8%CF %C1%FE˦%A6%AB%A6+i%AF%C1-%A6%FD%A6+!.lnk" "../" "./")
-
- ("/Users/douhua/" (21966 4251 0 0) "VirtualBox VMs/" "testMagit/" "testelisp/" "testDropboxApp.txt" "test.lisp" "test/" "quicklisp/" "Public/" "Pictures/" "Music/" "Movies/" "mbox" "lx/" "Library/" "genymotion-log.zip" "Dropbox/" "Downloads/" "Documents/" "diary~" "diary" "Desktop/" "coohua/" "Applications/" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc.omz-uninstalled-20150403234146" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-徐政超’s MacBook Pro-5.0.5" ".zcompdump" ".w3m/" ".vimrc" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".sh_history" ".sbclrc" ".python27_compiled/" ".org-timestamps/" ".oh-my-zsh/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".IdeaIC14/" ".gradle/" ".gitignore~" ".gitignore" ".gitconfig" ".git-credentials" ".Genymobile/" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_history" ".AndroidStudio1.3/" ".AndroidStudio1.2/" ".android/" "#adfasd#" "#.gitignore#" "../" "./")
 
  ("/Users/douhua/coohua/Coohuaclient/" (21961 47784 0 0) "settings.gradle" "NativeProject/" "local.properties" "gradlew.bat" "gradlew" "gradle/" "CooHuaClient.iml" "build.gradle" "build/" "app/" ".idea/" ".gradle/" ".gitignore" ".git/" "../" "./")
 
