@@ -2,12 +2,12 @@
 ;; ----- smex-history -----
 (
  lx-open-note
- eshell
+ zap-to-char
  lx-open-coohua
+ eshell
  lx-magit-ch
  eval-buffer
  org-agenda-to-appt
- appt-delete
 )
 
 ;; ----- smex-data -----
@@ -15,7 +15,7 @@
  (lx-reload . 7)
  (calendar . 15)
  (org-agenda-year-view . 4)
- (lx-open-note . 63)
+ (lx-open-note . 64)
  (calc-mode . 2)
  (text-mode . 2)
  (org-mode . 2)
@@ -37,7 +37,7 @@
  (load-theme . 2)
  (eshell . 67)
  (package-refresh-contents . 5)
- (lx-open-coohua . 76)
+ (lx-open-coohua . 77)
  (lxel . 3)
  (lx-magit-ch . 123)
  (irc . 6)
@@ -103,4 +103,5 @@
  (eval-current-buffer . 2)
  (append-to-buffer . 6)
  (cfw:open-org-calendar . 1)
+ (zap-to-char . 2)
 )
