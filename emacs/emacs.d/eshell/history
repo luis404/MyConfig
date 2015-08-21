@@ -1,22 +1,3 @@
-lxabs -10
-lxabs2 -10
-lxabs2 0
-lxabs2 9
-(and 1 )
-(and 1 2)
-(and 1 2 3)
-(and (> 1 0) )
-lxscore 10
-lxscore 100
-lxscore 70
-lxsquare 10
-lxgood-enough 1 2
-lxgood-enough 2 9
-(< 1 2)
-lxgood-enough 1.002 1.0002
-lxgood-enough 1.002
-(- (lxsquare 3) 9)
-lxabs (- (lxsquare 3) 9)
 lxabs (- (lxsquare 3.0001) 9)
 lxabs (- (lxsquare 2.9999) 9)
 (< (lxabs (- (lxsquare 2.9999) 9)) 0.1)
@@ -126,3 +107,22 @@ unzip emacs-calfw-master.zip
 mv emacs-calfw-master/* ~/.emacs.d/download/
 ls
 lxsqrt2
+ls
+./gradlew iCD
+./gradlew 
+ls
+ls
+ls
+clear
+ls
+./gradlew iCD
+ls
+rm -rf .gradle/
+rm -rf gradlew.bat
+cat app/build.gradle
+open app/build.gradle
+find-file app/build.gradle
+./gradlew 
+./gradlew tasks
+./gradlew task
+shell

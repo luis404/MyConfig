@@ -1,11 +1,11 @@
 
 ;; ----- smex-history -----
 (
+ eshell
+ lx-magit-ch
  lx-open-note
  zap-to-char
  lx-open-coohua
- eshell
- lx-magit-ch
  eval-buffer
  org-agenda-to-appt
 )
@@ -35,11 +35,11 @@
  (color-theme-hober . 1)
  (color-theme-xemacs . 1)
  (load-theme . 2)
- (eshell . 67)
+ (eshell . 69)
  (package-refresh-contents . 5)
  (lx-open-coohua . 77)
  (lxel . 3)
- (lx-magit-ch . 123)
+ (lx-magit-ch . 125)
  (irc . 6)
  (lx-open-emacsnote . 7)
  (rcirc-cmd-join . 1)
