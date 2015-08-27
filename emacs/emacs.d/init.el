@@ -84,3 +84,11 @@
    ))) 
 ;; ============== emacs cool calendar ===============
 
+;; ======= window manager
+(require 'e2wm)
+(global-set-key (kbd "M-+") 'e2wm:start-management)
+;; ======= window manager
+
+(global-hl-line-mode 1)
+(set-face-background 'highlight "#222")
+(set-face-foreground 'highlight nil)

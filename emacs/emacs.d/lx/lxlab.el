@@ -82,7 +82,7 @@
 (defun lx-open-coohua ()
   (interactive)
   (org-agenda-to-appt)
-  (find-file "~/coohua/coohua.org"))
+  (find-file "~/Dropbox/coohua/coohua.org"))
 
 (defun lxel ()
   "This is lx's elisp file"

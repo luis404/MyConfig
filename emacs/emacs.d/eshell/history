@@ -1,27 +1,3 @@
-lxabs (- (lxsquare 3.0001) 9)
-lxabs (- (lxsquare 2.9999) 9)
-(< (lxabs (- (lxsquare 2.9999) 9)) 0.1)
-lxgood-enough 2.9999 3
-(lxgood-enough 2.9999 3)
-lxgood-enough 2.9999 3
-lxgood-enough 2.9999 3
-lxgood-enough 2.9999 9
-lxgood-enough 2.9999 9
-lxgood-enough 2.9999 9
-lximprove-guess 2 4
-lximprove-guess lximprove-guess 2 4
-lximprove-guess 2 4
-lximprove-guess 2 5
-lximprove-guess 2 5.0
-lxsqrt 1 3
-lxsqrt (1 3)
-lxsqrt (1 3)
-lxsqrt 1 3
-lxsqrt 1.0 3
-lxsqrt 1.0 2
-lxsqrt 1.0 2
-lxsqrt2 4
-lxsqrt2 4
 lxsqrt2 2
 (inc 1)
 sum-squar 1 3
@@ -126,3 +102,27 @@ find-file app/build.gradle
 ./gradlew tasks
 ./gradlew task
 shell
+lxrmc
+lxrmch
+adb uninstall com.coohuaclient
+(+ 13.75 4.17)
+(/ 17.92 0.6)
+magit coohua/PureCoohua/
+magit-status coohua/PureCoohua/
+grep 0603
+grep 0603 *
+grep 7704
+grep 7704 *
+grep 7704 *
+ls
+ls
+clear
+ls
+exit
+ls
+clear
+ls
+ls::
+ls
+ls
+ls
