@@ -60,6 +60,10 @@
   (interactive)
   (magit-status "~/coohua/Coohuaclient"))
 
+(defun lx-magit-my-ch ()
+  (interactive)
+  (magit-status "~/coohua/my-forked-branches/CHClient"))
+
 ;; reload emacs file after change
 (defun lx-reload ()
   (interactive)
