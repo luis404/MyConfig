@@ -36,3 +36,7 @@
 ;; eshell can run shell path command
 (when (memq window-system '(mac ns))
   (exec-path-from-shell-initialize))
+
+;;auto complete in emacs lisp mode
+(setq tab-always-indent 'complete)
+(add-to-list 'completion-styles 'initials t)

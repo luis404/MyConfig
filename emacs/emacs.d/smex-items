@@ -2,12 +2,12 @@
 ;; ----- smex-history -----
 (
  eval-buffer
- lx-open-coohua
  eshell
- lx-open-note
- org-mode
- iimage-mode
- image-mode
+ ielm
+ term
+ magit-fetch
+ magit-fetch-all
+ lx-magit-ch
 )
 
 ;; ----- smex-data -----
@@ -35,15 +35,15 @@
  (color-theme-hober . 1)
  (color-theme-xemacs . 1)
  (load-theme . 2)
- (eshell . 71)
+ (eshell . 85)
  (package-refresh-contents . 5)
- (lx-open-coohua . 88)
+ (lx-open-coohua . 90)
  (lxel . 3)
- (lx-magit-ch . 129)
+ (lx-magit-ch . 134)
  (irc . 6)
  (lx-open-emacsnote . 7)
  (rcirc-cmd-join . 1)
- (eval-buffer . 125)
+ (eval-buffer . 163)
  (shell . 15)
  (column-number-mode . 1)
  (magit-status . 24)
@@ -77,8 +77,8 @@
  (org-html-export-to-html . 6)
  (calendar-goto-date . 1)
  (eval-region . 2)
- (ielm . 16)
- (term . 5)
+ (ielm . 19)
+ (term . 8)
  (man . 1)
  (exec-path-from-shell-initialize . 2)
  (eww . 4)
@@ -109,4 +109,9 @@
  (pwd . 1)
  (image-mode . 1)
  (iimage-mode . 1)
+ (ido-complete . 1)
+ (lx-magit-my-ch . 6)
+ (magit-update-index . 1)
+ (magit-fetch . 2)
+ (magit-fetch-all . 1)
 )
