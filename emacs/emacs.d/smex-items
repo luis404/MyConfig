@@ -43,7 +43,7 @@
  (irc . 6)
  (lx-open-emacsnote . 7)
  (rcirc-cmd-join . 1)
- (eval-buffer . 163)
+ (eval-buffer . 164)
  (shell . 15)
  (column-number-mode . 1)
  (magit-status . 24)

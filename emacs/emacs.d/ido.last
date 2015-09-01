@@ -37,16 +37,16 @@
  ("/Users/douhua/lx/github/blog/" . "org/")
  ("/Users/douhua/lx/github/" . "blog/")
  ("/Users/douhua/lx/" . "github/")
- ("/Users/douhua/.emacs.d/" . "elpa/")
+ ("/Users/douhua/.emacs.d/" . "lx/")
  ("/Users/douhua/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/douhua/.emacs.d/elpa/wanderlust-20150301.247/"
  "/Users/douhua/"
  "/Users/douhua/.emacs.d/lx/"
  "/Users/douhua/Dropbox/lx/"
+ "/Users/douhua/.emacs.d/elpa/wanderlust-20150301.247/"
  "/Users/douhua/.emacs.d/"
  "/Users/douhua/coohua/docs/统计数据/"
  "/Users/douhua/Downloads/"
@@ -86,10 +86,10 @@
 
 ;; ----- ido-work-file-list -----
 (
- "elmo-spam.el"
  ".emacs"
  "finacial.el"
  "finacial"
+ "elmo-spam.el"
  "init.el"
  "lxlearn.el"
  "lxlab.el"
@@ -100,15 +100,19 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/douhua/Dropbox/lx/" (21987 7258 0 0) "taiwan.org~" "taiwan.org" "note.org~" "note.org" "finacial~" "finacial" "emacs-diary~" "emacs-diary" ".DS_Store" "../" "./")
+
+ ("/Users/douhua/.emacs.d/lx/" (21987 53681 0 0) "xcscope.el" "themes/" "markdown-mode.el" "lxlearn.el~" "lxlearn.el" "lxlab.el~" "lxlab.el" "lx.el~" "lx-init.el~" "lx-init.elc" "lx-init.el" "lx-helm.el" "lx-diary.el~" "lx-diary.el" "init-org.el~" "init-org.el" "finacial.el~" "finacial.el" "eshell_customize.el~" "eshell_customize.el" "color-theme.el" "#init-org.el#" "../" "./")
+
+ ("/Users/douhua/" (21988 20393 0 0) "VirtualBox VMs/" "testMagit/" "testelisp/" "testDropboxApp.txt" "test.lisp" "test/" "quicklisp/" "Public/" "Pictures/" "Music/" "Movies/" "mbox" "lx/" "Library/" "genymotion-log.zip" "Dropbox/" "Downloads/" "Documents/" "diary~" "diary" "Desktop/" "coohua/" "Applications/" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc.omz-uninstalled-20150403234146" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-徐政超’s MacBook Pro-5.0.5" ".zcompdump" ".w3m/" ".vimrc" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".sh_history" ".sbclrc" ".python27_compiled/" ".org-timestamps/" ".oracle_jre_usage/" ".oh-my-zsh/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".IdeaIC14/" ".gradle/" ".gitignore~" ".gitignore" ".gitconfig" ".git-credentials" ".Genymobile/" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_history" ".AndroidStudio1.3/" ".AndroidStudio1.2/" ".android/" "#adfasd#" "#.gitignore#" "../" "./")
+
+ ("/Users/douhua/coohua/Coohuaclient/" (21981 37747 0 0) "settings.gradle" "NativeProject/" "local.properties" "gradlew.bat" "gradlew" "gradle/" "CooHuaClient.iml" "build.gradle" "build/" "app/" "0001-UI.patch" ".idea/" ".gradle/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/douhua/.emacs.d/" (21987 6619 0 0) "url/" "smex-items" "slime-2.12/" "lx/" "init.el~" "init.el" "ido.last~" "ido.last" "games/" "eshell/" "elpa/" "download/" "bookmarks" "auto-save-list/" "../" "./")
+
  ("/Users/douhua/.emacs.d/elpa/wanderlust-20150301.247/" (21790 48550 0 0) "wl.info-2" "wl.info-1" "wl.info" "wl.elc" "wl.el" "wl-version.elc" "wl-version.el" "wl-vars.elc" "wl-vars.el" "wl-util.elc" "wl-util.el" "wl-thread.elc" "wl-thread.el" "wl-template.elc" "wl-template.el" "wl-summary.elc" "wl-summary.el" "wl-spam.elc" "wl-spam.el" "wl-score.elc" "wl-score.el" "wl-refile.elc" "wl-refile.el" "wl-mime.elc" "wl-mime.el" "wl-message.elc" "wl-message.el" "wl-ja.info" "wl-highlight.elc" "wl-highlight.el" "wl-folder.elc" "wl-folder.el" "wl-fldmgr.elc" "wl-fldmgr.el" "wl-expire.elc" "wl-expire.el" "wl-e21.elc" "wl-e21.el" "wl-draft.elc" "wl-draft.el" "wl-demo.elc" "wl-demo.el" "wl-batch.elc" "wl-batch.el" "wl-addrmgr.elc" "wl-addrmgr.el" "wl-address.elc" "wl-address.el" "wl-action.elc" "wl-action.el" "wl-acap.elc" "wl-acap.el" "wanderlust-pkg.el" "wanderlust-autoloads.el~" "wanderlust-autoloads.el" "slp.elc" "slp.el" "pldap.elc" "pldap.el" "modb.elc" "modb.el" "modb-standard.elc" "modb-standard.el" "modb-legacy.elc" "modb-legacy.el" "modb-entity.elc" "modb-entity.el" "mmimap.elc" "mmimap.el" "icons/" "elsp-spamoracle.elc" "elsp-spamoracle.el" "elsp-spamfilter.el" "elsp-sa.elc" "elsp-sa.el" "elsp-bsfilter.elc" "elsp-bsfilter.el" "elsp-bogofilter.elc" "elsp-bogofilter.el" "elmo.elc" "elmo.el" "elmo-version.elc" "elmo-version.el" "elmo-vars.elc" "elmo-vars.el" "elmo-util.elc" "elmo-util.el" "elmo-split.elc" "elmo-split.el" "elmo-spam.elc" "elmo-spam.el" "elmo-signal.elc" "elmo-signal.el" "elmo-shimbun.el" "elmo-sendlog.elc" "elmo-sendlog.el" "elmo-search.elc" "elmo-search.el" "elmo-pop3.elc" "elmo-pop3.el" "elmo-pipe.elc" "elmo-pipe.el" "elmo-null.elc" "elmo-null.el" "elmo-nntp.elc" "elmo-nntp.el" "elmo-net.elc" "elmo-net.el" "elmo-multi.elc" "elmo-multi.el" "elmo-msgdb.elc" "elmo-msgdb.el" "elmo-mime.elc" "elmo-mime.el" "elmo-map.elc" "elmo-map.el" "elmo-maildir.elc" "elmo-maildir.el" "elmo-localnews.elc" "elmo-localnews.el" "elmo-localdir.elc" "elmo-localdir.el" "elmo-internal.elc" "elmo-internal.el" "elmo-imap4.elc" "elmo-imap4.el" "elmo-flag.elc" "elmo-flag.el" "elmo-filter.elc" "elmo-filter.el" "elmo-file.elc" "elmo-file.el" "elmo-dop.elc" "elmo-dop.el" "elmo-date.elc" "elmo-date.el" "elmo-cache.elc" "elmo-cache.el" "elmo-archive.elc" "elmo-archive.el" "elmo-access.elc" "elmo-access.el" "dir" "acap.elc" "acap.el" "../" "./")
 
- ("/Users/douhua/.emacs.d/lx/" (21987 5583 0 0) "xcscope.el" "themes/" "markdown-mode.el" "lxlearn.el~" "lxlearn.el" "lxlab.el~" "lxlab.el" "lx.el~" "lx-init.el~" "lx-init.elc" "lx-init.el" "lx-helm.el" "lx-diary.el~" "lx-diary.el" "init-org.el~" "init-org.el" "finacial.el~" "finacial.el" "eshell_customize.el~" "eshell_customize.el" "color-theme.el" ".#finacial.el" "#init-org.el#" "#finacial.el#" "../" "./")
-
  ("/Users/douhua/.emacs.d/elpa/" (21965 43105 0 0) "zenburn-theme-20150609.2347/" "xml-rpc-20150529.832/" "with-editor-20150710.252/" "wanderlust-20150301.247/" "w3m-readme.txt" "w3m-20150601.1727/" "w3-4.0.49/" "undo-tree-20140509.522/" "twittering-mode-20150131.708/" "solarized-theme-20150424.53/" "smex-20141210.1422/" "semi-20150203.1543/" "s-20140910.334/" "request-deferred-20130526.1015/" "request-20140316.417/" "paredit-20150217.713/" "org2jekyll-20150515.1407/" "org2blog-20150509.2301/" "org-gcal-20150411.1511/" "org-20150608/" "metaweblog-20141130.605/" "magit-readme.txt" "magit-popup-20150730.1344/" "magit-20150806.1658/" "log4e-20150105.505/" "leuven-theme-20150612.512/" "ido-ubiquitous-20150528.2322/" "ido-completing-read+-20150528.2322/" "helm-20150701.117/" "goto-chg-20131228.1459/" "gntp-20141024.1950/" "git-commit-20150805.2024/" "flim-20141216.1521/" "exec-path-from-shell-20141212.846/" "evil-20150511.146/" "elisp-slime-nav-20141224.854/" "deferred-20150309.2052/" "dash-functional-20150311.2358/" "dash-20150611.922/" "csv-mode-1.5/" "async-20150529.529/" "archives/" "apel-20141024.1642/" "android-mode-readme.txt" "android-mode-20150106.544/" "ample-theme-20150515.1056/" "alert-20150402.1246/" "ack-readme.txt" "ack-1.3/" "../" "./")
-
- ("/Users/douhua/" (21987 6061 0 0) "VirtualBox VMs/" "testMagit/" "testelisp/" "testDropboxApp.txt" "test.lisp" "test/" "quicklisp/" "Public/" "Pictures/" "Music/" "Movies/" "mbox" "lx/" "Library/" "genymotion-log.zip" "Dropbox/" "Downloads/" "Documents/" "diary~" "diary" "Desktop/" "coohua/" "Applications/" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc.omz-uninstalled-20150403234146" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-徐政超’s MacBook Pro-5.0.5" ".zcompdump" ".w3m/" ".vimrc" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".sh_history" ".sbclrc" ".python27_compiled/" ".org-timestamps/" ".oh-my-zsh/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".IdeaIC14/" ".gradle/" ".gitignore~" ".gitignore" ".gitconfig" ".git-credentials" ".Genymobile/" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_history" ".AndroidStudio1.3/" ".AndroidStudio1.2/" ".android/" ".#.emacs" "#adfasd#" "#.gitignore#" "#.emacs#" "../" "./")
-
- ("/Users/douhua/Dropbox/lx/" (21987 1161 0 0) "taiwan.org~" "taiwan.org" "note.org~" "note.org" "finacial~" "finacial" "emacs-diary~" "emacs-diary" ".DS_Store" "../" "./")
 
  ("/Users/douhua/lx/" (21972 35062 0 0) "org/" "lxconfig/" "idea/" "github/" "ebooks/" "commonlisp/" "bitbucket/" "auto_backup.sh~" "auto_backup.sh" "../" "./")
 
@@ -124,13 +128,9 @@
 
  ("/Users/douhua/Downloads/" (21986 65535 0 0) "taiwan/" "rom/" "mmexport1440666397306.webp" "Guava_for_Netflix_.pdf" "fresco-0.6.1.aar" "emacs-window-manager-master.zip" "emacs-window-manager-master/" "emacs-window-layout-master.zip" "dmg/" "BD13-0914-徐政超T10546160-09CY1115941986831574.zip" "BD13-0914-徐政超T10546160-09CY1115941986831574 2/" "BD13-0914-徐政超T10546160-09CY1115941986831574/" "AdobeFlashPlayer_18_a_install.dmg" "21070-smartisan-0.9.9.7-alpha-note2-0411_signed.zip" "21070-smartisan-0.9.9.7-alpha-note2-0411_signed (1).zip" ".localized" ".DS_Store" "../" "./")
 
- ("/Users/douhua/.emacs.d/" (21984 19835 0 0) "url/" "smex-items" "slime-2.12/" "lx/" "init.el~" "init.el" "ido.last~" "ido.last" "games/" "eshell/" "elpa/" "download/" "bookmarks" "auto-save-list/" "../" "./")
-
  ("/Users/douhua/Dropbox/coohua/" (21987 6 0 0) "广告展示需求.ppt" "上下划图片选择和展示.pptx" "tools.doc" "RPC框架使用讨论.pptx" "coohua.org~" "coohua.org" "arch.org~" "APP设计MRD.docx" "Android常用分析工具.ppt" "ali.org~" "ali.org" "1.9.8.0.png" ".DS_Store" "../" "./")
 
  ("/Users/douhua/coohua/docs/统计数据/" (21981 34400 0 0) "设置页弹窗【知道了】按钮.csv" "按钮点击.csv" "开启权限的酷划id.csv" "CPA落地页蒙版弹出.csv" "CPA落地页bar点击.csv" "CPA落地页bar展示.csv" "audit_setting_info.csv" "#CPA落地页bar展示.csv#" "../" "./")
-
- ("/Users/douhua/coohua/Coohuaclient/" (21981 33675 0 0) "settings.gradle" "NativeProject/" "local.properties" "gradlew.bat" "gradlew" "gradle/" "CooHuaClient.iml" "build.gradle" "build/" "app/" "0001-UI.patch" ".idea/" ".gradle/" ".gitignore" ".git/" "../" "./")
 
  ("/Users/douhua/coohua/docs/" (21981 31494 0 0) "资讯切图(1).zip" "统计数据/" "用户行为日志格式定义.pptx" "商城切图及标注/" "商城3.0 效果图+需求.zip" "切图 3/" "ShopV3接口说明v1.1.7.docx" "App与H5接口文档v0.3.docx" ".DS_Store" "../" "./")
 

@@ -1,86 +1,3 @@
-adb shell cat /sdcard/Coohua/coohua_stat
-adb shell cat /sdcard/Coohua/coohua_stat
-adb shell cat /sdcard/Coohua/coohua_stat
-adb shell cat /sdcard/Coohua/coohua_stat
-adb shell cat /sdcard/Coohua/coohua_stat
-adb shell cat /sdcard/Coohua/coohua_stat
-adb shell cat /sdcard/Coohua/coohua_stat
-adb shell cat /sdcard/Coohua/coohua_stat
-adb shell cat /sdcard/Coohua/coohua_stat
-adb shell cat /sdcard/Coohua/coohua_stat
-adb shell cat /sdcard/Coohua/coohua_stat
-adb shell cat /sdcard/Coohua/coohua_stat
-adb shell cat /sdcard/Coohua/coohua_stat
-adb shell cat /sdcard/Coohua/coohua_stat
-adb shell cat /sdcard/Coohua/coohua_stat
-adb shell cat /sdcard/Coohua/coohua_stat
-lxrm
-adb shell uninstall com.coohuaclient
-adb uninstall com.coohuaclient
-adb shell ps
-system    10689 155   520772 18700 ffffffff 00000000 S com.android.settings
-cd 
-cd coohua/my-forked-branches/
-ls
-git branch
-ls
-cd CHClient/
-ls
-git branch
-git lg
-clear
-cd 
-ls
-cd lx/commonlisp/
-ls
-cd 
-cd coohua/CooHuaClient/
-git st
-git pull
-ls
-lx-load-m-file 
-weixin:	gongyinhushen: 5900.35, 3256.00, 4964.65	yifangda: 834.87, 131.50, 777.93	jiashi: 835.31, 135.02, 903.92tianhong:	yongdingjiazhi: 823.21, 176.79	yunduanshenghuo: 4563.07, 2971.70	zhongzheng500: 1555.84, 2011.04	zhongzhenghuanbao: 757.60, 127.64mayi:	zhaohangdapan: 100	shangtoumogenminsheng: 100	damolianghua: 300	gongyinruixinyiliao: 100	fuguochuangyeban: 853.05, 146.95, 823.41	jiashi: 933.34, 66.66, 1010	yuebao: 6784.37zhaohang:	zhaozhaoying: 50000	fuguotiancheng: 2648.07, 1093.14	damolianghua: 815.63, 798.28, 453.38	damopinzhi: 484.91, 180.71 
-print lx-load-m-file
-(print (lx-load-m-file))
-weixin:	gongyinhushen: 5900.35, 3256.00, 4964.65	yifangda: 834.87, 131.50, 777.93	jiashi: 835.31, 135.02, 903.92tianhong:	yongdingjiazhi: 823.21, 176.79	yunduanshenghuo: 4563.07, 2971.70	zhongzheng500: 1555.84, 2011.04	zhongzhenghuanbao: 757.60, 127.64mayi:	zhaohangdapan: 100	shangtoumogenminsheng: 100	damolianghua: 300	gongyinruixinyiliao: 100	fuguochuangyeban: 853.05, 146.95, 823.41	jiashi: 933.34, 66.66, 1010	yuebao: 6784.37zhaohang:	zhaozhaoying: 50000	fuguotiancheng: 2648.07, 1093.14	damolianghua: 815.63, 798.28, 453.38	damopinzhi: 484.91, 180.71 
-(print (lx-load-m-file))
-create-file-buffer 
-create-file-buffer build.gradle
-buffer
-(buffer "想")
-(setq l (create-file-buffer build.gradle))
-(setq l (create-file-buffer "build.gradle"))
-l
-(print l)
-(setq x "x")
-x
-(print x)
-(print lx-read-file)
-lx-read-file
-lx-read-file
-lx-read-file
-lx-read-file
-lx-read-file 
-lx-read-file
-(l"weixin:" "	gongyinhushen: 5900.35, 3256.00, 4964.65" "	yifangda: 834.87, 131.50, 777.93" "	jiashi: 835.31, 135.02, 903.92" "tianhong:" "	yongdingjiazhi: 823.21, 176.79" "	yunduanshenghuo: 4563.07, 2971.70" "	zhongzheng500: 1555.84, 2011.04" "	zhongzhenghuanbao: 757.60, 127.64" "mayi:" "	zhaohangdapan: 100" "	shangtoumogenminsheng: 100" "	damolianghua: 300" "	gongyinruixinyiliao: 100" "	fuguochuangyeban: 853.05, 146.95, 823.41" "	jiashi: 933.34, 66.66, 1010" "	yuebao: 6784.37" "zhaohang:" "	zhaozhaoying: 50000" "	fuguotiancheng: 2648.07, 1093.14" "	damolianghua: 815.63, 798.28, 453.38" "	damopinzhi: 484.91, 180.71 ")
-lx-read-file
-lx-read-file
-lx-read-file
-lx-read-file
-lx-read-file
-lx-read-file
-lx-read-file
-(setq l '(a b c ))
-(dolist l (print "m"))
-(dolist l (print "m"))
-(dolist (x l y) (print y))
-(dolist ('x l 'y) (print y))
-(setq x ())
-(defun dolist (x l y) (print y))
-adb shell cat /sdcard/Coohua/coohua_stat
-(make-m-hash-table (lx-read-file lx-m-file))
-(lx-read-file lx-m-file)
-(lx-read-file lx-m-file)
 (make-m-hash-table (lx-read-file lx-m-file))
 (make-m-hash-table l)
 (make-m-hash-table l)
@@ -126,3 +43,86 @@ make-m-hash-table
 (make-m-hash-table '(a b c))
 (test-do-list '(a b c))
 (test-do-list '(a b c))
+dolist
+(dolist)
+(setq l '(a b c))
+(dolist (m l) (print m))
+(make-m-hash-table (lx-read-file))
+(make-m-hash-table (lx-read-file))
+(lx-read-file)
+(make-m-hash-table (lx-read-file lx-m-file))
+(make-m-hash-table (lx-read-file))
+(make-m-hash-table (lx-read-file lx-m-file))
+adb shell cat /sdcard/Coohua/coohua_stat
+(make-hash-table)
+	      ())
+(lxm-build-hash-table lxlist)
+(setq lxlist '(a b c))
+(lxm-build-hash-table lxlist)
+(print (string-match ":" "a:b"))
+(print (string-match ":" "a:b"))
+(lxm-build-hash-table lxlist)
+(lxm-build-hash-table lxlist)
+debug-on-entry lxm-build-hash-table
+(debug-on-entry lxm-build-hash-table)
+lxm-build-hash-table 
+(debug-on-entry 'lxm-build-hash-table)
+(lxm-build-hash-table lxlist)
+(lxm-build-hash-table lxlist)
+(lxm-build-hash-table lxlist)
+(lxm-build-hash-table lxlist)
+(lxm-build-hash-table (lxm-read-file lxm-file))
+(lxm-build-hash-table (lxm-read-file lxm-file))
+(lxm-build-hash-table (lxm-read-file lxm-file))
+(lxm-build-hash-table (lxm-read-file lxm-file))
+(lxm-build-hash-table (lxm-read-file lxm-file))
+(lxm-build-hash-table (lxm-read-file lxm-file))
+(lxm-build-hash-table (lxm-read-file lxm-file))
+(lxm-build-hash-table (lxm-read-file lxm-file))
+(lxm-build-hash-table (lxm-read-file lxm-file))
+(lxm-build-hash-table (lxm-read-file lxm-file))
+(lxm-build-hash-table (lxm-read-file lxm-file))
+Invalid function: (if key ((puthash lxm-hash key value) (setq value nil)) (setq key elt))
+lxm-test-if 
+lxm-test-if 
+1
+lxm-test-if 
+lxm-test-if 
+lxm-test-if 
+3
+lxm-test-if 
+lxm-test-if 
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
+adb shell cat /sdcard/Coohua/coohua_stat
